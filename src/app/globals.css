@@ -1,26 +1,55 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html, body { height: 100%; }
+  body { 
+    background: #f9fafb; 
+    color: #414042; 
+    -webkit-font-smoothing: antialiased; 
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .container { 
+    @apply max-w-6xl mx-auto px-4; 
+  }
+  .section { 
+    @apply py-8 md:py-10; 
+  }
+  .heading { 
+    @apply text-3xl md:text-4xl font-bold tracking-tight text-hinch-charcoal; 
+  }
+  .subtle { 
+    @apply text-sm text-gray-500; 
+  }
+  
+  .brand-gradient { 
+    background: linear-gradient(135deg, #FF9B17, #F46300, #CC380A); 
+  }
+  
+  .card { 
+    @apply bg-white rounded-2xl border border-gray-200 shadow-sm hover:shadow-lg transition-shadow; 
+  }
+  
+  .thumb { 
+    @apply relative w-full aspect-[3/4] rounded-xl overflow-hidden bg-gray-50 border border-gray-100; 
+  }
+}
+
+@layer utilities {
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
 }
