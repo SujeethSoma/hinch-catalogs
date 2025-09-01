@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { previewUrl, downloadUrl, thumbUrl } from "@/lib/drive";
 
 type Item = { name:string; drive_link:string; brand?:string; category?:string; cover_image?:string; tags?:string; };
@@ -12,11 +13,12 @@ export default function CatalogCard({ item }: { item: Item }) {
       {/* Thumbnail */}
       <div className="relative w-full aspect-[3/4] overflow-hidden bg-gray-50">
         {t ? (
-          <img 
+          <Image 
             src={t} 
             alt={item.name} 
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-            onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }} 
+            fill
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            onError={() => {}} 
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center text-center p-6">
