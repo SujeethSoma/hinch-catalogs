@@ -1,23 +1,26 @@
+import { CATEGORY_ORDER, countByCategory, getTotalCount, CatalogItem } from '@/lib/categories';
+
 type Props = {
-    categories: string[];      // display order
-    active: string;
-    onChange: (c: string) => void;
-    counts?: Record<string, number>;
-  };
-  
-  export default function CategoryTabs({ categories, active, onChange, counts = {} }: Props) {
-  const all = ["All", ...categories];
+  activeCategory: string;
+  setActiveCategory: (c: string) => void;
+  items: CatalogItem[];
+};
+
+export default function CategoryTabs({ activeCategory, setActiveCategory, items }: Props) {
+  const counts = countByCategory(items);
+  const totalCount = getTotalCount(items);
+
   return (
     <div className="flex flex-wrap gap-3 mb-8">
-      {all.map((c) => {
-        const isActive = active === c;
-        const n = c === "All" ? (counts["__all"] ?? 0) : (counts[c] ?? 0);
-        const disabled = c !== "All" && n === 0;
+      {CATEGORY_ORDER.map((category) => {
+        const isActive = activeCategory === category;
+        const count = category === "All" ? totalCount : (counts.get(category) || 0);
+        const disabled = count === 0;
         
         return (
           <button
-            key={c}
-            onClick={() => !disabled && onChange(c)}
+            key={category}
+            onClick={() => setActiveCategory(category)}
             disabled={disabled}
             className={`
               px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-200
@@ -29,14 +32,12 @@ type Props = {
               }
             `}
           >
-            {c}
-            {typeof n === "number" && (
-              <span className={`ml-2 px-2 py-0.5 rounded-full text-xs ${
-                isActive ? "bg-white/20" : "bg-gray-100"
-              }`}>
-                {n}
-              </span>
-            )}
+            {category}
+            <span className={`ml-2 px-2 py-0.5 rounded-full text-xs ${
+              isActive ? "bg-white/20" : "bg-gray-100"
+            }`}>
+              {count}
+            </span>
           </button>
         );
       })}

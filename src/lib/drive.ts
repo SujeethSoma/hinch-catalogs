@@ -1,3 +1,5 @@
+import { CatalogItem, normalizeCategory } from './categories';
+
 export function extractDriveId(url: string): string {
     if (!url) return "";
     const m1 = url.match(/\/file\/d\/([\w-]+)/);
@@ -19,4 +21,20 @@ export function extractDriveId(url: string): string {
     const id = extractDriveId(url);
     return id ? `https://drive.google.com/thumbnail?id=${id}&sz=w1000` : null;
   }
+
+export async function loadCatalogData(): Promise<CatalogItem[]> {
+  try {
+    const response = await fetch('/data/catalogs.json');
+    const data = await response.json();
+    
+    // Add normalized categories to each item
+    return data.data.map((item: any) => ({
+      ...item,
+      normalizedCategory: normalizeCategory(item.category)
+    }));
+  } catch (error) {
+    console.error('Error loading catalog data:', error);
+    return [];
+  }
+}
   

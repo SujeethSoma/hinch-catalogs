@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import ClientGrid from "./ClientGrid";
 
 export const metadata = {
@@ -15,7 +16,9 @@ export default function Page() {
           <div className="h-1 w-24 mt-4 rounded-full brand-gradient" />
         </div>
       </div>
-      <ClientGrid />
+      <Suspense fallback={<div className="container section py-10 text-center">Loading...</div>}>
+        <ClientGrid />
+      </Suspense>
     </main>
   );
 }
