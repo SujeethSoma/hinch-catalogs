@@ -1,4 +1,4 @@
-import { CatalogItem, normalizeCategory } from './categories';
+import { CatalogItem } from './categories';
 
 export function extractDriveId(url: string): string {
     if (!url) return "";
@@ -27,11 +27,8 @@ export async function loadCatalogData(): Promise<CatalogItem[]> {
     const response = await fetch('/data/catalogs.json');
     const data = await response.json();
     
-    // Add normalized categories to each item
-    return data.data.map((item: any) => ({
-      ...item,
-      normalizedCategory: normalizeCategory(item.category)
-    }));
+    // Return items as-is, no normalization
+    return data.data;
   } catch (error) {
     console.error('Error loading catalog data:', error);
     return [];

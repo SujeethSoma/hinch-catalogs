@@ -1,4 +1,4 @@
-import { CATEGORY_ORDER, countByCategory, getTotalCount, CatalogItem } from '@/lib/categories';
+import { CATEGORY_ORDER, countByExactCategory, getTotalCount, CatalogItem } from '@/lib/categories';
 
 type Props = {
   activeCategory: string;
@@ -7,7 +7,7 @@ type Props = {
 };
 
 export default function CategoryTabs({ activeCategory, setActiveCategory, items }: Props) {
-  const counts = countByCategory(items);
+  const counts = countByExactCategory(items);
   const totalCount = getTotalCount(items);
 
   return (

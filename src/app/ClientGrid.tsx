@@ -4,35 +4,45 @@ import { useMemo, useState, useEffect } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import CategoryTabs from "@/components/CategoryTabs";
 import CatalogCard from "@/components/CatalogCard";
-import { CatalogItem, normalizeCategory } from "@/lib/categories";
+import { CatalogItem, CATEGORY_ORDER, safeCompare, ensureKnownCategory } from "@/lib/categories";
 import json from "@/data/catalogs.json";
 
 export default function ClientGrid() {
   const router = useRouter();
   const searchParams = useSearchParams();
   
-  // Load and normalize data
+  // Load data
   const rawItems = (json as any).data as any[];
-  const items: CatalogItem[] = rawItems.map(item => ({
-    ...item,
-    normalizedCategory: normalizeCategory(item.category)
-  }));
+  const items: CatalogItem[] = rawItems;
 
   // State management with URL sync
   const [activeCategory, setActiveCategory] = useState<string>("All");
-  const [q, setQ] = useState("");
-  const [brand, setBrand] = useState("");
+  const [brand, setBrand] = useState<string>("All");
+  const [search, setSearch] = useState<string>("");
 
   // Initialize from URL params
   useEffect(() => {
     const categoryParam = searchParams.get('category');
     if (categoryParam) {
-      setActiveCategory(decodeURIComponent(categoryParam));
+      const category = decodeURIComponent(categoryParam);
+      setActiveCategory(ensureKnownCategory(category));
     }
   }, [searchParams]);
 
   // Update URL when category changes
   const handleCategoryChange = (category: string) => {
+    setActiveCategory(category);
+    const params = new URLSearchParams(searchParams);
+    if (category === "All") {
+      params.delete('category');
+    } else {
+      params.set('category', category);
+    }
+    router.push(`?${params.toString()}`, { scroll: false });
+  };
+
+  // Handle dropdown category change
+  const handleDropdownCategoryChange = (category: string) => {
     setActiveCategory(category);
     const params = new URLSearchParams(searchParams);
     if (category === "All") {
@@ -49,23 +59,27 @@ export default function ClientGrid() {
   );
 
   const filtered = useMemo(() => {
-    const k = q.toLowerCase();
-    
-    // First filter by active category
-    let categoryFiltered = activeCategory === "All" 
-      ? items 
-      : items.filter(i => normalizeCategory(i.category) === activeCategory);
-    
-    // Then apply search and brand filters
-    return categoryFiltered.filter(i => {
-      const matchQ = !k || 
-        i.name.toLowerCase().includes(k) || 
-        (i.brand || "").toLowerCase().includes(k) || 
-        (i.category || "").toLowerCase().includes(k);
-      const matchBrand = !brand || i.brand === brand;
-      return matchQ && matchBrand;
-    });
-  }, [items, activeCategory, q, brand]);
+    // Filter by category first
+    const byCategory = activeCategory === "All"
+      ? items
+      : items.filter(i => safeCompare(i.category, activeCategory));
+
+    // Filter by brand
+    const byBrand = brand === "All"
+      ? byCategory
+      : byCategory.filter(i => i.brand && safeCompare(i.brand, brand));
+
+    // Filter by search
+    const visible = search.trim()
+      ? byBrand.filter(i =>
+          (i.name && i.name.toLowerCase().includes(search.toLowerCase())) ||
+          (i.brand && i.brand.toLowerCase().includes(search.toLowerCase())) ||
+          (i.category && i.category.toLowerCase().includes(search.toLowerCase()))
+        )
+      : byBrand;
+
+    return visible;
+  }, [items, activeCategory, brand, search]);
 
   return (
     <div className="container section space-y-6">
@@ -79,8 +93,8 @@ export default function ClientGrid() {
         <div className="flex-1">
           <label className="block text-sm font-medium mb-1">Search</label>
           <input 
-            value={q} 
-            onChange={e => setQ(e.target.value)} 
+            value={search} 
+            onChange={e => setSearch(e.target.value)} 
             placeholder="Search catalogs..."
             className="w-full border rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-hinch.secondary" 
           />
@@ -92,8 +106,21 @@ export default function ClientGrid() {
             onChange={e => setBrand(e.target.value)} 
             className="border rounded-xl px-3 py-2"
           >
-            <option value="">All</option>
+            <option value="All">All</option>
             {brands.map(b => <option key={b} value={b!}>{b}</option>)}
+          </select>
+        </div>
+        <div>
+          <label className="block text-sm font-medium mb-1">Category</label>
+          <select 
+            value={activeCategory} 
+            onChange={e => handleDropdownCategoryChange(e.target.value)} 
+            className="border rounded-xl px-3 py-2"
+          >
+            {CATEGORY_ORDER.filter(c => c !== "All").map(c => 
+              <option key={c} value={c}>{c}</option>
+            )}
+            <option value="All">All</option>
           </select>
         </div>
       </div>
