@@ -7,19 +7,17 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <main className="min-h-screen bg-gray-50">
-      {/* Header */}
+    <main>
       <div className="bg-white border-b border-gray-200">
         <div className="container section">
           <h1 className="heading">HINCH Catalogues</h1>
-          <p className="subtle mt-2">Explore, preview, and download product catalogs.</p>
-          <div className="h-1 w-24 mt-6 rounded-full brand-gradient" />
+          <p className="subtle mt-1">Explore, preview, and download product catalogs.</p>
+          <div className="h-1 w-24 mt-4 rounded-full brand-gradient" />
         </div>
       </div>
-      
-      {/* Main Content */}
       <ClientGrid />
     </main>
   );
 }
+
 

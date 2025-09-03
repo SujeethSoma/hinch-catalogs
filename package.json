@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "convert": "npx tsx scripts/convert.ts"
   },
   "dependencies": {
     "csv-parse": "^6.1.0",
