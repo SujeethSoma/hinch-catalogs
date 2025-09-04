@@ -9,9 +9,9 @@ export default function CatalogCard({ item }: { item: Item }) {
   const t = item.cover_image || thumbUrl(item.drive_link);
 
   return (
-    <div className="group bg-white rounded-2xl border border-gray-200 shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden">
+    <div className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden max-w-[200px] mx-auto hover:scale-105">
       {/* Thumbnail */}
-      <div className="relative w-full aspect-[3/4] overflow-hidden bg-gray-50">
+      <div className="relative w-full h-[220px] overflow-hidden bg-gray-50 rounded-t-xl">
         {t ? (
           <Image 
             src={t} 
@@ -21,9 +21,9 @@ export default function CatalogCard({ item }: { item: Item }) {
             onError={() => {}} 
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center text-center p-6">
+          <div className="w-full h-full flex items-center justify-center text-center p-4">
             <div className="brand-gradient absolute inset-0 opacity-95" />
-            <div className="relative text-white font-semibold leading-snug text-lg line-clamp-3">
+            <div className="relative text-white font-semibold leading-snug text-sm line-clamp-3">
               {item.name}
             </div>
           </div>
@@ -31,33 +31,24 @@ export default function CatalogCard({ item }: { item: Item }) {
       </div>
 
       {/* Content */}
-      <div className="p-5">
+      <div className="p-3">
         {/* Title */}
-        <h3 className="text-lg font-semibold text-gray-900 leading-tight line-clamp-2 min-h-[3.25rem] mb-3">
+        <h3 className="text-sm font-medium text-gray-900 leading-tight truncate mb-1">
           {item.name}
         </h3>
         
-        {/* Badges */}
-        <div className="flex flex-wrap gap-2 mb-4 min-h-[1.75rem]">
-          {item.brand && (
-            <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-700 uppercase tracking-wide">
-              {item.brand}
-            </span>
-          )}
-          {item.category && (
-            <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-700 uppercase tracking-wide">
-              {item.category}
-            </span>
-          )}
+        {/* Category + Brand */}
+        <div className="text-xs text-gray-500 mb-3">
+          {item.category && item.brand ? `${item.category} • ${item.brand}` : item.category || item.brand || ''}
         </div>
 
         {/* Action Buttons */}
-        <div className="grid grid-cols-2 gap-3">
+        <div className="space-y-2">
           <a 
             href={p} 
             target="_blank" 
             rel="noreferrer"
-            className="inline-flex items-center justify-center px-4 py-2.5 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-xl hover:border-hinch-primary hover:text-hinch-primary transition-colors duration-200"
+            className="block w-full text-center px-3 py-2 text-xs font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:border-gray-400 transition-colors duration-200"
           >
             Preview
           </a>
@@ -65,7 +56,7 @@ export default function CatalogCard({ item }: { item: Item }) {
             href={d} 
             target="_blank" 
             rel="noreferrer"
-            className="inline-flex items-center justify-center px-4 py-2.5 text-sm font-medium text-white bg-hinch-primary rounded-xl hover:bg-hinch-accent transition-colors duration-200"
+            className="block w-full text-center px-3 py-2 text-xs font-medium text-white bg-[#F46300] rounded-lg hover:bg-[#CC380A] transition-colors duration-200"
           >
             Download
           </a>

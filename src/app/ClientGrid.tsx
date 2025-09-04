@@ -82,25 +82,25 @@ export default function ClientGrid() {
   }, [items, activeCategory, brand, search]);
 
   return (
-    <div className="container section space-y-6">
+    <div className="px-2 sm:px-4 md:px-6 py-6 space-y-6">
       <CategoryTabs 
         activeCategory={activeCategory} 
         setActiveCategory={handleCategoryChange} 
         items={items} 
       />
 
-      <div className="flex flex-col md:flex-row gap-3 md:items-end">
+      <div className="flex flex-col sm:flex-row gap-3 sm:items-end border-b border-gray-200 pb-6">
         <div className="flex-1">
-          <label className="block text-sm font-medium mb-1">Search</label>
+          <label className="block text-sm font-medium mb-1 text-gray-700">Search</label>
           <input 
             value={search} 
             onChange={e => setSearch(e.target.value)} 
             placeholder="Search catalogs..."
-            className="w-full border rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-hinch.secondary" 
+            className="w-full border rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#F46300]" 
           />
         </div>
         <div>
-          <label className="block text-sm font-medium mb-1">Brand</label>
+          <label className="block text-sm font-medium mb-1 text-gray-700">Brand</label>
           <select 
             value={brand} 
             onChange={e => setBrand(e.target.value)} 
@@ -111,7 +111,7 @@ export default function ClientGrid() {
           </select>
         </div>
         <div>
-          <label className="block text-sm font-medium mb-1">Category</label>
+          <label className="block text-sm font-medium mb-1 text-gray-700">Category</label>
           <select 
             value={activeCategory} 
             onChange={e => handleDropdownCategoryChange(e.target.value)} 
@@ -125,9 +125,9 @@ export default function ClientGrid() {
         </div>
       </div>
 
-      <div className="subtle">{filtered.length} result(s)</div>
+      <div className="text-sm text-gray-600">{filtered.length} result(s)</div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {filtered.map((item, idx) => <CatalogCard key={idx + item.name} item={item} />)}
       </div>
 
