@@ -98,3 +98,5 @@ export function getCategoryCounts(): Map<string, number> {
   
   return counts;
 }
+
+

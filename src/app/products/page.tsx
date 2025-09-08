@@ -1,50 +1,99 @@
-export const metadata = {
-  title: "Our Products - HINCH Catalogues",
-  description: "Explore our comprehensive range of quality products and materials from HINCH.",
-};
+"use client";
+
+import { useState, useEffect, useMemo } from "react";
+import { 
+  getProducts, 
+  PRODUCT_CATEGORIES, 
+  filterProductsByCategory, 
+  searchProducts, 
+  filterProductsByActiveFilter,
+  Product 
+} from "@/lib/products";
+import HeaderHero from "@/components/products/HeaderHero";
+import FiltersBar from "@/components/products/FiltersBar";
+import ProductsGrid from "@/components/products/ProductsGrid";
 
 export default function ProductsPage() {
-  return (
-    <div className="min-h-screen py-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold text-[#414042] mb-4">Our Products</h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover our comprehensive range of quality products and materials
-          </p>
-        </div>
+  const [products, setProducts] = useState<Product[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [query, setQuery] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("All Products");
+  const [activeFilter, setActiveFilter] = useState<"all" | "new" | "best">("all");
 
-        {/* Placeholder Content */}
-        <div className="text-center py-16">
-          <div className="bg-gray-50 rounded-2xl p-12">
-            <div className="w-24 h-24 bg-[#F46300] rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
-              </svg>
-            </div>
-            <h2 className="text-2xl font-semibold text-[#414042] mb-4">Product Catalog Coming Soon</h2>
-            <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-              We're working on bringing you a comprehensive product catalog with detailed information about all our materials and solutions. 
-              In the meantime, you can explore our catalog collections or contact us for more information.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="/catalogs"
-                className="bg-[#F46300] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#CC380A] transition-colors duration-200"
-              >
-                Browse Catalogs
-              </a>
-              <a
-                href="/contact"
-                className="border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-medium hover:border-[#F46300] hover:text-[#F46300] transition-colors duration-200"
-              >
-                Contact Us
-              </a>
-            </div>
+  // Load products on component mount
+  useEffect(() => {
+    const loadProducts = async () => {
+      try {
+        const data = await getProducts();
+        setProducts(data);
+      } catch (error) {
+        console.error("Error loading products:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadProducts();
+  }, []);
+
+  // Filter products based on current filters
+  const filteredProducts = useMemo(() => {
+    let result = products;
+
+    // Filter by category
+    result = filterProductsByCategory(result, selectedCategory);
+
+    // Filter by search query
+    result = searchProducts(result, query);
+
+    // Filter by active filter (new, best, all)
+    result = filterProductsByActiveFilter(result, activeFilter);
+
+    return result;
+  }, [products, selectedCategory, query, activeFilter]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center py-16">
+            <div className="w-8 h-8 border-4 border-[#F46300] border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+            <p className="text-gray-600">Loading products...</p>
           </div>
         </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+        {/* Header Hero */}
+        <HeaderHero 
+          activeFilter={activeFilter} 
+          onFilterChange={setActiveFilter} 
+        />
+
+        {/* Filters Bar */}
+        <FiltersBar
+          categories={PRODUCT_CATEGORIES}
+          selectedCategory={selectedCategory}
+          onCategoryChange={setSelectedCategory}
+          query={query}
+          onQueryChange={setQuery}
+          activeFilter={activeFilter}
+          onFilterChange={setActiveFilter}
+        />
+
+        {/* Results Count */}
+        <div className="text-sm text-gray-600">
+          {filteredProducts.length} product{filteredProducts.length !== 1 ? 's' : ''} found
+        </div>
+
+        {/* Products Grid */}
+        <ProductsGrid products={filteredProducts} />
       </div>
     </div>
   );
 }
+
