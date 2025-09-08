@@ -7,10 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "convert": "npx tsx scripts/convert.ts"
+    "convert": "npx tsx scripts/convert.ts",
+    "import:data": "ts-node --compiler-options '{\"module\":\"commonjs\"}' scripts/import-csvs.ts"
   },
   "dependencies": {
-    "csv-parse": "^6.1.0",
+    "@vercel/analytics": "^1.5.0",
     "next": "15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0"
@@ -21,10 +22,13 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "autoprefixer": "^10.4.21",
+    "csv-parse": "^6.1.0",
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
+    "fast-glob": "^3.3.2",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }
