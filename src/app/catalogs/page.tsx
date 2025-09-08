@@ -1,18 +1,18 @@
 "use client";
 
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState, useEffect, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import CategoryTabs from "@/components/CategoryTabs";
 import CatalogCard from "@/components/CatalogCard";
 import { CatalogItem, CATEGORY_ORDER, safeCompare, ensureKnownCategory } from "@/lib/categories";
 import json from "@/data/catalogs.json";
 
-export default function ClientGrid() {
+function ClientGridContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   
   // Load data
-  const rawItems = (json as any).data as any[];
+  const rawItems = json as any[];
   const items: CatalogItem[] = rawItems;
 
   // State management with URL sync
@@ -133,6 +133,14 @@ export default function ClientGrid() {
 
       {filtered.length === 0 && <div className="text-center text-gray-500 py-10">No catalogs found</div>}
     </div>
+  );
+}
+
+export default function ClientGrid() {
+  return (
+    <Suspense fallback={<div className="container section py-10 text-center">Loading...</div>}>
+      <ClientGridContent />
+    </Suspense>
   );
 }
 

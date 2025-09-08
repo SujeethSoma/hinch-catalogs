@@ -1,22 +1,26 @@
 export interface CatalogItem {
   name: string;
-  drive_link: string;
+  driveLink: string;
   category: string;
   brand?: string;
+  categoryKey: string;
+  previewUrl: string;
+  downloadUrl: string;
+  thumbnailUrl: string;
+  fileId: string;
+  sourceCsv: string;
 }
 
 export const CATEGORY_ORDER = [
   "All",
-  "Decorative Laminates",
-  "Louvers",
-  "Moulders",
-  "PVC Laminates",
   "360 Louvers",
-  "Ti Patti",
-  "Wall Panels",
-  "Acrylic Laminates",
+  "Decorative Fabric sheet",
+  "Hardware",
   "Liners",
-  "Hardware"
+  "Louvers",
+  "Mouldings",
+  "PVC Laminates",
+  "Wall Panels"
 ] as const;
 
 export type CategoryType = typeof CATEGORY_ORDER[number];

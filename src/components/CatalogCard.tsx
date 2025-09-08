@@ -1,12 +1,19 @@
 import Image from "next/image";
-import { previewUrl, downloadUrl, thumbUrl } from "@/lib/drive";
 
-type Item = { name:string; drive_link:string; brand?:string; category?:string; cover_image?:string; tags?:string; };
+type Item = { 
+  name: string; 
+  driveLink: string; 
+  brand?: string; 
+  category?: string; 
+  thumbnailUrl?: string; 
+  previewUrl: string;
+  downloadUrl: string;
+};
 
 export default function CatalogCard({ item }: { item: Item }) {
-  const p = previewUrl(item.drive_link);
-  const d = downloadUrl(item.drive_link);
-  const t = item.cover_image || thumbUrl(item.drive_link);
+  const p = item.previewUrl;
+  const d = item.downloadUrl;
+  const t = item.thumbnailUrl;
 
   return (
     <div className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden max-w-[200px] mx-auto hover:scale-105">
