@@ -5,15 +5,14 @@ import { useSearchParams, useRouter } from "next/navigation";
 import CategoryTabs from "@/components/CategoryTabs";
 import CatalogCard from "@/components/CatalogCard";
 import { CatalogItem, CATEGORY_ORDER, safeCompare, ensureKnownCategory } from "@/lib/categories";
-import json from "@/data/catalogs.json";
+import { getAllCatalogs, getUniqueBrands } from "@/lib/catalogData";
 
 function ClientGridContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   
   // Load data
-  const rawItems = json as any[];
-  const items: CatalogItem[] = rawItems;
+  const items: CatalogItem[] = getAllCatalogs();
 
   // State management with URL sync
   const [activeCategory, setActiveCategory] = useState<string>("All");
@@ -53,10 +52,7 @@ function ClientGridContent() {
     router.push(`?${params.toString()}`, { scroll: false });
   };
 
-  const brands = useMemo(() => 
-    Array.from(new Set(items.map(i => i.brand).filter(Boolean))).sort() as string[], 
-    [items]
-  );
+  const brands = useMemo(() => getUniqueBrands(), []);
 
   const filtered = useMemo(() => {
     // Filter by category first

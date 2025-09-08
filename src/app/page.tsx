@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { CATEGORY_ORDER } from "@/lib/categories";
-import json from "@/data/catalogs.json";
+import { getAllCatalogs } from "@/lib/catalogData";
 
 export const metadata = {
   title: "HINCH Catalogues - Your Trusted Partner for Quality Materials",
@@ -8,7 +8,7 @@ export const metadata = {
 };
 
 export default function HomePage() {
-  const items = json as any[];
+  const items = getAllCatalogs();
   
   // Get top brands by count
   const brandCounts = new Map<string, number>();

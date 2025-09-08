@@ -5,14 +5,16 @@ import { parse } from "csv-parse/sync";
 type Row = Record<string, string>;
 
 type DecorativeLaminatesItem = {
-  id: string;
   name: string;
   brand: string;
   category: string;
-  drive_link: string;
-  preview_url: string;
-  download_url: string;
-  thumbnail_url: string;
+  categoryKey: string;
+  driveLink: string;
+  previewUrl: string;
+  downloadUrl: string;
+  thumbnailUrl: string;
+  fileId: string;
+  sourceCsv: string;
 };
 
 const ROOT = process.cwd();
@@ -33,9 +35,8 @@ function slugify(text: string): string {
     .trim();
 }
 
-function createId(name: string, brand: string): string {
-  const combined = `${name}-${brand}`;
-  return slugify(combined);
+function keyOfCategory(cat: string): string {
+  return norm(cat).toLowerCase().replace(/\s+/g, "-");
 }
 
 function extractFileId(url: string): string {
@@ -101,20 +102,23 @@ async function ensureDir() {
         continue;
       }
 
-      const id = createId(name, brand);
+      const category = "Decorative Laminates";
+      const categoryKey = keyOfCategory(category);
       const previewUrl = `https://drive.google.com/file/d/${fileId}/preview`;
       const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
       const thumbnailUrl = `https://drive.google.com/thumbnail?id=${fileId}&sz=w780`;
 
       items.push({
-        id,
         name,
         brand,
-        category: "Decorative Laminates",
-        drive_link: driveLink,
-        preview_url: previewUrl,
-        download_url: downloadUrl,
-        thumbnail_url: thumbnailUrl
+        category,
+        categoryKey,
+        driveLink,
+        previewUrl,
+        downloadUrl,
+        thumbnailUrl,
+        fileId,
+        sourceCsv: "Decorative Laminates.csv"
       });
     }
 

@@ -2,12 +2,12 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import json from "@/data/catalogs.json";
+import { getAllCatalogs } from "@/lib/catalogData";
 
 export default function BrandsPage() {
   const [search, setSearch] = useState("");
   
-  const items = json as any[];
+  const items = getAllCatalogs();
   
   const brands = useMemo(() => {
     const brandCounts = new Map<string, number>();

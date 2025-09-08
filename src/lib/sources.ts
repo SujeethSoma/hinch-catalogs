@@ -1,14 +1,16 @@
 import decorativeLaminatesData from "@/data/decorative-laminates.json";
 
 export interface DecorativeLaminatesItem {
-  id: string;
   name: string;
   brand: string;
   category: string;
-  drive_link: string;
-  preview_url: string;
-  download_url: string;
-  thumbnail_url: string;
+  categoryKey: string;
+  driveLink: string;
+  previewUrl: string;
+  downloadUrl: string;
+  thumbnailUrl: string;
+  fileId: string;
+  sourceCsv: string;
 }
 
 /**
