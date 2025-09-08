@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "convert": "npx tsx scripts/convert.ts",
-    "import:data": "ts-node --compiler-options '{\"module\":\"commonjs\"}' scripts/import-csvs.ts"
+    "import:data": "ts-node --compiler-options '{\"module\":\"commonjs\"}' scripts/import-csvs.ts",
+    "import:decor": "ts-node --compiler-options '{\"module\":\"commonjs\"}' scripts/importDecorative.ts"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",

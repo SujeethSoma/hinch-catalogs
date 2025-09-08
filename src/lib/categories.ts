@@ -13,6 +13,7 @@ export interface CatalogItem {
 
 export const CATEGORY_ORDER = [
   "All",
+  "Decorative Laminates",
   "360 Louvers",
   "Decorative Fabric sheet",
   "Hardware",
