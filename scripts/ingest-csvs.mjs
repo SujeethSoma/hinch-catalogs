@@ -6,6 +6,65 @@ import { parse } from 'csv-parse/sync';
 import pkg from 'fast-glob';
 const { glob } = pkg;
 
+// Canonical categories mapping
+const CATEGORY_MAP = {
+  "Decorative Laminates": "Decorative Laminates",
+  "Acrylic Laminates": "Acrylic Laminates",
+  "PVC Laminates": "PVC Laminates",
+  "Thermo Laminates": "Thermo Laminates",
+  "Veneers": "Veneers",
+  "Louvers": "Louvers",
+  "360 Louvers": "360 Louvers",
+  "Wall Panels": "Wall Panels",
+  "Mouldings": "Mouldings",
+  "Edge Banding": "Edge Banding",
+  "Hardware": "Hardware",
+  "Doors": "Doors",
+  "Liners": "Liners",
+  "Decorative Fabric sheet": "Decorative Fabric sheet",
+  "Ti Patti": "Edge Banding",
+  "Ti Patti/Edge": "Edge Banding",
+  "PVC": "PVC Laminates",
+  "Thermo": "Thermo Laminates",
+  "Fabric": "Decorative Fabric sheet"
+};
+
+function normalizeCategory(categoryValue, fileName) {
+  // Clean and normalize the input
+  const cleanValue = categoryValue ? categoryValue.toString().trim() : '';
+  
+  // Try to find exact match in CATEGORY_MAP
+  if (CATEGORY_MAP[cleanValue]) {
+    return CATEGORY_MAP[cleanValue];
+  }
+  
+  // Try case-insensitive match
+  const lowerValue = cleanValue.toLowerCase();
+  for (const [key, value] of Object.entries(CATEGORY_MAP)) {
+    if (key.toLowerCase() === lowerValue) {
+      return value;
+    }
+  }
+  
+  // Fallback to original value if no mapping found
+  return cleanValue || 'Uncategorized';
+}
+
+function determineCategory(record, fileName) {
+  // Priority 1: Check for category columns in the record
+  const categoryColumns = ['Category', 'CATEGORY', 'Group', 'GROUP', 'category', 'group'];
+  
+  for (const col of categoryColumns) {
+    if (record[col] && record[col].toString().trim()) {
+      return normalizeCategory(record[col], fileName);
+    }
+  }
+  
+  // Priority 2: Use filename (without extension)
+  const fileNameWithoutExt = path.basename(fileName, '.csv');
+  return normalizeCategory(fileNameWithoutExt, fileName);
+}
+
 async function ingestCSVs(csvFolderPath) {
   try {
     console.log(`🚀 Starting CSV ingestion from: ${csvFolderPath}`);
@@ -28,6 +87,7 @@ async function ingestCSVs(csvFolderPath) {
     console.log(`📄 Found ${csvFiles.length} CSV files`);
     
     const allData = [];
+    const categoryCounts = {};
     
     // Process each CSV file
     for (const csvFile of csvFiles) {
@@ -47,14 +107,23 @@ async function ingestCSVs(csvFolderPath) {
           relax_column_count: true // Allow varying column counts
         });
         
-        // Add source field to each record
-        const sourceName = path.basename(csvFile, '.csv');
-        const recordsWithSource = records.map(record => ({
-          ...record,
-          __source: sourceName
-        }));
+        // Process each record
+        const processedRecords = records.map(record => {
+          // Determine canonical category
+          const category = determineCategory(record, csvFile);
+          
+          // Count categories
+          categoryCounts[category] = (categoryCounts[category] || 0) + 1;
+          
+          // Add source and category fields
+          return {
+            ...record,
+            __source: path.basename(csvFile, '.csv'),
+            category: category
+          };
+        });
         
-        allData.push(...recordsWithSource);
+        allData.push(...processedRecords);
         console.log(`   ✅ Added ${records.length} rows`);
         
       } catch (error) {
@@ -75,6 +144,15 @@ async function ingestCSVs(csvFolderPath) {
     
     console.log(`💾 Data saved to: ${outputPath}`);
     console.log(`📊 Total rows: ${allData.length}`);
+    
+    // Print category summary
+    console.log('\n📋 Category Summary:');
+    Object.entries(categoryCounts)
+      .sort(([,a], [,b]) => b - a) // Sort by count descending
+      .forEach(([category, count]) => {
+        console.log(`   ${category}: ${count} records`);
+      });
+    
     console.log('🎉 CSV ingestion completed successfully!');
     
   } catch (error) {
