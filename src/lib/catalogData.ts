@@ -1,5 +1,6 @@
 import mainCatalogsData from "@/data/catalogs.json";
 import decorativeLaminatesData from "@/data/decorative-laminates.json";
+import csvTransformedData from "@/data/catalogs-transformed.json";
 import { CatalogItem } from "./categories";
 
 /**
@@ -21,10 +22,11 @@ export function getAllCatalogs(): CatalogItem[] {
     sourceCsv: item.sourceCsv
   }));
 
-  // Combine main catalogs with decorative laminates
+  // Combine main catalogs with decorative laminates and CSV data
   const allCatalogs = [
     ...mainCatalogsData,
-    ...decorativeLaminates
+    ...decorativeLaminates,
+    ...csvTransformedData
   ];
 
   // Sort by category then name
@@ -98,5 +100,6 @@ export function getCategoryCounts(): Map<string, number> {
   
   return counts;
 }
+
 
 
