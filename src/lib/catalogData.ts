@@ -1,4 +1,3 @@
-import mainCatalogsData from "@/data/catalogs.json";
 import decorativeLaminatesData from "@/data/decorative-laminates.json";
 import csvTransformedData from "@/data/catalogs-transformed.json";
 import { CatalogItem } from "./categories";
@@ -22,9 +21,8 @@ export function getAllCatalogs(): CatalogItem[] {
     sourceCsv: item.sourceCsv
   }));
 
-  // Combine main catalogs with decorative laminates and CSV data
+  // Combine decorative laminates and CSV data (skip raw catalogs.json)
   const allCatalogs = [
-    ...mainCatalogsData,
     ...decorativeLaminates,
     ...csvTransformedData
   ];

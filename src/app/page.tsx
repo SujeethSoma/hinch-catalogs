@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import ClientGrid from "./ClientGrid";
+import ClientGrid from "./catalogs/page";
 
 export const metadata = {
   title: "HINCH Catalogues",
