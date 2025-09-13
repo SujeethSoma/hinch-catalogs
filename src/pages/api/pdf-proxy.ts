@@ -16,8 +16,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     if (!r.ok) return res.status(502).json({ message: `Upstream error ${r.status}` });
 
     const ct = r.headers.get('content-type') || '';
-    if (!ct.toLowerCase().startsWith('application/pdf')) {
-      // prevent feeding HTML to pdf.js
+    if (!ct.toLowerCase().startsWith('application/pdf') && !ct.toLowerCase().includes('octet-stream')) {
+      // prevent feeding HTML to pdf.js, but allow octet-stream (Google Drive sometimes returns this for PDFs)
       const text = await r.text().catch(() => '');
       return res.status(502).json({ message: 'Not a PDF', contentType: ct, len: text.length });
     }

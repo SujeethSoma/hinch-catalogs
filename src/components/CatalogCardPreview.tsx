@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { toDriveDirectPdf } from "@/lib/drive";
+import { getPdfFirstPageDataUrl } from "@/lib/pdfThumb";
 
 type Row = Record<string, any>;
 
@@ -57,18 +59,48 @@ export default function CatalogCardPreview({ item }: { item: Row }) {
   const img = getImage(item);
   const href = getLink(item) || img || null;
   const hasLink = !!href;
+  const downloadUrl = href ? toDriveDirectPdf(href) : null;
+  
+  // PDF thumbnail state
+  const [pdfThumbnail, setPdfThumbnail] = useState<string | null>(null);
+  const [isLoadingThumbnail, setIsLoadingThumbnail] = useState(false);
+
+  // Generate PDF thumbnail if no image is available and we have a PDF link
+  useEffect(() => {
+    if (!img && href && href.includes('drive.google.com')) {
+      setIsLoadingThumbnail(true);
+      getPdfFirstPageDataUrl(href, 300)
+        .then(thumbnail => {
+          setPdfThumbnail(thumbnail);
+        })
+        .catch(error => {
+          console.warn('Failed to generate PDF thumbnail for:', title, error);
+        })
+        .finally(() => {
+          setIsLoadingThumbnail(false);
+        });
+    }
+  }, [img, href, title]);
+
+  // Use PDF thumbnail if no regular image is available
+  const displayImage = img || pdfThumbnail;
 
   return (
     <div className="rounded-2xl border border-neutral-200 bg-white shadow-sm hover:shadow-md transition overflow-hidden">
       {/* media 3:4 */}
       <div className="relative w-full pt-[133%] bg-gradient-to-b from-orange-200 to-orange-100">
-        {img && (
+        {displayImage && (
           <img
-            src={img}
+            src={displayImage}
             alt={title}
             loading="lazy"
             className="absolute inset-0 h-full w-full object-cover"
           />
+        )}
+        {isLoadingThumbnail && (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#F46300]"></div>
+          </div>
         )}
       </div>
 
@@ -88,7 +120,7 @@ export default function CatalogCardPreview({ item }: { item: Row }) {
                 Preview
               </a>
               <a
-                href={href}
+                href={downloadUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 download
