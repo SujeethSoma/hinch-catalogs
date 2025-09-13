@@ -5,7 +5,7 @@ import { getPdfFirstPageDataUrl } from '@/lib/pdfThumb';
 export function getFirstImageUrl(row: Record<string, any>): string | null {
   const imageKeys = [
     "image", "image url", "image_url", "img", "thumbnail", "thumb",
-    "preview", "cover", "image1", "image_1", "first image", "images"
+    "preview", "image1", "image_1", "first image", "images"
   ];
 
   // Find first matching key (case-insensitive)
@@ -59,7 +59,7 @@ export function getPdfUrl(row: Record<string, any>): string | null {
 // Helper to extract primary link from row data
 export function getPrimaryLink(row: Record<string, any>): string | null {
   const linkKeys = [
-    "catalouge links", "catalogue links", "catalog links", "pdf", "pdf url", "catalog url", "url", "link", "catalogue link", "drive link"
+    "pdf", "pdf url", "catalog url", "url", "link", "catalogue link"
   ];
 
   for (const key of linkKeys) {
@@ -116,25 +116,6 @@ export function getSubtitle(row: Record<string, any>): string | null {
   return null;
 }
 
-// Helper to extract optional tags
-export function getTags(row: Record<string, any>): string[] {
-  const tagKeys = ["pages", "size"];
-  const tags: string[] = [];
-
-  for (const key of tagKeys) {
-    const rowKey = Object.keys(row).find(k => 
-      k.toLowerCase() === key.toLowerCase()
-    );
-    
-    if (rowKey && row[rowKey]) {
-      const value = String(row[rowKey]).trim();
-      if (value) tags.push(value);
-    }
-  }
-  
-  return tags;
-}
-
 interface CatalogCardProps {
   item: Record<string, any>;
   onClick?: (item: Record<string, any>) => void;
@@ -146,7 +127,6 @@ export default function CatalogCard({ item, onClick }: CatalogCardProps) {
   const primaryLink = getPrimaryLink(item);
   const title = getTitle(item);
   const subtitle = getSubtitle(item);
-  const tags = getTags(item);
 
   // State for PDF thumbnail
   const [pdfThumbnail, setPdfThumbnail] = useState<string | null>(null);
@@ -186,15 +166,15 @@ export default function CatalogCard({ item, onClick }: CatalogCardProps) {
 
   return (
     <div 
-      className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden max-w-[200px] mx-auto hover:scale-105"
+      className="group bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden w-full"
     >
-      {/* Thumbnail area */}
-      <div className="relative w-full h-[220px] overflow-hidden bg-gray-50 rounded-t-xl">
+      {/* Thumbnail area with 3:4 aspect ratio */}
+      <div className="relative w-full pt-[133%] bg-gradient-to-b from-orange-200 to-orange-100">
         {displayImage ? (
           <img 
             src={displayImage}
             alt={title}
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+            className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
             loading="lazy"
             onError={(e) => {
               // Hide image on error, show gradient fallback
@@ -202,11 +182,11 @@ export default function CatalogCard({ item, onClick }: CatalogCardProps) {
             }}
           />
         ) : loading ? (
-          <div className="w-full h-full flex items-center justify-center">
+          <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-orange-600 text-sm">Loading preview...</div>
           </div>
         ) : (
-          <div className="w-full h-full flex items-center justify-center text-center p-4">
+          <div className="absolute inset-0 flex items-center justify-center text-center p-4">
             <div className="bg-gradient-to-b from-orange-300 to-orange-700 absolute inset-0 opacity-95" />
             <div className="relative text-white font-semibold leading-snug text-sm line-clamp-3">
               {title}
@@ -216,9 +196,9 @@ export default function CatalogCard({ item, onClick }: CatalogCardProps) {
       </div>
 
       {/* Card body */}
-      <div className="p-3">
+      <div className="p-4">
         {/* Title */}
-        <h3 className="font-semibold text-gray-900 text-sm leading-tight truncate mb-1">
+        <h3 className="font-semibold text-gray-900 text-sm leading-tight mb-1 line-clamp-2">
           {title}
         </h3>
         
@@ -230,8 +210,8 @@ export default function CatalogCard({ item, onClick }: CatalogCardProps) {
         )}
         
         {/* Action Buttons */}
-        <div className="space-y-2">
-          {primaryLink && (
+        {primaryLink && (
+          <div className="space-y-2">
             <a 
               href={primaryLink} 
               target="_blank" 
@@ -241,19 +221,18 @@ export default function CatalogCard({ item, onClick }: CatalogCardProps) {
             >
               Preview
             </a>
-          )}
-          {primaryLink && (
             <a 
               href={primaryLink} 
               target="_blank" 
               rel="noreferrer"
+              download
               className="block w-full text-center px-3 py-2 text-xs font-medium text-white bg-[#F46300] rounded-lg hover:bg-[#CC380A] transition-colors duration-200"
               onClick={(e) => e.stopPropagation()}
             >
               Download
             </a>
-          )}
-        </div>
+          </div>
+        )}
       </div>
     </div>
   );
