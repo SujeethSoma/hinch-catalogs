@@ -4,6 +4,7 @@ import { useMemo, useState, useEffect, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import CategoryTabs from "@/components/CategoryTabs";
 import CatalogCard from "@/components/CatalogCard";
+import CatalogPreviewGrid from "@/components/CatalogPreviewGrid";
 import { CatalogItem, CATEGORY_ORDER, HIDDEN_TOP_CATEGORIES, DEFAULT_CATEGORIES, safeCompare, ensureKnownCategory } from "@/lib/categories";
 import { getAllCatalogs, getUniqueBrands } from "@/lib/catalogData";
 
@@ -175,9 +176,7 @@ function ClientGridContent() {
       <div className="text-sm text-gray-600">{filtered.length} result(s)</div>
 
       {view === "preview" ? (
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {filtered.map((item, idx) => <CatalogCard key={idx + item.name} item={item} />)}
-        </div>
+        <CatalogPreviewGrid items={filtered} />
       ) : (
         <div className="space-y-3">
           {filtered.map((item, idx) => (
