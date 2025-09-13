@@ -36,7 +36,7 @@ export function getFirstImageUrl(row: Record<string, any>): string | null {
 // Helper to extract PDF URL from row data
 export function getPdfUrl(row: Record<string, any>): string | null {
   const pdfKeys = [
-    "pdf", "pdf url", "pdf_url", "catalog url", "catalogue link", 
+    "catalouge links", "catalogue links", "catalog links", "pdf", "pdf url", "pdf_url", "catalog url", "catalogue link", 
     "drive link", "file", "document", "catalog", "catalogue"
   ];
 
@@ -59,7 +59,7 @@ export function getPdfUrl(row: Record<string, any>): string | null {
 // Helper to extract primary link from row data
 export function getPrimaryLink(row: Record<string, any>): string | null {
   const linkKeys = [
-    "pdf", "pdf url", "catalog url", "url", "link", "catalogue link"
+    "catalouge links", "catalogue links", "catalog links", "pdf", "pdf url", "catalog url", "url", "link", "catalogue link", "drive link"
   ];
 
   for (const key of linkKeys) {
@@ -81,7 +81,7 @@ export function getPrimaryLink(row: Record<string, any>): string | null {
 // Helper to extract title from row data
 export function getTitle(row: Record<string, any>): string {
   const titleKeys = [
-    "name", "title", "catalog", "catalogue", "file name", "filename", "design", "code"
+    "catalogues name", "catalogue name", "catalog name", "name", "title", "catalog", "catalogue", "file name", "filename", "design", "code"
   ];
 
   for (const key of titleKeys) {
