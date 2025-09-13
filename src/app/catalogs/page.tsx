@@ -180,7 +180,7 @@ function ClientGridContent() {
       ) : (
         <div className="space-y-3">
           {filtered.map((item, idx) => (
-            <div key={idx + item.name} className="border rounded-lg p-4 hover:bg-gray-50">
+            <div key={`${item.name || 'item'}-${item.category || 'unknown'}-${idx}`} className="border rounded-lg p-4 hover:bg-gray-50">
               <div className="flex justify-between items-start">
                 <div>
                   <h3 className="font-medium text-gray-900">{item.name}</h3>
