@@ -1,153 +1,271 @@
 #!/usr/bin/env node
 
-import fs from 'fs/promises';
-import path from 'path';
-import { parse } from 'csv-parse/sync';
+import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { basename, extname, join, dirname } from 'path';
+import { fileURLToPath } from 'url';
 
-// Canonical categories mapping
-const CATEGORY_MAP = {
-  "Decorative Laminates": "Decorative Laminates",
-  "Acrylic Laminates": "Acrylic Laminates",
-  "PVC Laminates": "PVC Laminates",
-  "Thermo Laminates": "Thermo Laminates",
-  "Veneers": "Veneers",
-  "Louvers": "Louvers",
-  "360 Louvers": "360 Louvers",
-  "Wall Panels": "Wall Panels",
-  "Mouldings": "Mouldings",
-  "Edge Banding": "Edge Banding",
-  "Hardware": "Hardware",
-  "Doors": "Doors",
-  "Liners": "Liners",
-  "Decorative Fabric sheet": "Decorative Fabric sheet",
-  "Ti Patti": "Edge Banding",
-  "Ti Patti/Edge": "Edge Banding",
-  "PVC": "PVC Laminates",
-  "Thermo": "Thermo Laminates",
-  "Fabric": "Decorative Fabric sheet"
-};
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
-function normalizeCategory(categoryValue, fileName) {
-  // Clean and normalize the input
-  const cleanValue = categoryValue ? categoryValue.toString().trim() : '';
-  
-  // Try to find exact match in CATEGORY_MAP
-  if (CATEGORY_MAP[cleanValue]) {
-    return CATEGORY_MAP[cleanValue];
-  }
-  
-  // Try case-insensitive match
-  const lowerValue = cleanValue.toLowerCase();
-  for (const [key, value] of Object.entries(CATEGORY_MAP)) {
-    if (key.toLowerCase() === lowerValue) {
-      return value;
-    }
-  }
-  
-  // Fallback to original value if no mapping found
-  return cleanValue || 'Uncategorized';
-}
-
-function determineCategory(record, fileName) {
-  // Priority 1: Check for category columns in the record
-  const categoryColumns = ['Category', 'CATEGORY', 'Group', 'GROUP', 'category', 'group'];
-  
-  for (const col of categoryColumns) {
-    if (record[col] && record[col].toString().trim()) {
-      return normalizeCategory(record[col], fileName);
-    }
-  }
-  
-  // Priority 2: Use filename (without extension)
-  const fileNameWithoutExt = path.basename(fileName, '.csv');
-  return normalizeCategory(fileNameWithoutExt, fileName);
-}
-
-async function updateOneCSV(csvFilePath) {
+// Helper function to read CSV file
+function readCsv(filePath) {
   try {
-    console.log(`🔄 Updating single CSV: ${path.basename(csvFilePath)}`);
-    
-    // Check if CSV file exists
-    try {
-      await fs.access(csvFilePath);
-    } catch (error) {
-      throw new Error(`CSV file not found: ${csvFilePath}`);
+    let content = readFileSync(filePath, 'utf8');
+    // Strip UTF-8 BOM if present
+    if (content.charCodeAt(0) === 0xFEFF) {
+      content = content.slice(1);
     }
-    
-    // Read and parse the CSV
-    const csvContent = await fs.readFile(csvFilePath, 'utf-8');
-    const records = parse(csvContent, {
-      columns: true,
-      skip_empty_lines: true,
-      trim: true,
-      quote: '"',
-      escape: '"',
-      relax_column_count: true
-    });
-    
-    console.log(`📊 Parsed ${records.length} rows from CSV`);
-    
-    // Process records and determine category
-    const processedRecords = records.map(record => {
-      const category = determineCategory(record, csvFilePath);
-      const sourceName = path.basename(csvFilePath, '.csv');
-      
-      return {
-        ...record,
-        __source: sourceName,
-        category: category
-      };
-    });
-    
-    // Determine the category for this CSV
-    const csvCategory = processedRecords[0]?.category || 'Uncategorized';
-    console.log(`📋 Category determined: ${csvCategory}`);
-    
-    // Load existing JSON data
-    const jsonPath = path.join(process.cwd(), 'src', 'data', 'catalogs.json');
-    let existingData = [];
-    
-    try {
-      const jsonContent = await fs.readFile(jsonPath, 'utf-8');
-      existingData = JSON.parse(jsonContent);
-      console.log(`📄 Loaded ${existingData.length} existing records`);
-    } catch (error) {
-      console.log('📄 No existing data found, starting fresh');
-    }
-    
-    // Count old entries for this category
-    const oldCount = existingData.filter(item => item.category === csvCategory).length;
-    
-    // Remove old entries for this category
-    const filteredData = existingData.filter(item => item.category !== csvCategory);
-    console.log(`🗑️  Removed ${oldCount} old ${csvCategory} records`);
-    
-    // Append new records
-    const updatedData = [...filteredData, ...processedRecords];
-    console.log(`➕ Added ${processedRecords.length} new ${csvCategory} records`);
-    
-    // Save updated data
-    await fs.writeFile(jsonPath, JSON.stringify(updatedData, null, 2));
-    
-    console.log(`💾 Updated data saved to: ${jsonPath}`);
-    console.log(`📊 Total records: ${updatedData.length}`);
-    console.log(`🔄 Replaced ${oldCount} → ${processedRecords.length} ${csvCategory} rows`);
-    console.log('🎉 Single CSV update completed successfully!');
-    
+    return content;
   } catch (error) {
-    console.error('❌ Error updating CSV:', error.message);
+    console.error(`Error reading CSV file: ${error.message}`);
     process.exit(1);
   }
 }
 
-// Get CSV file path from command line arguments
-const csvFilePath = process.argv[2];
+// Robust CSV parser
+function parseCsv(text) {
+  const lines = text.split(/\r?\n/);
+  if (lines.length < 2) {
+    throw new Error('CSV must have at least a header row and one data row');
+  }
 
-if (!csvFilePath) {
-  console.error('❌ Please provide the CSV file path as an argument');
-  console.error('Usage: node scripts/update-one-csv.mjs "/absolute/path/to/file.csv"');
-  process.exit(1);
+  // Parse header row
+  const headers = parseCsvLine(lines[0]);
+  if (headers.length === 0) {
+    throw new Error('CSV header row is empty');
+  }
+
+  // Normalize headers: trim and keep original casing
+  const normalizedHeaders = headers.map(h => h.trim());
+
+  const rows = [];
+  let currentLine = '';
+  let inQuotes = false;
+  let lineIndex = 1;
+
+  // Process data rows
+  for (let i = 1; i < lines.length; i++) {
+    const line = lines[i];
+    currentLine += line;
+
+    // Count quotes to determine if we're inside a quoted field
+    let quoteCount = 0;
+    for (const char of line) {
+      if (char === '"') quoteCount++;
+    }
+
+    if (quoteCount % 2 === 1) {
+      inQuotes = !inQuotes;
+    }
+
+    // If we're not in quotes, we have a complete row
+    if (!inQuotes) {
+      try {
+        const fields = parseCsvLine(currentLine);
+        if (fields.length > 0) {
+          const row = {};
+          for (let j = 0; j < normalizedHeaders.length; j++) {
+            const value = j < fields.length ? fields[j].trim() : '';
+            row[normalizedHeaders[j]] = value;
+          }
+          rows.push(row);
+        }
+      } catch (error) {
+        console.warn(`Warning: Skipping malformed row at line ${lineIndex}: ${error.message}`);
+      }
+      currentLine = '';
+      lineIndex = i + 1;
+    } else {
+      // Continue to next line for multi-line fields
+      currentLine += '\n';
+    }
+  }
+
+  return { headers: normalizedHeaders, rows };
 }
 
-// Run the update
-updateOneCSV(csvFilePath);
+// Parse a single CSV line with proper quote handling
+function parseCsvLine(line) {
+  const fields = [];
+  let current = '';
+  let inQuotes = false;
+  let i = 0;
+
+  while (i < line.length) {
+    const char = line[i];
+    const nextChar = line[i + 1];
+
+    if (char === '"') {
+      if (inQuotes && nextChar === '"') {
+        // Escaped quote
+        current += '"';
+        i += 2;
+      } else {
+        // Start or end of quoted field
+        inQuotes = !inQuotes;
+        i++;
+      }
+    } else if (char === ',' && !inQuotes) {
+      // Field separator
+      fields.push(current);
+      current = '';
+      i++;
+    } else {
+      current += char;
+      i++;
+    }
+  }
+
+  // Add the last field
+  fields.push(current);
+  return fields;
+}
+
+// Check if a row is completely empty
+function isEmptyRow(obj) {
+  return Object.values(obj).every(value => 
+    typeof value === 'string' ? value.trim() === '' : value === null || value === undefined
+  );
+}
+
+// Load JSON file
+function loadJson(path) {
+  if (!existsSync(path)) {
+    return [];
+  }
+  try {
+    const content = readFileSync(path, 'utf8');
+    return JSON.parse(content);
+  } catch (error) {
+    console.error(`Error loading JSON file: ${error.message}`);
+    process.exit(1);
+  }
+}
+
+// Save JSON file
+function saveJson(path, data) {
+  try {
+    const jsonString = JSON.stringify(data, null, 2);
+    writeFileSync(path, jsonString, 'utf8');
+  } catch (error) {
+    console.error(`Error saving JSON file: ${error.message}`);
+    process.exit(1);
+  }
+}
+
+// Get sort key for stable sorting
+function getSortKey(item) {
+  const category = item.category || '';
+  const codeFields = ['code', 'CODE', 'sku', 'SKU', 'name', 'NAME', 'title', 'TITLE'];
+  
+  let sortField = '';
+  for (const field of codeFields) {
+    if (item[field] && item[field].trim()) {
+      sortField = item[field].trim();
+      break;
+    }
+  }
+  
+  return `${category}|${sortField}`;
+}
+
+// Main function
+function main() {
+  const args = process.argv.slice(2);
+  
+  if (args.length < 1) {
+    console.error('Usage: node scripts/update-one-csv.mjs "/path/to/file.csv" --category "CategoryName"');
+    process.exit(1);
+  }
+
+  const csvPath = args[0];
+  let category = null;
+
+  // Parse --category argument
+  for (let i = 1; i < args.length; i++) {
+    if (args[i] === '--category' && i + 1 < args.length) {
+      category = args[i + 1];
+      break;
+    }
+  }
+
+  // If no category provided, derive from filename
+  if (!category) {
+    const filename = basename(csvPath, extname(csvPath));
+    category = filename.replace(/^Catalogue links - /, '').trim();
+    console.log(`Derived category from filename: "${category}"`);
+  }
+
+  if (!category) {
+    console.error('Error: Category is required. Provide --category argument or ensure filename contains category name.');
+    process.exit(1);
+  }
+
+  // Check if CSV file exists
+  if (!existsSync(csvPath)) {
+    console.error(`Error: CSV file not found: ${csvPath}`);
+    process.exit(1);
+  }
+
+  console.log(`Processing CSV: ${csvPath}`);
+  console.log(`Category: ${category}`);
+
+  // Read and parse CSV
+  const csvContent = readCsv(csvPath);
+  const { headers, rows: allRows } = parseCsv(csvContent);
+
+  console.log(`Total lines in CSV (minus header): ${allRows.length}`);
+
+  // Filter out empty rows
+  const nonEmptyRows = allRows.filter(row => !isEmptyRow(row));
+  const emptyRowsSkipped = allRows.length - nonEmptyRows.length;
+
+  console.log(`Parsed rows kept: ${nonEmptyRows.length}`);
+  console.log(`Empty rows skipped: ${emptyRowsSkipped}`);
+
+  if (nonEmptyRows.length === 0) {
+    console.error('Error: No non-empty rows found in CSV');
+    process.exit(1);
+  }
+
+  // Add metadata to each row
+  const csvBasename = basename(csvPath, extname(csvPath));
+  const now = new Date().toISOString();
+  
+  const processedRows = nonEmptyRows.map(row => ({
+    ...row,
+    category: category,
+    __source: csvBasename,
+    __updatedAt: now
+  }));
+
+  // Load existing catalogs
+  const catalogsPath = join(__dirname, '..', 'src', 'data', 'catalogs.json');
+  const existingCatalogs = loadJson(catalogsPath);
+
+  // Count existing items for this category
+  const existingCount = existingCatalogs.filter(item => item.category === category).length;
+
+  // Remove existing items for this category
+  const filteredCatalogs = existingCatalogs.filter(item => item.category !== category);
+
+  // Add new rows
+  const updatedCatalogs = [...filteredCatalogs, ...processedRows];
+
+  // Stable sort
+  updatedCatalogs.sort((a, b) => {
+    const keyA = getSortKey(a);
+    const keyB = getSortKey(b);
+    return keyA.localeCompare(keyB);
+  });
+
+  // Save updated catalogs
+  saveJson(catalogsPath, updatedCatalogs);
+
+  console.log(`Replaced count for category "${category}": ${existingCount} → ${processedRows.length}`);
+  console.log(`Final total records in catalogs.json: ${updatedCatalogs.length}`);
+  console.log('Update completed successfully!');
+}
+
+// Run the script
+main();
