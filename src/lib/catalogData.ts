@@ -1,31 +1,24 @@
-import decorativeLaminatesData from "@/data/decorative-laminates.json";
-import csvTransformedData from "@/data/catalogs-transformed.json";
+import catalogsData from "@/data/catalogs.json";
 import { CatalogItem } from "./categories";
 
 /**
  * Central catalog data aggregator
- * Merges all catalog sources into a single array
+ * Loads all catalog data from the main catalogs.json file
  */
 export function getAllCatalogs(): CatalogItem[] {
-  // Convert decorative laminates data to match CatalogItem interface
-  const decorativeLaminates = decorativeLaminatesData.map(item => ({
-    name: item.name,
-    driveLink: item.driveLink,
-    category: item.category,
-    brand: item.brand,
-    categoryKey: item.categoryKey,
-    previewUrl: item.previewUrl,
-    downloadUrl: item.downloadUrl,
-    thumbnailUrl: item.thumbnailUrl,
-    fileId: item.fileId,
-    sourceCsv: item.sourceCsv
+  // Convert catalog data to match CatalogItem interface
+  const allCatalogs = catalogsData.map(item => ({
+    name: item["Catalogues Name"] || "",
+    driveLink: item["Catalouge links"] || item["Catalogues Links"] || "",
+    category: item.category || "",
+    brand: item.Brand || item.Brands || "",
+    categoryKey: "", // Not available in current data
+    previewUrl: "", // Not available in current data
+    downloadUrl: "", // Not available in current data
+    thumbnailUrl: "", // Not available in current data
+    fileId: "", // Not available in current data
+    sourceCsv: item.__source || ""
   }));
-
-  // Combine decorative laminates and CSV data (skip raw catalogs.json)
-  const allCatalogs = [
-    ...decorativeLaminates,
-    ...csvTransformedData
-  ];
 
   // Sort by category then name
   return allCatalogs.sort((a, b) => 
