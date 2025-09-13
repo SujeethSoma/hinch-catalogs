@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { toDriveDirectPdf } from "@/lib/drive";
-import { getPdfFirstPageDataUrl } from "@/lib/pdfThumb";
 
 type Row = Record<string, any>;
 
@@ -53,6 +52,29 @@ function getSubtitle(row: Row){
   return brand || cat ? (brand || cat) : "";
 }
 
+// Generate Google Drive thumbnail URL
+function getDriveThumbnailUrl(driveUrl: string): string | null {
+  if (!driveUrl || !driveUrl.includes('drive.google.com')) return null;
+  
+  // Extract file ID from various Google Drive URL formats
+  const patterns = [
+    /\/file\/d\/([a-zA-Z0-9_-]+)/,
+    /[?&]id=([a-zA-Z0-9_-]+)/,
+    /\/open\?id=([a-zA-Z0-9_-]+)/
+  ];
+  
+  for (const pattern of patterns) {
+    const match = driveUrl.match(pattern);
+    if (match && match[1]) {
+      const fileId = match[1];
+      // Use Google Drive's thumbnail API
+      return `https://drive.google.com/thumbnail?id=${fileId}&sz=w400-h300`;
+    }
+  }
+  
+  return null;
+}
+
 export default function CatalogCardPreview({ item }: { item: Row }) {
   const title = getTitle(item);
   const subtitle = getSubtitle(item);
@@ -61,41 +83,9 @@ export default function CatalogCardPreview({ item }: { item: Row }) {
   const hasLink = !!href;
   const downloadUrl = href ? toDriveDirectPdf(href) : null;
   
-  // PDF thumbnail state
-  const [pdfThumbnail, setPdfThumbnail] = useState<string | null>(null);
-  const [isLoadingThumbnail, setIsLoadingThumbnail] = useState(false);
-
-  // Generate PDF thumbnail if no image is available and we have a PDF link
-  useEffect(() => {
-    console.log('🔍 PDF Thumbnail Debug:', { 
-      title, 
-      hasImg: !!img, 
-      hasHref: !!href, 
-      isDriveLink: href?.includes('drive.google.com'),
-      href: href?.substring(0, 50) + '...'
-    });
-    
-    if (!img && href && href.includes('drive.google.com')) {
-      console.log('🚀 Starting PDF thumbnail generation for:', title);
-      setIsLoadingThumbnail(true);
-      getPdfFirstPageDataUrl(href, 300)
-        .then(thumbnail => {
-          console.log('✅ PDF thumbnail result for:', title, thumbnail ? 'SUCCESS' : 'NULL');
-          setPdfThumbnail(thumbnail);
-        })
-        .catch(error => {
-          console.error('❌ PDF thumbnail failed for:', title, error);
-        })
-        .finally(() => {
-          setIsLoadingThumbnail(false);
-        });
-    } else {
-      console.log('⏭️ Skipping PDF thumbnail for:', title, 'Reason:', !img ? 'has image' : !href ? 'no href' : 'not drive link');
-    }
-  }, [img, href, title]);
-
-  // Use PDF thumbnail if no regular image is available
-  const displayImage = img || pdfThumbnail;
+  // Generate Google Drive thumbnail if no image is available
+  const driveThumbnail = href ? getDriveThumbnailUrl(href) : null;
+  const displayImage = img || driveThumbnail;
 
   return (
     <div className="rounded-2xl border border-neutral-200 bg-white shadow-sm hover:shadow-md transition overflow-hidden">
@@ -107,12 +97,11 @@ export default function CatalogCardPreview({ item }: { item: Row }) {
             alt={title}
             loading="lazy"
             className="absolute inset-0 h-full w-full object-cover"
+            onError={(e) => {
+              // Hide image if it fails to load
+              e.currentTarget.style.display = 'none';
+            }}
           />
-        )}
-        {isLoadingThumbnail && (
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#F46300]"></div>
-          </div>
         )}
       </div>
 
