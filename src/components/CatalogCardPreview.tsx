@@ -67,8 +67,8 @@ function getDriveThumbnailUrl(driveUrl: string): string | null {
     const match = driveUrl.match(pattern);
     if (match && match[1]) {
       const fileId = match[1];
-      // Use Google Drive's thumbnail API
-      return `https://drive.google.com/thumbnail?id=${fileId}&sz=w400-h300`;
+      // Try multiple Google Drive thumbnail formats
+      return `https://lh3.googleusercontent.com/d/${fileId}=w400-h300`;
     }
   }
   
@@ -86,6 +86,16 @@ export default function CatalogCardPreview({ item }: { item: Row }) {
   // Generate Google Drive thumbnail if no image is available
   const driveThumbnail = href ? getDriveThumbnailUrl(href) : null;
   const displayImage = img || driveThumbnail;
+  
+  // Debug logging
+  console.log('🔍 Thumbnail Debug:', {
+    title,
+    hasImg: !!img,
+    hasHref: !!href,
+    driveThumbnail,
+    displayImage,
+    href: href?.substring(0, 50) + '...'
+  });
 
   return (
     <div className="rounded-2xl border border-neutral-200 bg-white shadow-sm hover:shadow-md transition overflow-hidden">
