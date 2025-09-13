@@ -1,5 +1,5 @@
 import React from 'react';
-import CatalogCard from './CatalogCard';
+import { CatalogCard } from './CatalogCard';
 
 interface CatalogGridProps {
   items: any[];
@@ -22,7 +22,6 @@ export function CatalogGrid({ items, onClick, emptyText = "No items found" }: Ca
         <CatalogCard 
           key={index} 
           item={item} 
-          onClick={onClick}
         />
       ))}
     </div>
