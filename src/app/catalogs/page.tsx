@@ -36,10 +36,13 @@ function ClientGridContent() {
     if (viewParam) {
       setView(viewParam);
     } else {
-      // Default to preview view
+      // Default to preview view and update URL
       setView("preview");
+      const params = new URLSearchParams(searchParams);
+      params.set('view', 'preview');
+      router.replace(`?${params.toString()}`, { scroll: false });
     }
-  }, [searchParams]);
+  }, [searchParams, router]);
 
   // Update URL when category changes
   const handleCategoryChange = (category: string) => {

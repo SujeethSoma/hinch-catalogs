@@ -1,67 +1,46 @@
 import Image from "next/image";
-import PDFPreview from "./PDFPreview";
+import { useState, useEffect } from "react";
 import { CatalogItem } from "@/lib/categories";
+import { getPdfFirstPageDataUrl } from "@/lib/pdfThumb";
 
 export default function CatalogCard({ item }: { item: CatalogItem }) {
   const p = item.previewUrl;
   const d = item.downloadUrl;
   const t = item.thumbnailUrl;
 
+  // State for thumbnail image
+  const [thumb, setThumb] = useState<string | null>(
+    item.previewImage || item.thumbnail || null
+  );
+
+  // Load PDF thumbnail if needed
+  useEffect(() => {
+    if (!thumb && item.pdfUrl) {
+      getPdfFirstPageDataUrl(item.pdfUrl)
+        .then((dataUrl) => {
+          if (dataUrl) {
+            setThumb(dataUrl);
+          }
+        })
+        .catch((error) => {
+          console.error('Failed to load PDF thumbnail:', error);
+        });
+    }
+  }, [item.pdfUrl, thumb]);
+
   // Determine which preview to show
   const getPreviewContent = () => {
-    // Priority 1: previewImage
-    if (item.previewImage) {
+    // If we have a thumbnail (from any source), show it
+    if (thumb) {
       return (
-        <Image 
-          src={item.previewImage} 
+        <img 
+          src={thumb} 
           alt={item.name} 
-          fill
-          className="object-cover transition-transform duration-300 group-hover:scale-105"
-          onError={() => {}} 
-        />
-      );
-    }
-    
-    // Priority 2: thumbnail
-    if (item.thumbnail) {
-      return (
-        <Image 
-          src={item.thumbnail} 
-          alt={item.name} 
-          fill
-          className="object-cover transition-transform duration-300 group-hover:scale-105"
-          onError={() => {}} 
-        />
-      );
-    }
-    
-    // Priority 3: PDF preview
-    if (item.pdfUrl) {
-      return (
-        <PDFPreview 
-          pdfUrl={item.pdfUrl}
-          className="w-full h-full"
-          fallback={
-            <div className="w-full h-full flex items-center justify-center text-center p-4">
-              <div className="brand-gradient absolute inset-0 opacity-95" />
-              <div className="relative text-white font-semibold leading-snug text-sm line-clamp-3">
-                {item.name}
-              </div>
-            </div>
-          }
-        />
-      );
-    }
-    
-    // Priority 4: existing thumbnailUrl
-    if (t) {
-      return (
-        <Image 
-          src={t} 
-          alt={item.name} 
-          fill
-          className="object-cover transition-transform duration-300 group-hover:scale-105"
-          onError={() => {}} 
+          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          onError={() => {
+            // If image fails to load, clear thumb and fall back to gradient
+            setThumb(null);
+          }}
         />
       );
     }
