@@ -56,6 +56,7 @@ export default function CatalogCardPreview({ item }: { item: Row }) {
   const subtitle = getSubtitle(item);
   const img = getImage(item);
   const href = getLink(item) || img || null;
+  const hasLink = !!href;
 
   return (
     <div className="rounded-2xl border border-neutral-200 bg-white shadow-sm hover:shadow-md transition overflow-hidden">
@@ -75,27 +76,44 @@ export default function CatalogCardPreview({ item }: { item: Row }) {
         <div className="text-sm font-semibold text-neutral-900 line-clamp-1">{title}</div>
         {subtitle && <div className="text-xs text-neutral-500 mt-0.5 line-clamp-1">{subtitle}</div>}
 
-        {href && (
-          <div className="mt-3 flex gap-2">
-            <a
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full bg-[#F46300] text-white hover:opacity-90"
-            >
-              Preview
-            </a>
-            <a
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              download
-              className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full border border-neutral-300 text-neutral-700 hover:bg-neutral-50"
-            >
-              Download
-            </a>
-          </div>
-        )}
+        <div className="mt-3 flex gap-2">
+          {hasLink ? (
+            <>
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full bg-[#F46300] text-white hover:opacity-90"
+              >
+                Preview
+              </a>
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+                className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full border border-neutral-300 text-neutral-700 hover:bg-neutral-50"
+              >
+                Download
+              </a>
+            </>
+          ) : (
+            <>
+              <button
+                onClick={() => window.open('/contact', '_blank')}
+                className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full bg-[#F46300] text-white hover:opacity-90"
+              >
+                Request Info
+              </button>
+              <button
+                onClick={() => window.open('/contact', '_blank')}
+                className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full border border-neutral-300 text-neutral-700 hover:bg-neutral-50"
+              >
+                Contact
+              </button>
+            </>
+          )}
+        </div>
       </div>
     </div>
   );
