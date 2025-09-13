@@ -2,10 +2,10 @@ import React from "react";
 
 type Row = Record<string, any>;
 
-const IMG_KEYS = ["image","image url","image_url","img","thumbnail","thumb","preview","image1","image_1","first image","images","cover"];
-const LINK_KEYS = ["pdf","pdf url","catalog url","url","link","catalogue link"];
-const TITLE_KEYS = ["name","title","catalog","catalogue","file name","filename","design","code"];
-const SUB_KEYS   = ["brand","category"];
+const IMG_KEYS = ["image","image url","image_url","img","thumbnail","thumb","preview","image1","image_1","first image","images","cover","thumbnailUrl","previewImage"];
+const LINK_KEYS = ["pdf","pdf url","catalog url","url","link","catalogue link","driveLink","previewUrl","downloadUrl","pdfUrl"];
+const TITLE_KEYS = ["name","title","catalog","catalogue","file name","filename","design","code","Catalogues Name"];
+const SUB_KEYS   = ["brand","category","Brand","Brands","Category"];
 
 function lowerKeyMap(row: Row) {
   return Object.keys(row).reduce<Record<string,string>>((m,k)=>{m[k.toLowerCase()] = k; return m;}, {});
@@ -44,7 +44,8 @@ function getLink(row: Row)    { return pick(row, LINK_KEYS,  { asUrl:true }); }
 function getTitle(row: Row)   { return pick(row, TITLE_KEYS) || (row.category ?? "Untitled"); }
 function getSubtitle(row: Row){
   const map = lowerKeyMap(row);
-  const brandKey = map["brand"]; const categoryKey = map["category"];
+  const brandKey = map["brand"] || map["brands"]; 
+  const categoryKey = map["category"];
   const brand = brandKey ? String(row[brandKey]).trim() : "";
   const cat   = categoryKey ? String(row[categoryKey]).trim() : "";
   return brand || cat ? (brand || cat) : "";
