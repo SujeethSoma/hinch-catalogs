@@ -1,43 +1,123 @@
 [
   {
-    "Catalogues Name": "Euro Pathik Linear_Catalog",
-    "Catalouge links": "https://drive.google.com/file/d/19sH8B2tAbIrbZRtbkwG1QKrViPKbIWxi/view?usp=sharing",
-    "Category": "Liners",
-    "Brands": "Euro Pathik",
-    "__source": "Catalogue links - Liners",
-    "category": "Liners"
-  },
-  {
-    "Catalogues Name": "Prodek Touch Title & inside Catlouge",
-    "Catalouge links": "https://drive.google.com/file/d/1cIPm65FIjgGIkOQ1SeMKFZkgSwzGbErQ/view?usp=sharing",
-    "Category": "Liners",
-    "Brands": "Prodeck",
-    "__source": "Catalogue links - Liners",
-    "category": "Liners"
-  },
-  {
-    "Catalogues Name": "Miglam",
-    "Catalouge links": "https://drive.google.com/file/d/1dsUM9pL8iQQVkWJ8lYCoeFJtdQ6roOxV/view?usp=sharing",
-    "Category": "Liners",
-    "Brands": "Miglam",
-    "__source": "Catalogue links - Liners",
-    "category": "Liners"
-  },
-  {
-    "Catalogues Name": "MerinoLiner",
-    "Catalouge links": "https://drive.google.com/file/d/1A5LX2IjluCUdfdNSK8giC7wDBA7tA5LN/view?usp=sharing",
-    "Category": "Liners",
-    "Brands": "Merino",
-    "__source": "Catalogue links - Liners",
-    "category": "Liners"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Chisel-Flex-Catalgoue",
+    "Catalogues Name": "Euro Pathik Chisel-Flex-Catalgoue",
     "Catalouge links": "https://drive.google.com/file/d/1xwBDcO42hqwbwODLWKzgHNajXUjLAHqd/view?usp=sharing",
     "Category": "360 Louvers",
     "Brand": "Euro Pathik",
+    "category": "360 Louvers",
     "__source": "Catalogue links__360 Louvers",
-    "category": "360 Louvers"
+    "__updatedAt": "2025-09-13T08:31:28.176Z"
+  },
+  {
+    "Catalogues Name": "ACRY-GOLD 6H Acrylic",
+    "Catalouge links": "https://drive.google.com/file/d/1El3s6m8razjdZLKTPYcBjzSKhwTM5QD0/view?usp=sharing",
+    "Category": "Acrylic Laminates",
+    "Brand": "ACRYGOLD",
+    "category": "Acrylic Laminates",
+    "__source": "Catalogue links__Acrylic Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.178Z"
+  },
+  {
+    "Catalogues Name": "Alimo Acrylic",
+    "Catalouge links": "https://drive.google.com/file/d/1suaHSR6nb2MCH0YcpA-XrGcRrxvO4HTt/view?usp=sharing",
+    "Category": "Acrylic Laminates",
+    "Brand": "Alimo Acrylic",
+    "category": "Acrylic Laminates",
+    "__source": "Catalogue links__Acrylic Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.178Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Sapphire_Brochure",
+    "Catalouge links": "https://drive.google.com/file/d/1QeZt1dM2ZFP6lx8QGe24jVt3LeI0zWFu/view?usp=sharing",
+    "Category": "Acrylic Laminates",
+    "Brand": "Euro Pathik",
+    "category": "Acrylic Laminates",
+    "__source": "Catalogue links__Acrylic Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.178Z"
+  },
+  {
+    "Catalogues Name": "LAICA_DECOR Acrylic",
+    "Catalouge links": "https://drive.google.com/file/d/1nvLYT7y6p57lKXCvZtV-k77WmJC5J5Ft/view?usp=sharing",
+    "Category": "Acrylic Laminates",
+    "Brand": "Laica Decor",
+    "category": "Acrylic Laminates",
+    "__source": "Catalogue links__Acrylic Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.178Z"
+  },
+  {
+    "Catalogues Name": "LAICA-DECOR-Acrylic",
+    "Catalouge links": "https://drive.google.com/file/d/1nvLYT7y6p57lKXCvZtV-k77WmJC5J5Ft/view?usp=sharing",
+    "Category": "Acrylic Laminates",
+    "Brand": "Laica",
+    "category": "Acrylic Laminates",
+    "__source": "Catalogue links__Acrylic Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.178Z"
+  },
+  {
+    "Catalogues Name": "MAGNUS Acrylic",
+    "Catalouge links": "https://drive.google.com/file/d/1bvEgfdl1O8jgqmN5mySZnjw5aixI3Obf/view?usp=sharing",
+    "Category": "Acrylic Laminates",
+    "Brand": "Magnus",
+    "category": "Acrylic Laminates",
+    "__source": "Catalogue links__Acrylic Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.178Z"
+  },
+  {
+    "Catalogues Name": "Mig lam E-CATALOGUE",
+    "Catalouge links": "https://drive.google.com/file/d/10y7_PBkLPoxNs5KgPuFqTokvvGEdx9Zn/view?usp=sharing",
+    "Category": "Acrylic Laminates",
+    "Brand": "MigLam",
+    "category": "Acrylic Laminates",
+    "__source": "Catalogue links__Acrylic Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.178Z"
+  },
+  {
+    "Catalogues Name": "Rang Faded 6.0 Acrlic",
+    "Catalouge links": "https://drive.google.com/file/d/1phK5z3cmPqwcD0AYId1IyEg1giwzCdq7/view?usp=sharing",
+    "Category": "Acrylic Laminates",
+    "Brand": "Rang",
+    "category": "Acrylic Laminates",
+    "__source": "Catalogue links__Acrylic Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.178Z"
+  },
+  {
+    "Catalogues Name": "Rang Litia Acrylic",
+    "Catalouge links": "https://drive.google.com/file/d/1WQGkd9pjXSRw9V1PqYaJCSrK822KrPJS/view?usp=sharing",
+    "Category": "Acrylic Laminates",
+    "Brand": "Rang",
+    "category": "Acrylic Laminates",
+    "__source": "Catalogue links__Acrylic Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.178Z"
+  },
+  {
+    "Catalogues Name": "Rang Maskara 6H Acrylic",
+    "Catalouge links": "https://drive.google.com/file/d/1qSkZO82da3rmiiEr6gboowXWkZ1LkikY/view?usp=sharing",
+    "Category": "Acrylic Laminates",
+    "Brand": "Rang",
+    "category": "Acrylic Laminates",
+    "__source": "Catalogue links__Acrylic Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.178Z"
+  },
+  {
+    "Catalogues Name": "Vivre AcryVibe 6H Anit-Scratch Acrylic Laminates E Catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1GhiDlHpQ3N0UFMBPQyWEdwyz99Jd04R4/view?usp=sharing",
+    "Category": "Acrylic Laminates",
+    "Brand": "Vivre",
+    "category": "Acrylic Laminates",
+    "__source": "Catalogue links__Acrylic Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.178Z"
+  },
+  {
+    "﻿Catalogues Name": "ACRY-GOLD 6H Acrylic",
+    "Catalogues Name": "ACRYGOLD",
+    "__source": "Catalogue links__Acrylic Laminates",
+    "category": "Catalogue links__Acrylic Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Alimo Acrylic",
+    "Catalogues Name": "Alimo Acrylic",
+    "__source": "Catalogue links__Acrylic Laminates",
+    "category": "Catalogue links__Acrylic Laminates"
   },
   {
     "﻿Catalogues Name": "Euro Pathik Sapphire_Brochure",
@@ -46,14 +126,14 @@
     "category": "Catalogue links__Acrylic Laminates"
   },
   {
-    "﻿Catalogues Name": "Vivre AcryVibe 6H Anit-Scratch Acrylic Laminates E Catalogue",
-    "Catalogues Name": "Vivre",
+    "﻿Catalogues Name": "LAICA-DECOR-Acrylic",
+    "Catalogues Name": "Laica",
     "__source": "Catalogue links__Acrylic Laminates",
     "category": "Catalogue links__Acrylic Laminates"
   },
   {
-    "﻿Catalogues Name": "Mig lam E-CATALOGUE",
-    "Catalogues Name": "MigLam",
+    "﻿Catalogues Name": "LAICA_DECOR Acrylic",
+    "Catalogues Name": "Laica Decor",
     "__source": "Catalogue links__Acrylic Laminates",
     "category": "Catalogue links__Acrylic Laminates"
   },
@@ -64,8 +144,8 @@
     "category": "Catalogue links__Acrylic Laminates"
   },
   {
-    "﻿Catalogues Name": "LAICA-DECOR-Acrylic",
-    "Catalogues Name": "Laica",
+    "﻿Catalogues Name": "Mig lam E-CATALOGUE",
+    "Catalogues Name": "MigLam",
     "__source": "Catalogue links__Acrylic Laminates",
     "category": "Catalogue links__Acrylic Laminates"
   },
@@ -88,1469 +168,10 @@
     "category": "Catalogue links__Acrylic Laminates"
   },
   {
-    "﻿Catalogues Name": "ACRY-GOLD 6H Acrylic",
-    "Catalogues Name": "ACRYGOLD",
+    "﻿Catalogues Name": "Vivre AcryVibe 6H Anit-Scratch Acrylic Laminates E Catalogue",
+    "Catalogues Name": "Vivre",
     "__source": "Catalogue links__Acrylic Laminates",
     "category": "Catalogue links__Acrylic Laminates"
-  },
-  {
-    "﻿Catalogues Name": "LAICA_DECOR Acrylic",
-    "Catalogues Name": "Laica Decor",
-    "__source": "Catalogue links__Acrylic Laminates",
-    "category": "Catalogue links__Acrylic Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Alimo Acrylic",
-    "Catalogues Name": "Alimo Acrylic",
-    "__source": "Catalogue links__Acrylic Laminates",
-    "category": "Catalogue links__Acrylic Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Greenlam",
-    "Catalogues Links": "https://drive.google.com/file/d/1riOUH5AD0HZESUhxxfcaMw5vtO7YFOnj/preview",
-    "Category": "Laminates",
-    "Brands": "Greenlam",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Chroma 1mm",
-    "Catalogues Links": "https://drive.google.com/file/d/1oZCDsmgKJ5LwVzzL53tJE_iR6G3qYK0v/preview",
-    "Category": "Laminates",
-    "Brands": "Chroma 1mm",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Virgo Chroma 0.8mm",
-    "Catalogues Links": "https://drive.google.com/file/d/1rWego-A5rGo53xqjKLL39Uu3NEincJsT/preview",
-    "Category": "Laminates",
-    "Brands": "Virgo Chroma 0.8mm",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Alimo",
-    "Catalogues Links": "https://drive.google.com/file/d/1ozRRnwuCTJ5ddjLPbdBdg9MZAsWO-DwL/preview",
-    "Category": "Laminates",
-    "Brands": "Alimo",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Fine Touch",
-    "Catalogues Links": "https://drive.google.com/file/d/1J_oU_ROZFsCJYsVIlmgljNDzEfPovyX_/preview",
-    "Category": "Laminates",
-    "Brands": "Fine Touch",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "New Nelgo Catalouge",
-    "Catalogues Links": "https://drive.google.com/file/d/1jpdicz11E6qW9nY1vZJjdX35joMLe_DX/preview",
-    "Category": "Laminates",
-    "Brands": "New Nelgo Catalouge",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Ovel Laminate",
-    "Catalogues Links": "https://drive.google.com/file/d/14b-eRpLHiD8hJg4zG7Zr6i22bGGIIBSW/preview",
-    "Category": "Laminates",
-    "Brands": "Ovel Laminate",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Pentone",
-    "Catalogues Links": "https://drive.google.com/file/d/1_H6bA2akEKKPFwT96qvUgS0J2UTWbRzo/preview",
-    "Category": "Laminates",
-    "Brands": "Pentone",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Imperio colorado",
-    "Catalogues Links": "https://drive.google.com/file/d/1XlaEzUnPt-Oy8aWbGncZ52rEp6BZB3pk/preview",
-    "Category": "Laminates",
-    "Brands": "Imperio colorado",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Imperio Massai Mara",
-    "Catalogues Links": "https://drive.google.com/file/d/14qLZ9cTPHhxx9WulTS-iJGNUFe3trXqX/preview",
-    "Category": "Laminates",
-    "Brands": "Imperio Massai Mara",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "B4 Bell",
-    "Catalogues Links": "https://drive.google.com/file/d/146BfQrlPyGnREiiCiecEEbtoLI-Ht5na/preview",
-    "Category": "Laminates",
-    "Brands": "B4 Bell",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Heaven Color",
-    "Catalogues Links": "https://drive.google.com/file/d/1eMmuTJ5C7GACH9F4MIiz3P0Hmx9ADs8Y/preview",
-    "Category": "Laminates",
-    "Brands": "Heaven Color",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Litone Final",
-    "Catalogues Links": "https://drive.google.com/file/d/1DA92b4Hc6H5JDegfCFJRCd8RLxkFwjv1/preview",
-    "Category": "Laminates",
-    "Brands": "Litone Final",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "My Tone",
-    "Catalogues Links": "https://drive.google.com/file/d/1ksCFCe8QEwir_7DlKWKau0kjWVVt0a-o/preview",
-    "Category": "Laminates",
-    "Brands": "My Tone",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "WelWin NEW Ok",
-    "Catalogues Links": "https://drive.google.com/file/d/1dABoaXvKMGZK79hhvag5M6Bp9pUMNr1d/preview",
-    "Category": "Laminates",
-    "Brands": "WelWin NEW Ok",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Catch Cray",
-    "Catalogues Links": "https://drive.google.com/file/d/11dCbh3ydEUSWELXU0_6QhQGVJ602yJAJ/preview",
-    "Category": "Laminates",
-    "Brands": "Catch Cray",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Mama Laminate",
-    "Catalogues Links": "https://drive.google.com/file/d/1R85Y_2KPudMwpHwJYDHDeQ2Hd2pmoxVL/preview",
-    "Category": "Laminates",
-    "Brands": "Mama Laminate",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Mocco Laminate",
-    "Catalogues Links": "https://drive.google.com/file/d/1b05-NVHHq3exx-KsElKv2qNPtz9Ua_zw/preview",
-    "Category": "Laminates",
-    "Brands": "Mocco Laminate",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Paper Art",
-    "Catalogues Links": "https://drive.google.com/file/d/1b05-NVHHq3exx-KsElKv2qNPtz9Ua_zw/preview",
-    "Category": "Laminates",
-    "Brands": "Paper Art",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Paperlam",
-    "Catalogues Links": "https://drive.google.com/file/d/10TcgYKaeyQr9PQywJS2DE03SNirJWuD6/preview",
-    "Category": "Laminates",
-    "Brands": "Paperlam",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Rennova Catalouge",
-    "Catalogues Links": "https://drive.google.com/file/d/1mOKhLp7fEms9VZ4R5nYJJzRraFmcxStR/preview",
-    "Category": "Laminates",
-    "Brands": "Rennova Catalouge",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Neplam Catalouge",
-    "Catalogues Links": "https://drive.google.com/file/d/1zd_Dhnkv7LTZeooNuEwTEc1kH9hoZZeY/preview",
-    "Category": "Laminates",
-    "Brands": "Neplam Catalouge",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Nexora",
-    "Catalogues Links": "https://drive.google.com/file/d/1G792fq2QkkbSqoaFTUQJU9DbdJzOm0ji/preview",
-    "Category": "Laminates",
-    "Brands": "Nexora",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "S Decor",
-    "Catalogues Links": "https://drive.google.com/file/d/1vxLiqQOOlUV-k7Sk_kPdBA52Slm2myDm/preview",
-    "Category": "Laminates",
-    "Brands": "S Decor",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Wine Laminate",
-    "Catalogues Links": "https://drive.google.com/file/d/14BqDDcK5K4L6jj1FwGYrpo0jU33guXC4/preview",
-    "Category": "Laminates",
-    "Brands": "Wine Laminate",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Brilliance Plain Colour",
-    "Catalogues Links": "https://drive.google.com/file/d/1k2__hzAkTEsnSeUui3BlnToCha3VxL4z/preview",
-    "Category": "Laminates",
-    "Brands": "Brilliance Plain Colour",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Crysla",
-    "Catalogues Links": "https://drive.google.com/file/d/1SuwuMQGZARF_kEqxCoKNHmotNnhYSl-G/preview",
-    "Category": "Laminates",
-    "Brands": "Crysla",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Hilaxe",
-    "Catalogues Links": "https://drive.google.com/file/d/1Wwg1oNugsivqFdD0eTf9AU1dB1vAV1uU/preview",
-    "Category": "Laminates",
-    "Brands": "Hilaxe",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Neloaxe Laminate - 2",
-    "Catalogues Links": "https://drive.google.com/file/d/1Wwg1oNugsivqFdD0eTf9AU1dB1vAV1uU/preview",
-    "Category": "Laminates",
-    "Brands": "Neloaxe Laminate - 2",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "reloaxe Laminate-1",
-    "Catalogues Links": "https://drive.google.com/file/d/1ChonNnDKwRMY7Eld_VCdmnBlp1Syif5C/preview",
-    "Category": "Laminates",
-    "Brands": "reloaxe Laminate-1",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Fabric  Linner",
-    "Catalogues Links": "https://drive.google.com/file/d/105wsfvNUtLc4aEo1XZcclhtz7OX1ouCa/preview",
-    "Category": "Laminates",
-    "Brands": "Fabric  Linner",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Mareki Pvc Laminate",
-    "Catalogues Links": "https://drive.google.com/file/d/1eT5qvmTnIOiX9U3pyVAsAEXd2xtLxdjh/preview",
-    "Category": "Laminates",
-    "Brands": "Mareki Pvc Laminate",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Color Art Revised",
-    "Catalogues Links": "https://drive.google.com/file/d/1EGRE7-hP1tIf_vASUdxwuJH0ZjGbx-ko/vpreview",
-    "Category": "Laminates",
-    "Brands": "Color Art Revised",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Layout",
-    "Catalogues Links": "https://drive.google.com/file/d/1jmXnDQyoq1TUDdwPwycI89FtKTSWbFoz/preview",
-    "Category": "Laminates",
-    "Brands": "Layout",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Oliviya Final 1",
-    "Catalogues Links": "https://drive.google.com/file/d/1NkRJG-e8uiBW8V4myEqf8853viPIRBMq/preview",
-    "Category": "Laminates",
-    "Brands": "Oliviya Final 1",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Oliviya Italiano Interactive",
-    "Catalogues Links": "https://drive.google.com/file/d/1GB55D7axdlIIiLZpMJKYPkz6yL8M9XxZ/preview",
-    "Category": "Laminates",
-    "Brands": "Oliviya Italiano Interactive",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Kooyoo Acrylic",
-    "Catalogues Links": "https://drive.google.com/file/d/1__yGLrastkrOFfXA1wji1TnuxFenAmv1/preview",
-    "Category": "Laminates",
-    "Brands": "Kooyoo Acrylic",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Kooyoo Plain Colour",
-    "Catalogues Links": "https://drive.google.com/file/d/1-8bAH9n02PQpAA5KWVDadgUI3Wr5OQtv/preview",
-    "Category": "Laminates",
-    "Brands": "Kooyoo Plain Colour",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Brush Hpl New Theme",
-    "Catalogues Links": "https://drive.google.com/file/d/1yJt4bYvGCGtbfT7eSTfQTcWAiAYunB7F/preview",
-    "Category": "Laminates",
-    "Brands": "Brush Hpl New Theme",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "ColorDesk",
-    "Catalogues Links": "https://drive.google.com/file/d/1G83sFCa9T5vEAa0Zdm-LsUG70aN69_vT/preview",
-    "Category": "Laminates",
-    "Brands": "ColorDesk",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "EuroShivShakti",
-    "Catalogues Links": "https://drive.google.com/file/d/1wIYW5m08vjfzs2atHJFJNkHTyK0D1vPp/preview",
-    "Category": "Laminates",
-    "Brands": "EuroShivShakti",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Merino-Play",
-    "Catalogues Links": "https://drive.google.com/file/d/1XsHVmaERkBQiXjpOju_g2vFfaRITMQUu/preview",
-    "Category": "Laminates",
-    "Brands": "Merino-Play",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "MerinoLiner  With Torpedo",
-    "Catalogues Links": "https://drive.google.com/file/d/1zd-X4tEGPel-At6Z9ZmmXe7okZyRLfxt/preview",
-    "Category": "Laminates",
-    "Brands": "MerinoLiner  With Torpedo",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Kairos Louver",
-    "Catalogues Links": "https://drive.google.com/file/d/16kmTmPqR7V15QG0gO0y_Oxu8UzBfq2Zl/preview",
-    "Category": "Laminates",
-    "Brands": "Kairos Louver",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "MigLam",
-    "Catalogues Links": "https://drive.google.com/file/d/1d51Qs83ZZ6E3hjzeaEnw0Z6MxKeuVLyP/preview",
-    "Category": "Laminates",
-    "Brands": "MigLam",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "MikoLam",
-    "Catalogues Links": "https://drive.google.com/file/d/1aKb7y2hB0hNw8ose6vTszKD8oo2XcUuk/preview",
-    "Category": "Laminates",
-    "Brands": "MikoLam",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Prodek Inner Laminate",
-    "Catalogues Links": "https://drive.google.com/file/d/1OSW5G80-d_-XhenmvHbXXlfKZmn9tGBX/preview",
-    "Category": "Laminates",
-    "Brands": "Prodek Inner Laminate",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Stanley-PVC Folder",
-    "Catalogues Links": "https://drive.google.com/file/d/1eEN4QijgeV57dMRFAggPdsylJyvnrXZi/preview",
-    "Category": "Laminates",
-    "Brands": "Stanley-PVC Folder",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Arctoinc",
-    "Catalogues Links": "https://drive.google.com/file/d/1b1pMDzsMYxxiQ1n_1npsLfHJ9SSbImvh/preview",
-    "Category": "Laminates",
-    "Brands": "Arctoinc",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Elegora",
-    "Catalogues Links": "https://drive.google.com/file/d/1IKbTPUZ7t44Zz36HuncLQyMHp8QQglZF/preview",
-    "Category": "Laminates",
-    "Brands": "Elegora",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Steeloak",
-    "Catalogues Links": "https://drive.google.com/file/d/1pD3BJnEX7y9lRdtjKIs3-ciUGMhf_rMo/preview",
-    "Category": "Laminates",
-    "Brands": "Steeloak",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Creative Colour",
-    "Catalogues Links": "https://drive.google.com/file/d/1sW-MHG9ATVApuwIqv1iOPVjmi8z0BLAC/vpreview",
-    "Category": "Laminates",
-    "Brands": "Creative Colour",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Color Vista",
-    "Catalogues Links": "https://drive.google.com/file/d/1kc5Bpppk4QJLUSy1U_W2jO-1etyyXr09/preview",
-    "Category": "Laminates",
-    "Brands": "Color Vista",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Vidyalam 1MM",
-    "Catalogues Links": "https://drive.google.com/file/d/1fEOijMieSizS6rF49-47upc7gVVGlHNB/preview",
-    "Category": "Laminates",
-    "Brands": "Vidyalam 1MM",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Sonova",
-    "Catalogues Links": "https://drive.google.com/file/d/1S9GI5u5npkx4pPc5Sq4w9KgHtgvhEwsV/preview",
-    "Category": "Laminates",
-    "Brands": "Sonova",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Thermolite",
-    "Catalogues Links": "https://drive.google.com/file/d/11NAg73elzWDrX3fXmi9ID2eq7OiNrPPX/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Euro Pathik",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Sapphire-Flute-Brochure",
-    "Catalogues Links": "https://drive.google.com/file/d/1nXFjDVbiwt63_dV6EqVMTWueFHlG_HHJ/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Euro Pathik",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik PLUTO-Catalogue-2023",
-    "Catalogues Links": "https://drive.google.com/file/d/1FScflpZlPIqnqIUiauQI-eWQphPxR6NC/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Euro Pathik",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Miraj",
-    "Catalogues Links": "https://drive.google.com/file/d/1MOj1WptBtuYvLtfWX29ohQizeg8Eqpzb/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Euro Pathik",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Mirage-VOL2-2025",
-    "Catalogues Links": "https://drive.google.com/file/d/1j48zvRO-oi_T7WpgzU3FLnYsnFDqHOoc/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Euro Pathik",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik I_CORE-Catalogue",
-    "Catalogues Links": "https://drive.google.com/file/d/1nzNZs1TFA2FBguncX-on-kMSdhRQbVLa/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Euro Pathik",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik DOCORE-Catalogue",
-    "Catalogues Links": "https://drive.google.com/file/d/19LvmyNgiv3pV1cgosM1CgNLQsRl82dD7/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Euro Pathik",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Decoclay",
-    "Catalogues Links": "https://drive.google.com/file/d/1eQQ6J71pGhZV7YgiDMFLvaQeId16gAgg/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Euro Pathik",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik CORRIANO_CATALOG_PDF_FORMAT",
-    "Catalogues Links": "https://drive.google.com/file/d/1oyRWEmWxp5dQOTSZhI5r1pNJ6_LVzmmY/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Euro Pathik",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "SLOAN KALAMKARI CORK BY STERLINA[1]",
-    "Catalogues Links": "https://drive.google.com/file/d/1hUVEE5AyGmb3AY8lHhNptTqswWqezTvM/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Sterlina",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "MAKERS_1MM_FINAL",
-    "Catalogues Links": "https://drive.google.com/file/d/1nMIoPGZhD3TZ7fuX9mMPG-GKMpZx4rld/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Makers",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "PRIVA 1MM",
-    "Catalogues Links": "https://drive.google.com/file/d/1dqcBhQnGQ7aGSgMBXrWVb53BhsUd_ods/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Priva",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Livmica",
-    "Catalogues Links": "https://drive.google.com/file/d/1nor6B43QACQ-VMBvntqbOXzMwGsErgFx/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Priva",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "SAINIK_LAMINATES_Design_Studio_Interactive_FINAL_1_230a91e311",
-    "Catalogues Links": "https://drive.google.com/file/d/1LRvm1THQ2yanZ0AUAjfPr4CXG10_wUgo/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Century",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Lookbook Century",
-    "Catalogues Links": "https://drive.google.com/file/d/1Kx15pREGfz5S_ICsvkf3ocrVZAqTdLOC/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Century",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Shore",
-    "Catalogues Links": "https://drive.google.com/file/d/1GhvEd4ibv7y3dvh1MCDMJq4aEy7oEfMg/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Shore",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Subtle Finetouch",
-    "Catalogues Links": "https://drive.google.com/file/d/1Ix4y67oUao1lNv6oBOAgMWkpNMgLxJsm/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Finetouch Subtle",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Rang Ohho Decorative Laminates",
-    "Catalogues Links": "https://drive.google.com/file/d/1pKuVkvSud6OHw_ggb_z4_jWxHenLlpVy/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Rang Ohho",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "STERLINA SVECHA BY STERLINA[1] (1)",
-    "Catalogues Links": "https://drive.google.com/file/d/1Qc_tSeMxSyZJ_Zdd9tPyVDojz0Bcxiha/view?usp=sharing",
-    "Category": "Decorative Fabric  sheet",
-    "Brands": "Sterlina",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Decorative Fabric  sheet"
-  },
-  {
-    "﻿Catalogues Name": "SELENE-1 BY STERLINA DESIGN[1]",
-    "Catalogues Links": "https://drive.google.com/file/d/1ELb9_yND-xLtMzC7ybvM6JUJT5rjKiHz/view?usp=sharing",
-    "Category": "Decorative Fabric  sheet",
-    "Brands": "Sterlina",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Decorative Fabric  sheet"
-  },
-  {
-    "﻿Catalogues Name": "Pencil Laminates",
-    "Catalogues Links": "https://drive.google.com/file/d/1HmOHfQLj_ASSceeqmfpHM6TlSDHrJSz3/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Pencil",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "Woodpaper By Fasten Laminates",
-    "Catalogues Links": "https://drive.google.com/file/d/1B4a_z_ZSiGrze-9CZqlE48_HaBYpQ3mh/view?usp=sharing",
-    "Category": "Laminates",
-    "Brands": "Woodpaper",
-    "__source": "Catalogue links__Decorative Laminates",
-    "category": "Laminates"
-  },
-  {
-    "﻿Catalogues Name": "SLATER DOOR BY DELIZIA INTERIOR[1]",
-    "Catalouge links": "https://drive.google.com/file/d/1v7q9tOwojK4Xj6Hs_xk2HDSgexSM7UCs/view?usp=sharing",
-    "Category": "Metallic Doors",
-    "Brand": "Delizia",
-    "__source": "Catalogue links__Doors",
-    "category": "Metallic Doors"
-  },
-  {
-    "﻿Catalogues Name": "E8 Edge Banding",
-    "Catalouge links": "https://drive.google.com/file/d/1DjyaasHSpvO09nIh6xpbEfi3dQoJinFe/view?usp=sharing",
-    "Category": "Edge Banding",
-    "Brand": "E8",
-    "__source": "Catalogue links__Edge Banding",
-    "category": "Edge Banding"
-  },
-  {
-    "﻿Catalogues Name": "Livsmart Ebco",
-    "Catalouge links": "https://drive.google.com/file/d/1dKCi2t3Ie50f71eDmw-4d0Dh9unj9BQz/view?usp=sharing",
-    "Category": "Hardware",
-    "Brands": "Ebco",
-    "__source": "Catalogue links__Hardware",
-    "category": "Hardware"
-  },
-  {
-    "﻿Catalogues Name": "NEXITO DRC",
-    "Catalouge links": "https://drive.google.com/file/d/1jLMvTxBqscjhwkQQcwzUIrP4r5Uqz9a8/view?usp=sharing",
-    "Category": "Hardware",
-    "Brands": "DRC",
-    "__source": "Catalogue links__Hardware",
-    "category": "Hardware"
-  },
-  {
-    "﻿Catalogues Name": "Conceal Profile Knob Brochure_searchable[2]",
-    "Catalouge links": "https://drive.google.com/file/d/1vC83qB7vY7qpGFc3lDmXGJn3lNIyk39V/view?usp=sharing",
-    "Category": "Hardware",
-    "Brands": "Plum",
-    "__source": "Catalogue links__Hardware",
-    "category": "Hardware"
-  },
-  {
-    "﻿Catalogues Name": "Aaryan Mortise & MD Brochure_searchable[1]",
-    "Catalouge links": "https://drive.google.com/file/d/1u7Z8W_HIQwg4W64F-IRzcwoKO_U8gSFg/view?usp=sharing",
-    "Category": "Hardware",
-    "Brands": "Plum",
-    "__source": "Catalogue links__Hardware",
-    "category": "Hardware"
-  },
-  {
-    "﻿Catalogues Name": "Aaryan Kids Brochure_searchable[1]",
-    "Catalouge links": "https://drive.google.com/file/d/1x9PtKoI4ZnFXOyTIk7C_hYXAj8hRHMNl/view?usp=sharing",
-    "Category": "Hardware",
-    "Brands": "Plum",
-    "__source": "Catalogue links__Hardware",
-    "category": "Hardware"
-  },
-  {
-    "﻿Catalogues Name": "DRC Catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1x9PtKoI4ZnFXOyTIk7C_hYXAj8hRHMNl/view?usp=sharing",
-    "Category": "Hardware",
-    "Brands": "DRC",
-    "__source": "Catalogue links__Hardware",
-    "category": "Hardware"
-  },
-  {
-    "﻿Catalogues Name": "EBCO MRP April 24, 2023",
-    "Catalouge links": "https://drive.google.com/file/d/1X067PSEkrvjC7vy4PhaoE85FYVC9yj8f/view?usp=sharing",
-    "Category": "Hardware",
-    "Brands": "EBCO",
-    "__source": "Catalogue links__Hardware",
-    "category": "Hardware"
-  },
-  {
-    "﻿Catalogues Name": "Hettich FF & AH Retail Price List Feb 2025-1 (1)",
-    "Catalouge links": "https://drive.google.com/file/d/130dq2vko9cyXR-fzpG7uFSejHVhM7J1A/view?usp=sharing",
-    "Category": "Hardware",
-    "Brands": "Hettich",
-    "__source": "Catalogue links__Hardware",
-    "category": "Hardware"
-  },
-  {
-    "﻿Catalogues Name": "WORKSMART",
-    "Catalouge links": "https://drive.google.com/file/d/1-7try1woDOqBi6XVfBjAkZIRuWjxDCFV/view?usp=sharing",
-    "Category": "Hardware",
-    "Brands": "Ebco",
-    "__source": "Catalogue links__Hardware",
-    "category": "Hardware"
-  },
-  {
-    "﻿Catalogues Name": "Hablo",
-    "Catalouge links": "https://drive.google.com/file/d/1_kxZ803Q-T2sJI1bv2xPfbLDF0sHAwRp/view?usp=sharing",
-    "Category": "Hardware",
-    "Brands": "Hablo",
-    "__source": "Catalogue links__Hardware",
-    "category": "Hardware"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Linear_Catalog",
-    "Catalouge links": "https://drive.google.com/file/d/19sH8B2tAbIrbZRtbkwG1QKrViPKbIWxi/view?usp=sharing",
-    "Category": "Liners",
-    "Brands": "Euro Pathik",
-    "__source": "Catalogue links__Liners",
-    "category": "Liners"
-  },
-  {
-    "﻿Catalogues Name": "Prodek Touch Title & inside Catlouge",
-    "Catalouge links": "https://drive.google.com/file/d/1cIPm65FIjgGIkOQ1SeMKFZkgSwzGbErQ/view?usp=sharing",
-    "Category": "Liners",
-    "Brands": "Prodeck",
-    "__source": "Catalogue links__Liners",
-    "category": "Liners"
-  },
-  {
-    "﻿Catalogues Name": "Miglam",
-    "Catalouge links": "https://drive.google.com/file/d/1dsUM9pL8iQQVkWJ8lYCoeFJtdQ6roOxV/view?usp=sharing",
-    "Category": "Liners",
-    "Brands": "Miglam",
-    "__source": "Catalogue links__Liners",
-    "category": "Liners"
-  },
-  {
-    "﻿Catalogues Name": "Celesto Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1LY9V51JzEYVXDNwedNGXu1ad7ArK21Aa/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Aluluxe Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1d-xDxVqgHqdlG-_LW_2NrnopENEUcXUy/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Jazz Mosaics Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1Ze4MUDIiDL221quPYFeJ0vR4yesI20kx/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Deconet  Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/17TyhjOdJvok0sr1lTlr4DmBjm2fMSDlG/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Emporio Signature Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1bCR1YT_0Jy3OHLBQQTmpo2y8m2f9aQey/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Lusso  Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1SbrHVupLH9DoM_jZQnR8AACE2mixZN5Q/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Crysta Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1HZiLNxfXJNmkHerXA2PPKtk4_iW4NF3c/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Lamiteq Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1gicJ8kJThxz0c7IzJ8DV0htMNuKYj6q3/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Iris Signature Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/14e5l-4xZf4E45lMFMlDxEG7JrHHKgWG8/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Iris Curve Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/19UpS1IxXUF55m0AB-IwwAvr9jGUqTUhu/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Sketch Mobile  Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1mVw1JVpFHl2h8JuqCs302-vrHL9mGiei/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Styro  Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1ldy8M1Pxdnlid4FLRzqDRU1xn8jp5V3p/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Ignis Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1MMMz4qVfR5dW31t983j4jnutt4W6rIzT/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Canex Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/14Jix8RUCl-3LIBEDe6uQBA9fEIb1qZKo/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Lmiteq Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1EQ7e0Ap5q743lkrKWxyH9AftLk-2reOZ/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Artique Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1vD7o6T53Avz-7ux1ReckTkwyoeGhg22O/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Emporio 2.0 Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1To1u2kzYJzpRA1dpj7DhC8LMZFyR8Nvb/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Pluto.1 Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1DeLHFNqBTWNY72dMw9v3__xRFr3bFdDo/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Iris Club 1 Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1U_qm1bjNI2xc4ylKqQ-64D6FWId-0PPB/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Stencil Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1hTYLhL5u90dfrLGTDhv1zcU98_qt62b_/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Styro-6 Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/18u4kLI9D3fDVgbW9xGngESXNIGM5N70B/peview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Gloirio Iris 2 Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/16oIcPcTuNV0Bdr1IkzcIHcZ9ygKRSim5/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Vouge Decor Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1XXCVSuUErHvuw5eqrYKCuxWJ08TYR5S6/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Sirocco Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1YFeqejysEXpUEmTB9E5Ijsa0dXM_P_jy/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Calypso Inside Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1n7ZtdT4AvroDKpcq-gYjvRQmzBp9xL7W/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Iris Wall Panels Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/11nCgk2ic61C1f9F_sS4TD_LVlT1oGzc6/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Gloirio Flute Story Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1OOeVBWJoolCQgf9ZuuXOxRhM7npuIRPU/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Jade Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1i7yzJ1LnGDv79l161e-CawGFO-bMGRd3/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Mirraco Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1ql7MQJZfMHoyryZrL3ikfClbvLM3Aamn/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Wallstar Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1S7MzGqRxdQgzeLW_JMlKAoeRHgyRgI_V/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Styro-VOL-3 Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/152Vqfv-eHcKoBWwm6deGQYqTAwZ20y6l/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Styro-VOL-5 Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1nwjh_zs3TCivN8Os-ZHM6eU-lgFhjtze/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Louvers Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1rdIvpSpTcLAeVgYcLr4HPtrNoN1gv6ci/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Grace Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1E_MoLEIPVq4JmatnmGmDXGStDbefCQ43/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Grace.2 Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1jIKODik_jdDG7hej00r3lT0Rcxw9AOH6/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Gold Bar Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1I4Wh4sV4gyClQyngqvQH7CswRHDA8NeG/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Gloris Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1wLARRe5SXS2cNO0hgMgy_yiDke5CdNjp/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "45",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Genesis Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1oeiv5wdMo0gnM0cjSfxzSd8b1PkGHte9/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Fusion Panel Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/18vptCp6G8GKGZDsgAycucj9griUwPIjB/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Edge Band Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/18EfpuCzIjJ6UNjnoZ5wHplaCxA5SZvKq/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Woodline Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1kfY1YH4ikdqJZOWEsvKU5M_qHwPKAYyP/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Woodline-Vo-5 Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/15hoSSc2zZxU4exr7DfJYl11lapSS0yYo/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Alabaster Glorio",
-    "Catalouge links": "https://drive.google.com/file/d/1-ILeVCOg6tnGC3UzvwApaDlBw8rvOvWp/preview",
-    "Category": "Louvers",
-    "Brands": "Glorio",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathikn Zink",
-    "Catalouge links": "https://drive.google.com/file/d/1rnW4CnrHb9Py_NluiR6B-zXkBvNX4puN/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Louvers-catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1w8R_fxHQpEDlXBjqCA_iTeH2nlh52d4H/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Louvers-catalogue 2025",
-    "Catalouge links": "https://drive.google.com/file/d/1C0wAoH1gTlFQEzRBYkFYDP44F-hdhXJe/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Exterior-Louvers",
-    "Catalouge links": "https://drive.google.com/file/d/1lIlNBqiKdeyTa5a_yPp85_4jz3TLaTKF/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "EURO-PRATIK_LOUVERSPRO_BROCHURE",
-    "Catalouge links": "https://drive.google.com/file/d/11mMLE-nRuYIiHY948qQzvZcR4lIIXQIt/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "EP_Chisel_VOL_2_2023_Catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1Nt_uE5SfcRv1lJ-n42t2yqgWTWFB18d5/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "EP_Chisel DECOLOUVERS_VOL_02",
-    "Catalouge links": "https://drive.google.com/file/d/1GxvKXa5Mk2JiM7sVcwAGQpePwvo56bZh/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Chisel-Rio-Catalgoue",
-    "Catalouge links": "https://drive.google.com/file/d/1puKYQGsD64mtEvCGrTMY4Nba9a8T4_fJ/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik chisel-3-Catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1f1TrNgX78bYeh6uH_ciC-Vb_O49pvrcC/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Cassa-catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1qr4Pr-tt2IEVdiQCkg6JQl4kbktPek1U/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Cassa-catalogue-vol2",
-    "Catalouge links": "https://drive.google.com/file/d/1Om-qrwaB9yxAMunV7e-Dj-i-veeWvxOa/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik CASSA-7-2025-Catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1N6_Y4RkACHozO_5yqE_WvJiMrErFa7Zo/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik CASSA-6-Catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1V7-2_XBUa2RKM1Oqnf-Q78l6kpEQPW72/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik CASSA-3-Catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1WgS18hZPjlvFBjw-n_ChZk2h8SWkhIJh/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Bezel-Brochure",
-    "Catalouge links": "https://drive.google.com/file/d/1uCIhxBC28-XLvUM8vfHGXVyJjuqKx9Oo/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik AURIS-Catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1tLf4W7QTzgXMRokTuRFlGaQttlPhFXy6/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik ASTER-Catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1uJinw0SHiLb7CEPqTactv9aBjxC6SXh7/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik ASSA-Brochure",
-    "Catalouge links": "https://drive.google.com/file/d/1pZdx83MSVF6x3eoO3PIcQmxnng_VtOko/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Aspire-Reloaded",
-    "Catalouge links": "https://drive.google.com/file/d/1dpOil-VUvNxiZ5_w0H4hnXUVzkSWPDRU/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Artisan-vol-2",
-    "Catalouge links": "https://drive.google.com/file/d/1ZHedh4SseI_SbCRB_BhYjDro-GPQQIHc/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Artisan-Catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1uBv2IJy5garONu7LGrhOj8StJaWQqkXh/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Allusion",
-    "Catalouge links": "https://drive.google.com/file/d/1CrYAcJ5ij5HCU92F3UpAmVxs2bl7nZ3n/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Allure-vol-3",
-    "Catalouge links": "https://drive.google.com/file/d/17klYtOU0P7cIOZPtqxBCAfTb7RdbSWn9/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Acroglass_2023",
-    "Catalouge links": "https://drive.google.com/file/d/1_wVHWHcBa9INkuNfZuObKehJEe9GAcHz/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Euro Pathik",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Vivre Elewood - E Catalogue[1]",
-    "Catalouge links": "https://drive.google.com/file/d/1ZtNKuNdG09bJw_MoeOJ22M7zsiAKfLAL/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Vivre",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Vivre Profiles[1]",
-    "Catalouge links": "https://drive.google.com/file/d/1saU718ZVwDZ2Td6g2c9ltVuGY6fkMUCf/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Vivre",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Vivre Louvers 2[1]",
-    "Catalouge links": "https://drive.google.com/file/d/1d8dGgP8of7c_QCrzUtvzEmlWu7lYYtUP/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Vivre",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Vivre Aluclad[1]",
-    "Catalouge links": "https://drive.google.com/file/d/1t8LwFicmJzRKcf70QZ00VDx9jQY2Gvc6/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Vivre",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "VivAsaa 2[1]",
-    "Catalouge links": "https://drive.google.com/file/d/1SFYZZy32lTFz-IDkEw3XiOBIvnCzSHej/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Vivre",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Vivre Quarry 9.5 ft Sleek Chiseled Marble",
-    "Catalouge links": "https://drive.google.com/file/d/17um5-cTxhhthwCGu_CEFJeM6YcGQnXSG/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Vivre",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Vivre Apex 9.5 ft Louvers For New Heights E-Catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1jpaMLiMFmauo9W3bulE81XRAAfaD84hX/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Vivre",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Vivre Ceil Up Sophisticated Soffit Panel in 9.5 ft Height E-Catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1TfxMF1p63B3jMX2IFAQfe39HVRK1jqfD/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Vivre",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Vivre Edgex 1 FT Panels With Engraved Metal Grooves For Jointless Interior Spaces E-Catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1L8cRtcLGqPcrTWvIbrqIwTjTE28WM_ue/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Vivre",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Vivre FINESSE 9 FT SLEEK CHISELED PANELS",
-    "Catalouge links": "https://drive.google.com/file/d/1KSXM_DAfAeL8t6AWC2XaCF9M7UI0znV4/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Vivre",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Vivre Flow 10 Inch PS Parametric Louvers",
-    "Catalouge links": "https://drive.google.com/file/d/1Sjg5QP-LSLsNb8C0mCIxNH-WVmXd2TVe/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Vivre",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
-  },
-  {
-    "﻿Catalogues Name": "Vivre Louvers OG E-Catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/139dbIZSk60fyNlSheVWXr1Sl2AnLvcIY/view?usp=sharing",
-    "Category": "Louvers",
-    "Brands": "Vivre",
-    "": "",
-    "__source": "Catalogue links__Louvers",
-    "category": "Louvers"
   },
   {
     "﻿Catalogues Name": "Rang Wallmate",
@@ -9824,6 +8445,2300 @@
     "category": "Catalogue links__Louvers"
   },
   {
+    "﻿Catalogues Name": "Euro Pathik ELITE-PRO-Single",
+    "Catalogues Name": "Euro Pathik",
+    "__source": "Catalogue links__Ti Patti",
+    "category": "Catalogue links__Ti Patti"
+  },
+  {
+    "﻿Catalogues Name": "STERLINA SVECHA BY STERLINA[1] (1)",
+    "Catalogues Links": "https://drive.google.com/file/d/1Qc_tSeMxSyZJ_Zdd9tPyVDojz0Bcxiha/view?usp=sharing",
+    "Category": "Decorative Fabric  sheet",
+    "Brands": "Sterlina",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Decorative Fabric  sheet"
+  },
+  {
+    "﻿Catalogues Name": "SELENE-1 BY STERLINA DESIGN[1]",
+    "Catalogues Links": "https://drive.google.com/file/d/1ELb9_yND-xLtMzC7ybvM6JUJT5rjKiHz/view?usp=sharing",
+    "Category": "Decorative Fabric  sheet",
+    "Brands": "Sterlina",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Decorative Fabric  sheet"
+  },
+  {
+    "Catalogues Name": "Alimo",
+    "Catalogues Links": "https://drive.google.com/file/d/1ozRRnwuCTJ5ddjLPbdBdg9MZAsWO-DwL/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Alimo",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Arctoinc",
+    "Catalogues Links": "https://drive.google.com/file/d/1b1pMDzsMYxxiQ1n_1npsLfHJ9SSbImvh/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Arctoinc",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "B4 Bell",
+    "Catalogues Links": "https://drive.google.com/file/d/146BfQrlPyGnREiiCiecEEbtoLI-Ht5na/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "B4 Bell",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Brilliance Plain Colour",
+    "Catalogues Links": "https://drive.google.com/file/d/1k2__hzAkTEsnSeUui3BlnToCha3VxL4z/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Brilliance Plain Colour",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Brush Hpl New Theme",
+    "Catalogues Links": "https://drive.google.com/file/d/1yJt4bYvGCGtbfT7eSTfQTcWAiAYunB7F/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Brush Hpl New Theme",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Catch Cray",
+    "Catalogues Links": "https://drive.google.com/file/d/11dCbh3ydEUSWELXU0_6QhQGVJ602yJAJ/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Catch Cray",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Chroma 1mm",
+    "Catalogues Links": "https://drive.google.com/file/d/1oZCDsmgKJ5LwVzzL53tJE_iR6G3qYK0v/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Chroma 1mm",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Color Art Revised",
+    "Catalogues Links": "https://drive.google.com/file/d/1EGRE7-hP1tIf_vASUdxwuJH0ZjGbx-ko/vpreview",
+    "Category": "Decorative Laminates",
+    "Brands": "Color Art Revised",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Color Vista",
+    "Catalogues Links": "https://drive.google.com/file/d/1kc5Bpppk4QJLUSy1U_W2jO-1etyyXr09/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Color Vista",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "ColorDesk",
+    "Catalogues Links": "https://drive.google.com/file/d/1G83sFCa9T5vEAa0Zdm-LsUG70aN69_vT/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "ColorDesk",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Creative Colour",
+    "Catalogues Links": "https://drive.google.com/file/d/1sW-MHG9ATVApuwIqv1iOPVjmi8z0BLAC/vpreview",
+    "Category": "Decorative Laminates",
+    "Brands": "Creative Colour",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Crysla",
+    "Catalogues Links": "https://drive.google.com/file/d/1SuwuMQGZARF_kEqxCoKNHmotNnhYSl-G/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Crysla",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Elegora",
+    "Catalogues Links": "https://drive.google.com/file/d/1IKbTPUZ7t44Zz36HuncLQyMHp8QQglZF/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Elegora",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik CORRIANO_CATALOG_PDF_FORMAT",
+    "Catalogues Links": "https://drive.google.com/file/d/1oyRWEmWxp5dQOTSZhI5r1pNJ6_LVzmmY/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Euro Pathik",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Decoclay",
+    "Catalogues Links": "https://drive.google.com/file/d/1eQQ6J71pGhZV7YgiDMFLvaQeId16gAgg/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Euro Pathik",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik DOCORE-Catalogue",
+    "Catalogues Links": "https://drive.google.com/file/d/19LvmyNgiv3pV1cgosM1CgNLQsRl82dD7/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Euro Pathik",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik I_CORE-Catalogue",
+    "Catalogues Links": "https://drive.google.com/file/d/1nzNZs1TFA2FBguncX-on-kMSdhRQbVLa/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Euro Pathik",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Mirage-VOL2-2025",
+    "Catalogues Links": "https://drive.google.com/file/d/1j48zvRO-oi_T7WpgzU3FLnYsnFDqHOoc/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Euro Pathik",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Miraj",
+    "Catalogues Links": "https://drive.google.com/file/d/1MOj1WptBtuYvLtfWX29ohQizeg8Eqpzb/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Euro Pathik",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik PLUTO-Catalogue-2023",
+    "Catalogues Links": "https://drive.google.com/file/d/1FScflpZlPIqnqIUiauQI-eWQphPxR6NC/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Euro Pathik",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Sapphire-Flute-Brochure",
+    "Catalogues Links": "https://drive.google.com/file/d/1nXFjDVbiwt63_dV6EqVMTWueFHlG_HHJ/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Euro Pathik",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Thermolite",
+    "Catalogues Links": "https://drive.google.com/file/d/11NAg73elzWDrX3fXmi9ID2eq7OiNrPPX/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Euro Pathik",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "EuroShivShakti",
+    "Catalogues Links": "https://drive.google.com/file/d/1wIYW5m08vjfzs2atHJFJNkHTyK0D1vPp/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "EuroShivShakti",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Fabric  Linner",
+    "Catalogues Links": "https://drive.google.com/file/d/105wsfvNUtLc4aEo1XZcclhtz7OX1ouCa/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Fabric  Linner",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Fine Touch",
+    "Catalogues Links": "https://drive.google.com/file/d/1J_oU_ROZFsCJYsVIlmgljNDzEfPovyX_/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Fine Touch",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Greenlam",
+    "Catalogues Links": "https://drive.google.com/file/d/1riOUH5AD0HZESUhxxfcaMw5vtO7YFOnj/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Greenlam",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Heaven Color",
+    "Catalogues Links": "https://drive.google.com/file/d/1eMmuTJ5C7GACH9F4MIiz3P0Hmx9ADs8Y/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Heaven Color",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Hilaxe",
+    "Catalogues Links": "https://drive.google.com/file/d/1Wwg1oNugsivqFdD0eTf9AU1dB1vAV1uU/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Hilaxe",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Imperio colorado",
+    "Catalogues Links": "https://drive.google.com/file/d/1XlaEzUnPt-Oy8aWbGncZ52rEp6BZB3pk/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Imperio colorado",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Imperio Massai Mara",
+    "Catalogues Links": "https://drive.google.com/file/d/14qLZ9cTPHhxx9WulTS-iJGNUFe3trXqX/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Imperio Massai Mara",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Kairos Louver",
+    "Catalogues Links": "https://drive.google.com/file/d/16kmTmPqR7V15QG0gO0y_Oxu8UzBfq2Zl/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Kairos Louver",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Kooyoo Acrylic",
+    "Catalogues Links": "https://drive.google.com/file/d/1__yGLrastkrOFfXA1wji1TnuxFenAmv1/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Kooyoo Acrylic",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Kooyoo Plain Colour",
+    "Catalogues Links": "https://drive.google.com/file/d/1-8bAH9n02PQpAA5KWVDadgUI3Wr5OQtv/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Kooyoo Plain Colour",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Layout",
+    "Catalogues Links": "https://drive.google.com/file/d/1jmXnDQyoq1TUDdwPwycI89FtKTSWbFoz/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Layout",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Litone Final",
+    "Catalogues Links": "https://drive.google.com/file/d/1DA92b4Hc6H5JDegfCFJRCd8RLxkFwjv1/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Litone Final",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Livmica",
+    "Catalogues Links": "https://drive.google.com/file/d/1nor6B43QACQ-VMBvntqbOXzMwGsErgFx/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Priva",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Lookbook Century",
+    "Catalogues Links": "https://drive.google.com/file/d/1Kx15pREGfz5S_ICsvkf3ocrVZAqTdLOC/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Century",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "MAKERS_1MM_FINAL",
+    "Catalogues Links": "https://drive.google.com/file/d/1nMIoPGZhD3TZ7fuX9mMPG-GKMpZx4rld/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Makers",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Mama Laminate",
+    "Catalogues Links": "https://drive.google.com/file/d/1R85Y_2KPudMwpHwJYDHDeQ2Hd2pmoxVL/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Mama Laminate",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Mareki Pvc Laminate",
+    "Catalogues Links": "https://drive.google.com/file/d/1eT5qvmTnIOiX9U3pyVAsAEXd2xtLxdjh/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Mareki Pvc Laminate",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Merino-Play",
+    "Catalogues Links": "https://drive.google.com/file/d/1XsHVmaERkBQiXjpOju_g2vFfaRITMQUu/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Merino-Play",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "MerinoLiner  With Torpedo",
+    "Catalogues Links": "https://drive.google.com/file/d/1zd-X4tEGPel-At6Z9ZmmXe7okZyRLfxt/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "MerinoLiner  With Torpedo",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "MigLam",
+    "Catalogues Links": "https://drive.google.com/file/d/1d51Qs83ZZ6E3hjzeaEnw0Z6MxKeuVLyP/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "MigLam",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "MikoLam",
+    "Catalogues Links": "https://drive.google.com/file/d/1aKb7y2hB0hNw8ose6vTszKD8oo2XcUuk/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "MikoLam",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Mocco Laminate",
+    "Catalogues Links": "https://drive.google.com/file/d/1b05-NVHHq3exx-KsElKv2qNPtz9Ua_zw/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Mocco Laminate",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "My Tone",
+    "Catalogues Links": "https://drive.google.com/file/d/1ksCFCe8QEwir_7DlKWKau0kjWVVt0a-o/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "My Tone",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Neloaxe Laminate - 2",
+    "Catalogues Links": "https://drive.google.com/file/d/1Wwg1oNugsivqFdD0eTf9AU1dB1vAV1uU/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Neloaxe Laminate - 2",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Neplam Catalouge",
+    "Catalogues Links": "https://drive.google.com/file/d/1zd_Dhnkv7LTZeooNuEwTEc1kH9hoZZeY/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Neplam Catalouge",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "New Nelgo Catalouge",
+    "Catalogues Links": "https://drive.google.com/file/d/1jpdicz11E6qW9nY1vZJjdX35joMLe_DX/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "New Nelgo Catalouge",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Nexora",
+    "Catalogues Links": "https://drive.google.com/file/d/1G792fq2QkkbSqoaFTUQJU9DbdJzOm0ji/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Nexora",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Oliviya Final 1",
+    "Catalogues Links": "https://drive.google.com/file/d/1NkRJG-e8uiBW8V4myEqf8853viPIRBMq/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Oliviya Final 1",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Oliviya Italiano Interactive",
+    "Catalogues Links": "https://drive.google.com/file/d/1GB55D7axdlIIiLZpMJKYPkz6yL8M9XxZ/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Oliviya Italiano Interactive",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Ovel Laminate",
+    "Catalogues Links": "https://drive.google.com/file/d/14b-eRpLHiD8hJg4zG7Zr6i22bGGIIBSW/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Ovel Laminate",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Paper Art",
+    "Catalogues Links": "https://drive.google.com/file/d/1b05-NVHHq3exx-KsElKv2qNPtz9Ua_zw/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Paper Art",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Paperlam",
+    "Catalogues Links": "https://drive.google.com/file/d/10TcgYKaeyQr9PQywJS2DE03SNirJWuD6/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Paperlam",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Pencil Decorative Laminates",
+    "Catalogues Links": "https://drive.google.com/file/d/1HmOHfQLj_ASSceeqmfpHM6TlSDHrJSz3/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Pencil",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Pentone",
+    "Catalogues Links": "https://drive.google.com/file/d/1_H6bA2akEKKPFwT96qvUgS0J2UTWbRzo/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Pentone",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "PRIVA 1MM",
+    "Catalogues Links": "https://drive.google.com/file/d/1dqcBhQnGQ7aGSgMBXrWVb53BhsUd_ods/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Priva",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Prodek Inner Laminate",
+    "Catalogues Links": "https://drive.google.com/file/d/1OSW5G80-d_-XhenmvHbXXlfKZmn9tGBX/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Prodek Inner Laminate",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Rang Ohho Decorative Decorative Laminates",
+    "Catalogues Links": "https://drive.google.com/file/d/1pKuVkvSud6OHw_ggb_z4_jWxHenLlpVy/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Rang Ohho",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "reloaxe Laminate-1",
+    "Catalogues Links": "https://drive.google.com/file/d/1ChonNnDKwRMY7Eld_VCdmnBlp1Syif5C/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "reloaxe Laminate-1",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Rennova Catalouge",
+    "Catalogues Links": "https://drive.google.com/file/d/1mOKhLp7fEms9VZ4R5nYJJzRraFmcxStR/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Rennova Catalouge",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "S Decor",
+    "Catalogues Links": "https://drive.google.com/file/d/1vxLiqQOOlUV-k7Sk_kPdBA52Slm2myDm/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "S Decor",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "SAINIK_LAMINATES_Design_Studio_Interactive_FINAL_1_230a91e311",
+    "Catalogues Links": "https://drive.google.com/file/d/1LRvm1THQ2yanZ0AUAjfPr4CXG10_wUgo/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Century",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "SELENE-1 BY STERLINA DESIGN[1]",
+    "Catalogues Links": "https://drive.google.com/file/d/1ELb9_yND-xLtMzC7ybvM6JUJT5rjKiHz/view?usp=sharing",
+    "Category": "Decorative Fabric  sheet",
+    "Brands": "Sterlina",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Shore",
+    "Catalogues Links": "https://drive.google.com/file/d/1GhvEd4ibv7y3dvh1MCDMJq4aEy7oEfMg/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Shore",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "SLOAN KALAMKARI CORK BY STERLINA[1]",
+    "Catalogues Links": "https://drive.google.com/file/d/1hUVEE5AyGmb3AY8lHhNptTqswWqezTvM/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Sterlina",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Sonova",
+    "Catalogues Links": "https://drive.google.com/file/d/1S9GI5u5npkx4pPc5Sq4w9KgHtgvhEwsV/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Sonova",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Stanley-PVC Folder",
+    "Catalogues Links": "https://drive.google.com/file/d/1eEN4QijgeV57dMRFAggPdsylJyvnrXZi/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Stanley-PVC Folder",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Steeloak",
+    "Catalogues Links": "https://drive.google.com/file/d/1pD3BJnEX7y9lRdtjKIs3-ciUGMhf_rMo/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Steeloak",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "STERLINA SVECHA BY STERLINA[1] (1)",
+    "Catalogues Links": "https://drive.google.com/file/d/1Qc_tSeMxSyZJ_Zdd9tPyVDojz0Bcxiha/view?usp=sharing",
+    "Category": "Decorative Fabric  sheet",
+    "Brands": "Sterlina",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Subtle Finetouch",
+    "Catalogues Links": "https://drive.google.com/file/d/1Ix4y67oUao1lNv6oBOAgMWkpNMgLxJsm/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Finetouch Subtle",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Vidyalam 1MM",
+    "Catalogues Links": "https://drive.google.com/file/d/1fEOijMieSizS6rF49-47upc7gVVGlHNB/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Vidyalam 1MM",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Virgo Chroma 0.8mm",
+    "Catalogues Links": "https://drive.google.com/file/d/1rWego-A5rGo53xqjKLL39Uu3NEincJsT/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Virgo Chroma 0.8mm",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "WelWin NEW Ok",
+    "Catalogues Links": "https://drive.google.com/file/d/1dABoaXvKMGZK79hhvag5M6Bp9pUMNr1d/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "WelWin NEW Ok",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Wine Laminate",
+    "Catalogues Links": "https://drive.google.com/file/d/14BqDDcK5K4L6jj1FwGYrpo0jU33guXC4/preview",
+    "Category": "Decorative Laminates",
+    "Brands": "Wine Laminate",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "Woodpaper By Fasten Decorative Laminates",
+    "Catalogues Links": "https://drive.google.com/file/d/1B4a_z_ZSiGrze-9CZqlE48_HaBYpQ3mh/view?usp=sharing",
+    "Category": "Decorative Laminates",
+    "Brands": "Woodpaper",
+    "category": "Decorative Laminates",
+    "__source": "Catalogue links__Decorative Laminates",
+    "__updatedAt": "2025-09-13T08:31:28.185Z"
+  },
+  {
+    "Catalogues Name": "SLATER DOOR BY DELIZIA INTERIOR[1]",
+    "Catalouge links": "https://drive.google.com/file/d/1v7q9tOwojK4Xj6Hs_xk2HDSgexSM7UCs/view?usp=sharing",
+    "Category": "Metallic Doors",
+    "Brand": "Delizia",
+    "category": "Doors",
+    "__source": "Catalogue links__Doors",
+    "__updatedAt": "2025-09-13T08:31:28.186Z"
+  },
+  {
+    "Catalogues Name": "E8 Edge Banding",
+    "Catalouge links": "https://drive.google.com/file/d/1DjyaasHSpvO09nIh6xpbEfi3dQoJinFe/view?usp=sharing",
+    "Category": "Edge Banding",
+    "Brand": "E8",
+    "category": "Edge Banding",
+    "__source": "Catalogue links__Edge Banding",
+    "__updatedAt": "2025-09-13T08:31:28.186Z"
+  },
+  {
+    "Catalogues Name": "Aaryan Kids Brochure_searchable[1]",
+    "Catalouge links": "https://drive.google.com/file/d/1x9PtKoI4ZnFXOyTIk7C_hYXAj8hRHMNl/view?usp=sharing",
+    "Category": "Hardware",
+    "Brands": "Plum",
+    "category": "Hardware",
+    "__source": "Catalogue links__Hardware",
+    "__updatedAt": "2025-09-13T08:31:28.187Z"
+  },
+  {
+    "Catalogues Name": "Aaryan Mortise & MD Brochure_searchable[1]",
+    "Catalouge links": "https://drive.google.com/file/d/1u7Z8W_HIQwg4W64F-IRzcwoKO_U8gSFg/view?usp=sharing",
+    "Category": "Hardware",
+    "Brands": "Plum",
+    "category": "Hardware",
+    "__source": "Catalogue links__Hardware",
+    "__updatedAt": "2025-09-13T08:31:28.187Z"
+  },
+  {
+    "Catalogues Name": "Conceal Profile Knob Brochure_searchable[2]",
+    "Catalouge links": "https://drive.google.com/file/d/1vC83qB7vY7qpGFc3lDmXGJn3lNIyk39V/view?usp=sharing",
+    "Category": "Hardware",
+    "Brands": "Plum",
+    "category": "Hardware",
+    "__source": "Catalogue links__Hardware",
+    "__updatedAt": "2025-09-13T08:31:28.187Z"
+  },
+  {
+    "Catalogues Name": "DRC Catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1x9PtKoI4ZnFXOyTIk7C_hYXAj8hRHMNl/view?usp=sharing",
+    "Category": "Hardware",
+    "Brands": "DRC",
+    "category": "Hardware",
+    "__source": "Catalogue links__Hardware",
+    "__updatedAt": "2025-09-13T08:31:28.187Z"
+  },
+  {
+    "Catalogues Name": "EBCO MRP April 24, 2023",
+    "Catalouge links": "https://drive.google.com/file/d/1X067PSEkrvjC7vy4PhaoE85FYVC9yj8f/view?usp=sharing",
+    "Category": "Hardware",
+    "Brands": "EBCO",
+    "category": "Hardware",
+    "__source": "Catalogue links__Hardware",
+    "__updatedAt": "2025-09-13T08:31:28.187Z"
+  },
+  {
+    "Catalogues Name": "Hablo",
+    "Catalouge links": "https://drive.google.com/file/d/1_kxZ803Q-T2sJI1bv2xPfbLDF0sHAwRp/view?usp=sharing",
+    "Category": "Hardware",
+    "Brands": "Hablo",
+    "category": "Hardware",
+    "__source": "Catalogue links__Hardware",
+    "__updatedAt": "2025-09-13T08:31:28.187Z"
+  },
+  {
+    "Catalogues Name": "Hettich FF & AH Retail Price List Feb 2025-1 (1)",
+    "Catalouge links": "https://drive.google.com/file/d/130dq2vko9cyXR-fzpG7uFSejHVhM7J1A/view?usp=sharing",
+    "Category": "Hardware",
+    "Brands": "Hettich",
+    "category": "Hardware",
+    "__source": "Catalogue links__Hardware",
+    "__updatedAt": "2025-09-13T08:31:28.187Z"
+  },
+  {
+    "Catalogues Name": "Livsmart Ebco",
+    "Catalouge links": "https://drive.google.com/file/d/1dKCi2t3Ie50f71eDmw-4d0Dh9unj9BQz/view?usp=sharing",
+    "Category": "Hardware",
+    "Brands": "Ebco",
+    "category": "Hardware",
+    "__source": "Catalogue links__Hardware",
+    "__updatedAt": "2025-09-13T08:31:28.187Z"
+  },
+  {
+    "Catalogues Name": "NEXITO DRC",
+    "Catalouge links": "https://drive.google.com/file/d/1jLMvTxBqscjhwkQQcwzUIrP4r5Uqz9a8/view?usp=sharing",
+    "Category": "Hardware",
+    "Brands": "DRC",
+    "category": "Hardware",
+    "__source": "Catalogue links__Hardware",
+    "__updatedAt": "2025-09-13T08:31:28.187Z"
+  },
+  {
+    "Catalogues Name": "WORKSMART",
+    "Catalouge links": "https://drive.google.com/file/d/1-7try1woDOqBi6XVfBjAkZIRuWjxDCFV/view?usp=sharing",
+    "Category": "Hardware",
+    "Brands": "Ebco",
+    "category": "Hardware",
+    "__source": "Catalogue links__Hardware",
+    "__updatedAt": "2025-09-13T08:31:28.187Z"
+  },
+  {
+    "﻿Catalogues Name": "Greenlam",
+    "Catalogues Links": "https://drive.google.com/file/d/1riOUH5AD0HZESUhxxfcaMw5vtO7YFOnj/preview",
+    "Category": "Laminates",
+    "Brands": "Greenlam",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Chroma 1mm",
+    "Catalogues Links": "https://drive.google.com/file/d/1oZCDsmgKJ5LwVzzL53tJE_iR6G3qYK0v/preview",
+    "Category": "Laminates",
+    "Brands": "Chroma 1mm",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Virgo Chroma 0.8mm",
+    "Catalogues Links": "https://drive.google.com/file/d/1rWego-A5rGo53xqjKLL39Uu3NEincJsT/preview",
+    "Category": "Laminates",
+    "Brands": "Virgo Chroma 0.8mm",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Alimo",
+    "Catalogues Links": "https://drive.google.com/file/d/1ozRRnwuCTJ5ddjLPbdBdg9MZAsWO-DwL/preview",
+    "Category": "Laminates",
+    "Brands": "Alimo",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Fine Touch",
+    "Catalogues Links": "https://drive.google.com/file/d/1J_oU_ROZFsCJYsVIlmgljNDzEfPovyX_/preview",
+    "Category": "Laminates",
+    "Brands": "Fine Touch",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "New Nelgo Catalouge",
+    "Catalogues Links": "https://drive.google.com/file/d/1jpdicz11E6qW9nY1vZJjdX35joMLe_DX/preview",
+    "Category": "Laminates",
+    "Brands": "New Nelgo Catalouge",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Ovel Laminate",
+    "Catalogues Links": "https://drive.google.com/file/d/14b-eRpLHiD8hJg4zG7Zr6i22bGGIIBSW/preview",
+    "Category": "Laminates",
+    "Brands": "Ovel Laminate",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Pentone",
+    "Catalogues Links": "https://drive.google.com/file/d/1_H6bA2akEKKPFwT96qvUgS0J2UTWbRzo/preview",
+    "Category": "Laminates",
+    "Brands": "Pentone",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Imperio colorado",
+    "Catalogues Links": "https://drive.google.com/file/d/1XlaEzUnPt-Oy8aWbGncZ52rEp6BZB3pk/preview",
+    "Category": "Laminates",
+    "Brands": "Imperio colorado",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Imperio Massai Mara",
+    "Catalogues Links": "https://drive.google.com/file/d/14qLZ9cTPHhxx9WulTS-iJGNUFe3trXqX/preview",
+    "Category": "Laminates",
+    "Brands": "Imperio Massai Mara",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "B4 Bell",
+    "Catalogues Links": "https://drive.google.com/file/d/146BfQrlPyGnREiiCiecEEbtoLI-Ht5na/preview",
+    "Category": "Laminates",
+    "Brands": "B4 Bell",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Heaven Color",
+    "Catalogues Links": "https://drive.google.com/file/d/1eMmuTJ5C7GACH9F4MIiz3P0Hmx9ADs8Y/preview",
+    "Category": "Laminates",
+    "Brands": "Heaven Color",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Litone Final",
+    "Catalogues Links": "https://drive.google.com/file/d/1DA92b4Hc6H5JDegfCFJRCd8RLxkFwjv1/preview",
+    "Category": "Laminates",
+    "Brands": "Litone Final",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "My Tone",
+    "Catalogues Links": "https://drive.google.com/file/d/1ksCFCe8QEwir_7DlKWKau0kjWVVt0a-o/preview",
+    "Category": "Laminates",
+    "Brands": "My Tone",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "WelWin NEW Ok",
+    "Catalogues Links": "https://drive.google.com/file/d/1dABoaXvKMGZK79hhvag5M6Bp9pUMNr1d/preview",
+    "Category": "Laminates",
+    "Brands": "WelWin NEW Ok",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Catch Cray",
+    "Catalogues Links": "https://drive.google.com/file/d/11dCbh3ydEUSWELXU0_6QhQGVJ602yJAJ/preview",
+    "Category": "Laminates",
+    "Brands": "Catch Cray",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Mama Laminate",
+    "Catalogues Links": "https://drive.google.com/file/d/1R85Y_2KPudMwpHwJYDHDeQ2Hd2pmoxVL/preview",
+    "Category": "Laminates",
+    "Brands": "Mama Laminate",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Mocco Laminate",
+    "Catalogues Links": "https://drive.google.com/file/d/1b05-NVHHq3exx-KsElKv2qNPtz9Ua_zw/preview",
+    "Category": "Laminates",
+    "Brands": "Mocco Laminate",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Paper Art",
+    "Catalogues Links": "https://drive.google.com/file/d/1b05-NVHHq3exx-KsElKv2qNPtz9Ua_zw/preview",
+    "Category": "Laminates",
+    "Brands": "Paper Art",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Paperlam",
+    "Catalogues Links": "https://drive.google.com/file/d/10TcgYKaeyQr9PQywJS2DE03SNirJWuD6/preview",
+    "Category": "Laminates",
+    "Brands": "Paperlam",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Rennova Catalouge",
+    "Catalogues Links": "https://drive.google.com/file/d/1mOKhLp7fEms9VZ4R5nYJJzRraFmcxStR/preview",
+    "Category": "Laminates",
+    "Brands": "Rennova Catalouge",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Neplam Catalouge",
+    "Catalogues Links": "https://drive.google.com/file/d/1zd_Dhnkv7LTZeooNuEwTEc1kH9hoZZeY/preview",
+    "Category": "Laminates",
+    "Brands": "Neplam Catalouge",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Nexora",
+    "Catalogues Links": "https://drive.google.com/file/d/1G792fq2QkkbSqoaFTUQJU9DbdJzOm0ji/preview",
+    "Category": "Laminates",
+    "Brands": "Nexora",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "S Decor",
+    "Catalogues Links": "https://drive.google.com/file/d/1vxLiqQOOlUV-k7Sk_kPdBA52Slm2myDm/preview",
+    "Category": "Laminates",
+    "Brands": "S Decor",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Wine Laminate",
+    "Catalogues Links": "https://drive.google.com/file/d/14BqDDcK5K4L6jj1FwGYrpo0jU33guXC4/preview",
+    "Category": "Laminates",
+    "Brands": "Wine Laminate",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Brilliance Plain Colour",
+    "Catalogues Links": "https://drive.google.com/file/d/1k2__hzAkTEsnSeUui3BlnToCha3VxL4z/preview",
+    "Category": "Laminates",
+    "Brands": "Brilliance Plain Colour",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Crysla",
+    "Catalogues Links": "https://drive.google.com/file/d/1SuwuMQGZARF_kEqxCoKNHmotNnhYSl-G/preview",
+    "Category": "Laminates",
+    "Brands": "Crysla",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Hilaxe",
+    "Catalogues Links": "https://drive.google.com/file/d/1Wwg1oNugsivqFdD0eTf9AU1dB1vAV1uU/preview",
+    "Category": "Laminates",
+    "Brands": "Hilaxe",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Neloaxe Laminate - 2",
+    "Catalogues Links": "https://drive.google.com/file/d/1Wwg1oNugsivqFdD0eTf9AU1dB1vAV1uU/preview",
+    "Category": "Laminates",
+    "Brands": "Neloaxe Laminate - 2",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "reloaxe Laminate-1",
+    "Catalogues Links": "https://drive.google.com/file/d/1ChonNnDKwRMY7Eld_VCdmnBlp1Syif5C/preview",
+    "Category": "Laminates",
+    "Brands": "reloaxe Laminate-1",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Fabric  Linner",
+    "Catalogues Links": "https://drive.google.com/file/d/105wsfvNUtLc4aEo1XZcclhtz7OX1ouCa/preview",
+    "Category": "Laminates",
+    "Brands": "Fabric  Linner",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Mareki Pvc Laminate",
+    "Catalogues Links": "https://drive.google.com/file/d/1eT5qvmTnIOiX9U3pyVAsAEXd2xtLxdjh/preview",
+    "Category": "Laminates",
+    "Brands": "Mareki Pvc Laminate",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Color Art Revised",
+    "Catalogues Links": "https://drive.google.com/file/d/1EGRE7-hP1tIf_vASUdxwuJH0ZjGbx-ko/vpreview",
+    "Category": "Laminates",
+    "Brands": "Color Art Revised",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Layout",
+    "Catalogues Links": "https://drive.google.com/file/d/1jmXnDQyoq1TUDdwPwycI89FtKTSWbFoz/preview",
+    "Category": "Laminates",
+    "Brands": "Layout",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Oliviya Final 1",
+    "Catalogues Links": "https://drive.google.com/file/d/1NkRJG-e8uiBW8V4myEqf8853viPIRBMq/preview",
+    "Category": "Laminates",
+    "Brands": "Oliviya Final 1",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Oliviya Italiano Interactive",
+    "Catalogues Links": "https://drive.google.com/file/d/1GB55D7axdlIIiLZpMJKYPkz6yL8M9XxZ/preview",
+    "Category": "Laminates",
+    "Brands": "Oliviya Italiano Interactive",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Kooyoo Acrylic",
+    "Catalogues Links": "https://drive.google.com/file/d/1__yGLrastkrOFfXA1wji1TnuxFenAmv1/preview",
+    "Category": "Laminates",
+    "Brands": "Kooyoo Acrylic",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Kooyoo Plain Colour",
+    "Catalogues Links": "https://drive.google.com/file/d/1-8bAH9n02PQpAA5KWVDadgUI3Wr5OQtv/preview",
+    "Category": "Laminates",
+    "Brands": "Kooyoo Plain Colour",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Brush Hpl New Theme",
+    "Catalogues Links": "https://drive.google.com/file/d/1yJt4bYvGCGtbfT7eSTfQTcWAiAYunB7F/preview",
+    "Category": "Laminates",
+    "Brands": "Brush Hpl New Theme",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "ColorDesk",
+    "Catalogues Links": "https://drive.google.com/file/d/1G83sFCa9T5vEAa0Zdm-LsUG70aN69_vT/preview",
+    "Category": "Laminates",
+    "Brands": "ColorDesk",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "EuroShivShakti",
+    "Catalogues Links": "https://drive.google.com/file/d/1wIYW5m08vjfzs2atHJFJNkHTyK0D1vPp/preview",
+    "Category": "Laminates",
+    "Brands": "EuroShivShakti",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Merino-Play",
+    "Catalogues Links": "https://drive.google.com/file/d/1XsHVmaERkBQiXjpOju_g2vFfaRITMQUu/preview",
+    "Category": "Laminates",
+    "Brands": "Merino-Play",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "MerinoLiner  With Torpedo",
+    "Catalogues Links": "https://drive.google.com/file/d/1zd-X4tEGPel-At6Z9ZmmXe7okZyRLfxt/preview",
+    "Category": "Laminates",
+    "Brands": "MerinoLiner  With Torpedo",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Kairos Louver",
+    "Catalogues Links": "https://drive.google.com/file/d/16kmTmPqR7V15QG0gO0y_Oxu8UzBfq2Zl/preview",
+    "Category": "Laminates",
+    "Brands": "Kairos Louver",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "MigLam",
+    "Catalogues Links": "https://drive.google.com/file/d/1d51Qs83ZZ6E3hjzeaEnw0Z6MxKeuVLyP/preview",
+    "Category": "Laminates",
+    "Brands": "MigLam",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "MikoLam",
+    "Catalogues Links": "https://drive.google.com/file/d/1aKb7y2hB0hNw8ose6vTszKD8oo2XcUuk/preview",
+    "Category": "Laminates",
+    "Brands": "MikoLam",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Prodek Inner Laminate",
+    "Catalogues Links": "https://drive.google.com/file/d/1OSW5G80-d_-XhenmvHbXXlfKZmn9tGBX/preview",
+    "Category": "Laminates",
+    "Brands": "Prodek Inner Laminate",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Stanley-PVC Folder",
+    "Catalogues Links": "https://drive.google.com/file/d/1eEN4QijgeV57dMRFAggPdsylJyvnrXZi/preview",
+    "Category": "Laminates",
+    "Brands": "Stanley-PVC Folder",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Arctoinc",
+    "Catalogues Links": "https://drive.google.com/file/d/1b1pMDzsMYxxiQ1n_1npsLfHJ9SSbImvh/preview",
+    "Category": "Laminates",
+    "Brands": "Arctoinc",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Elegora",
+    "Catalogues Links": "https://drive.google.com/file/d/1IKbTPUZ7t44Zz36HuncLQyMHp8QQglZF/preview",
+    "Category": "Laminates",
+    "Brands": "Elegora",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Steeloak",
+    "Catalogues Links": "https://drive.google.com/file/d/1pD3BJnEX7y9lRdtjKIs3-ciUGMhf_rMo/preview",
+    "Category": "Laminates",
+    "Brands": "Steeloak",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Creative Colour",
+    "Catalogues Links": "https://drive.google.com/file/d/1sW-MHG9ATVApuwIqv1iOPVjmi8z0BLAC/vpreview",
+    "Category": "Laminates",
+    "Brands": "Creative Colour",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Color Vista",
+    "Catalogues Links": "https://drive.google.com/file/d/1kc5Bpppk4QJLUSy1U_W2jO-1etyyXr09/preview",
+    "Category": "Laminates",
+    "Brands": "Color Vista",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Vidyalam 1MM",
+    "Catalogues Links": "https://drive.google.com/file/d/1fEOijMieSizS6rF49-47upc7gVVGlHNB/preview",
+    "Category": "Laminates",
+    "Brands": "Vidyalam 1MM",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Sonova",
+    "Catalogues Links": "https://drive.google.com/file/d/1S9GI5u5npkx4pPc5Sq4w9KgHtgvhEwsV/preview",
+    "Category": "Laminates",
+    "Brands": "Sonova",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Euro Pathik Thermolite",
+    "Catalogues Links": "https://drive.google.com/file/d/11NAg73elzWDrX3fXmi9ID2eq7OiNrPPX/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Euro Pathik",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Euro Pathik Sapphire-Flute-Brochure",
+    "Catalogues Links": "https://drive.google.com/file/d/1nXFjDVbiwt63_dV6EqVMTWueFHlG_HHJ/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Euro Pathik",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Euro Pathik PLUTO-Catalogue-2023",
+    "Catalogues Links": "https://drive.google.com/file/d/1FScflpZlPIqnqIUiauQI-eWQphPxR6NC/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Euro Pathik",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Euro Pathik Miraj",
+    "Catalogues Links": "https://drive.google.com/file/d/1MOj1WptBtuYvLtfWX29ohQizeg8Eqpzb/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Euro Pathik",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Euro Pathik Mirage-VOL2-2025",
+    "Catalogues Links": "https://drive.google.com/file/d/1j48zvRO-oi_T7WpgzU3FLnYsnFDqHOoc/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Euro Pathik",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Euro Pathik I_CORE-Catalogue",
+    "Catalogues Links": "https://drive.google.com/file/d/1nzNZs1TFA2FBguncX-on-kMSdhRQbVLa/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Euro Pathik",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Euro Pathik DOCORE-Catalogue",
+    "Catalogues Links": "https://drive.google.com/file/d/19LvmyNgiv3pV1cgosM1CgNLQsRl82dD7/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Euro Pathik",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Euro Pathik Decoclay",
+    "Catalogues Links": "https://drive.google.com/file/d/1eQQ6J71pGhZV7YgiDMFLvaQeId16gAgg/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Euro Pathik",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Euro Pathik CORRIANO_CATALOG_PDF_FORMAT",
+    "Catalogues Links": "https://drive.google.com/file/d/1oyRWEmWxp5dQOTSZhI5r1pNJ6_LVzmmY/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Euro Pathik",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "SLOAN KALAMKARI CORK BY STERLINA[1]",
+    "Catalogues Links": "https://drive.google.com/file/d/1hUVEE5AyGmb3AY8lHhNptTqswWqezTvM/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Sterlina",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "MAKERS_1MM_FINAL",
+    "Catalogues Links": "https://drive.google.com/file/d/1nMIoPGZhD3TZ7fuX9mMPG-GKMpZx4rld/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Makers",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "PRIVA 1MM",
+    "Catalogues Links": "https://drive.google.com/file/d/1dqcBhQnGQ7aGSgMBXrWVb53BhsUd_ods/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Priva",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Livmica",
+    "Catalogues Links": "https://drive.google.com/file/d/1nor6B43QACQ-VMBvntqbOXzMwGsErgFx/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Priva",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "SAINIK_LAMINATES_Design_Studio_Interactive_FINAL_1_230a91e311",
+    "Catalogues Links": "https://drive.google.com/file/d/1LRvm1THQ2yanZ0AUAjfPr4CXG10_wUgo/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Century",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Lookbook Century",
+    "Catalogues Links": "https://drive.google.com/file/d/1Kx15pREGfz5S_ICsvkf3ocrVZAqTdLOC/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Century",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Shore",
+    "Catalogues Links": "https://drive.google.com/file/d/1GhvEd4ibv7y3dvh1MCDMJq4aEy7oEfMg/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Shore",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Subtle Finetouch",
+    "Catalogues Links": "https://drive.google.com/file/d/1Ix4y67oUao1lNv6oBOAgMWkpNMgLxJsm/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Finetouch Subtle",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Rang Ohho Decorative Laminates",
+    "Catalogues Links": "https://drive.google.com/file/d/1pKuVkvSud6OHw_ggb_z4_jWxHenLlpVy/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Rang Ohho",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Pencil Laminates",
+    "Catalogues Links": "https://drive.google.com/file/d/1HmOHfQLj_ASSceeqmfpHM6TlSDHrJSz3/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Pencil",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "﻿Catalogues Name": "Woodpaper By Fasten Laminates",
+    "Catalogues Links": "https://drive.google.com/file/d/1B4a_z_ZSiGrze-9CZqlE48_HaBYpQ3mh/view?usp=sharing",
+    "Category": "Laminates",
+    "Brands": "Woodpaper",
+    "__source": "Catalogue links__Decorative Laminates",
+    "category": "Laminates"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Linear_Catalog",
+    "Catalouge links": "https://drive.google.com/file/d/19sH8B2tAbIrbZRtbkwG1QKrViPKbIWxi/view?usp=sharing",
+    "Category": "Liners",
+    "Brands": "Euro Pathik",
+    "category": "Liners",
+    "__source": "Catalogue links__Liners",
+    "__updatedAt": "2025-09-13T08:31:28.187Z"
+  },
+  {
+    "Catalogues Name": "Miglam",
+    "Catalouge links": "https://drive.google.com/file/d/1dsUM9pL8iQQVkWJ8lYCoeFJtdQ6roOxV/view?usp=sharing",
+    "Category": "Liners",
+    "Brands": "Miglam",
+    "category": "Liners",
+    "__source": "Catalogue links__Liners",
+    "__updatedAt": "2025-09-13T08:31:28.187Z"
+  },
+  {
+    "Catalogues Name": "Prodek Touch Title & inside Catlouge",
+    "Catalouge links": "https://drive.google.com/file/d/1cIPm65FIjgGIkOQ1SeMKFZkgSwzGbErQ/view?usp=sharing",
+    "Category": "Liners",
+    "Brands": "Prodeck",
+    "category": "Liners",
+    "__source": "Catalogue links__Liners",
+    "__updatedAt": "2025-09-13T08:31:28.187Z"
+  },
+  {
+    "Catalogues Name": "Alabaster Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1-ILeVCOg6tnGC3UzvwApaDlBw8rvOvWp/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Aluluxe Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1d-xDxVqgHqdlG-_LW_2NrnopENEUcXUy/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Artique Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1vD7o6T53Avz-7ux1ReckTkwyoeGhg22O/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Calypso Inside Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1n7ZtdT4AvroDKpcq-gYjvRQmzBp9xL7W/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Canex Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/14Jix8RUCl-3LIBEDe6uQBA9fEIb1qZKo/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Celesto Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1LY9V51JzEYVXDNwedNGXu1ad7ArK21Aa/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Crysta Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1HZiLNxfXJNmkHerXA2PPKtk4_iW4NF3c/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Deconet  Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/17TyhjOdJvok0sr1lTlr4DmBjm2fMSDlG/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Edge Band Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/18EfpuCzIjJ6UNjnoZ5wHplaCxA5SZvKq/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Emporio 2.0 Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1To1u2kzYJzpRA1dpj7DhC8LMZFyR8Nvb/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Emporio Signature Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1bCR1YT_0Jy3OHLBQQTmpo2y8m2f9aQey/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "EP_Chisel DECOLOUVERS_VOL_02",
+    "Catalouge links": "https://drive.google.com/file/d/1GxvKXa5Mk2JiM7sVcwAGQpePwvo56bZh/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "EP_Chisel_VOL_2_2023_Catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1Nt_uE5SfcRv1lJ-n42t2yqgWTWFB18d5/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Acroglass_2023",
+    "Catalouge links": "https://drive.google.com/file/d/1_wVHWHcBa9INkuNfZuObKehJEe9GAcHz/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Allure-vol-3",
+    "Catalouge links": "https://drive.google.com/file/d/17klYtOU0P7cIOZPtqxBCAfTb7RdbSWn9/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Allusion",
+    "Catalouge links": "https://drive.google.com/file/d/1CrYAcJ5ij5HCU92F3UpAmVxs2bl7nZ3n/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Artisan-Catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1uBv2IJy5garONu7LGrhOj8StJaWQqkXh/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Artisan-vol-2",
+    "Catalouge links": "https://drive.google.com/file/d/1ZHedh4SseI_SbCRB_BhYjDro-GPQQIHc/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Aspire-Reloaded",
+    "Catalouge links": "https://drive.google.com/file/d/1dpOil-VUvNxiZ5_w0H4hnXUVzkSWPDRU/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik ASSA-Brochure",
+    "Catalouge links": "https://drive.google.com/file/d/1pZdx83MSVF6x3eoO3PIcQmxnng_VtOko/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik ASTER-Catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1uJinw0SHiLb7CEPqTactv9aBjxC6SXh7/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik AURIS-Catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1tLf4W7QTzgXMRokTuRFlGaQttlPhFXy6/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Bezel-Brochure",
+    "Catalouge links": "https://drive.google.com/file/d/1uCIhxBC28-XLvUM8vfHGXVyJjuqKx9Oo/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik CASSA-3-Catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1WgS18hZPjlvFBjw-n_ChZk2h8SWkhIJh/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik CASSA-6-Catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1V7-2_XBUa2RKM1Oqnf-Q78l6kpEQPW72/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik CASSA-7-2025-Catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1N6_Y4RkACHozO_5yqE_WvJiMrErFa7Zo/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Cassa-catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1qr4Pr-tt2IEVdiQCkg6JQl4kbktPek1U/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Cassa-catalogue-vol2",
+    "Catalouge links": "https://drive.google.com/file/d/1Om-qrwaB9yxAMunV7e-Dj-i-veeWvxOa/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik chisel-3-Catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1f1TrNgX78bYeh6uH_ciC-Vb_O49pvrcC/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Chisel-Rio-Catalgoue",
+    "Catalouge links": "https://drive.google.com/file/d/1puKYQGsD64mtEvCGrTMY4Nba9a8T4_fJ/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Exterior-Louvers",
+    "Catalouge links": "https://drive.google.com/file/d/1lIlNBqiKdeyTa5a_yPp85_4jz3TLaTKF/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Louvers-catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1w8R_fxHQpEDlXBjqCA_iTeH2nlh52d4H/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Louvers-catalogue 2025",
+    "Catalouge links": "https://drive.google.com/file/d/1C0wAoH1gTlFQEzRBYkFYDP44F-hdhXJe/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathikn Zink",
+    "Catalouge links": "https://drive.google.com/file/d/1rnW4CnrHb9Py_NluiR6B-zXkBvNX4puN/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "EURO-PRATIK_LOUVERSPRO_BROCHURE",
+    "Catalouge links": "https://drive.google.com/file/d/11mMLE-nRuYIiHY948qQzvZcR4lIIXQIt/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Euro Pathik",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Fusion Panel Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/18vptCp6G8GKGZDsgAycucj9griUwPIjB/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Genesis Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1oeiv5wdMo0gnM0cjSfxzSd8b1PkGHte9/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Gloirio Flute Story Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1OOeVBWJoolCQgf9ZuuXOxRhM7npuIRPU/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Gloirio Iris 2 Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/16oIcPcTuNV0Bdr1IkzcIHcZ9ygKRSim5/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Gloris Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1wLARRe5SXS2cNO0hgMgy_yiDke5CdNjp/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "45",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Gold Bar Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1I4Wh4sV4gyClQyngqvQH7CswRHDA8NeG/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Grace Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1E_MoLEIPVq4JmatnmGmDXGStDbefCQ43/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Grace.2 Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1jIKODik_jdDG7hej00r3lT0Rcxw9AOH6/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Ignis Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1MMMz4qVfR5dW31t983j4jnutt4W6rIzT/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Iris Club 1 Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1U_qm1bjNI2xc4ylKqQ-64D6FWId-0PPB/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Iris Curve Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/19UpS1IxXUF55m0AB-IwwAvr9jGUqTUhu/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Iris Signature Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/14e5l-4xZf4E45lMFMlDxEG7JrHHKgWG8/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Iris Wall Panels Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/11nCgk2ic61C1f9F_sS4TD_LVlT1oGzc6/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Jade Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1i7yzJ1LnGDv79l161e-CawGFO-bMGRd3/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Jazz Mosaics Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1Ze4MUDIiDL221quPYFeJ0vR4yesI20kx/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Lamiteq Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1gicJ8kJThxz0c7IzJ8DV0htMNuKYj6q3/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Lmiteq Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1EQ7e0Ap5q743lkrKWxyH9AftLk-2reOZ/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Louvers Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1rdIvpSpTcLAeVgYcLr4HPtrNoN1gv6ci/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Lusso  Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1SbrHVupLH9DoM_jZQnR8AACE2mixZN5Q/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Mirraco Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1ql7MQJZfMHoyryZrL3ikfClbvLM3Aamn/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Pluto.1 Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1DeLHFNqBTWNY72dMw9v3__xRFr3bFdDo/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Rang Wallmate",
+    "Catalouge links": "https://drive.google.com/file/d/1ZM9qZBYIHjIDjOlPSsrBR4weRExEJVYP/view?usp=sharing",
+    "Category": "",
+    "Brands": "",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Sirocco Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1YFeqejysEXpUEmTB9E5Ijsa0dXM_P_jy/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Sketch Mobile  Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1mVw1JVpFHl2h8JuqCs302-vrHL9mGiei/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Stencil Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1hTYLhL5u90dfrLGTDhv1zcU98_qt62b_/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Styro  Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1ldy8M1Pxdnlid4FLRzqDRU1xn8jp5V3p/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Styro-6 Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/18u4kLI9D3fDVgbW9xGngESXNIGM5N70B/peview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Styro-VOL-3 Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/152Vqfv-eHcKoBWwm6deGQYqTAwZ20y6l/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Styro-VOL-5 Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1nwjh_zs3TCivN8Os-ZHM6eU-lgFhjtze/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "VivAsaa 2[1]",
+    "Catalouge links": "https://drive.google.com/file/d/1SFYZZy32lTFz-IDkEw3XiOBIvnCzSHej/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Vivre",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Vivre Aluclad[1]",
+    "Catalouge links": "https://drive.google.com/file/d/1t8LwFicmJzRKcf70QZ00VDx9jQY2Gvc6/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Vivre",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Vivre Apex 9.5 ft Louvers For New Heights E-Catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1jpaMLiMFmauo9W3bulE81XRAAfaD84hX/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Vivre",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Vivre Ceil Up Sophisticated Soffit Panel in 9.5 ft Height E-Catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1TfxMF1p63B3jMX2IFAQfe39HVRK1jqfD/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Vivre",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Vivre Edgex 1 FT Panels With Engraved Metal Grooves For Jointless Interior Spaces E-Catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1L8cRtcLGqPcrTWvIbrqIwTjTE28WM_ue/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Vivre",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Vivre Elewood - E Catalogue[1]",
+    "Catalouge links": "https://drive.google.com/file/d/1ZtNKuNdG09bJw_MoeOJ22M7zsiAKfLAL/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Vivre",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Vivre FINESSE 9 FT SLEEK CHISELED PANELS",
+    "Catalouge links": "https://drive.google.com/file/d/1KSXM_DAfAeL8t6AWC2XaCF9M7UI0znV4/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Vivre",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Vivre Flow 10 Inch PS Parametric Louvers",
+    "Catalouge links": "https://drive.google.com/file/d/1Sjg5QP-LSLsNb8C0mCIxNH-WVmXd2TVe/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Vivre",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Vivre Louvers 2[1]",
+    "Catalouge links": "https://drive.google.com/file/d/1d8dGgP8of7c_QCrzUtvzEmlWu7lYYtUP/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Vivre",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Vivre Louvers OG E-Catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/139dbIZSk60fyNlSheVWXr1Sl2AnLvcIY/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Vivre",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Vivre Profiles[1]",
+    "Catalouge links": "https://drive.google.com/file/d/1saU718ZVwDZ2Td6g2c9ltVuGY6fkMUCf/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Vivre",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Vivre Quarry 9.5 ft Sleek Chiseled Marble",
+    "Catalouge links": "https://drive.google.com/file/d/17um5-cTxhhthwCGu_CEFJeM6YcGQnXSG/view?usp=sharing",
+    "Category": "Louvers",
+    "Brands": "Vivre",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Vouge Decor Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1XXCVSuUErHvuw5eqrYKCuxWJ08TYR5S6/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Wallstar Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1S7MzGqRxdQgzeLW_JMlKAoeRHgyRgI_V/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Woodline Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/1kfY1YH4ikdqJZOWEsvKU5M_qHwPKAYyP/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Woodline-Vo-5 Glorio",
+    "Catalouge links": "https://drive.google.com/file/d/15hoSSc2zZxU4exr7DfJYl11lapSS0yYo/preview",
+    "Category": "Louvers",
+    "Brands": "Glorio",
+    "": "",
+    "category": "Louvers",
+    "__source": "Catalogue links__Louvers",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "﻿Catalogues Name": "SLATER DOOR BY DELIZIA INTERIOR[1]",
+    "Catalouge links": "https://drive.google.com/file/d/1v7q9tOwojK4Xj6Hs_xk2HDSgexSM7UCs/view?usp=sharing",
+    "Category": "Metallic Doors",
+    "Brand": "Delizia",
+    "__source": "Catalogue links__Doors",
+    "category": "Metallic Doors"
+  },
+  {
+    "Catalogues Name": "Euro Pathik WAINSCOAT_vol_2",
+    "Catalouge links": "https://drive.google.com/file/d/1fcQniFMnfoJFSC-FfNAbtAufat_LUsK3/view?usp=sharing",
+    "Category": "Mouldings",
+    "Brand": "Euro Pathik",
+    "category": "Moulders",
+    "__source": "Catalogue links__Moulders",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Wainscot_2021",
+    "Catalouge links": "https://drive.google.com/file/d/1U57Joq_6mr6BrUrUFYEuAXGMVHgvh3sn/view?usp=sharing",
+    "Category": "Mouldings",
+    "Brand": "Euro Pathik",
+    "category": "Moulders",
+    "__source": "Catalogue links__Moulders",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "MOULDING & CORNER BY DELIZIA INTERIOR[1]",
+    "Catalouge links": "https://drive.google.com/file/d/1WIWjHFXUxy6skofbq6ra08KrTW02sqKc/view?usp=sharing",
+    "Category": "Mouldings",
+    "Brand": "Delizia",
+    "category": "Moulders",
+    "__source": "Catalogue links__Moulders",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
+    "Catalogues Name": "MOULDING BY DELIZIA INTERIOR[1]",
+    "Catalouge links": "https://drive.google.com/file/d/1fdEBeRfbX-jPHcnt8Ac1p749DDVLdhJ_/view?usp=sharing",
+    "Category": "Mouldings",
+    "Brand": "Delizia",
+    "category": "Moulders",
+    "__source": "Catalogue links__Moulders",
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
+  },
+  {
     "﻿Catalogues Name": "Euro Pathik Wainscot_2021",
     "Catalouge links": "https://drive.google.com/file/d/1U57Joq_6mr6BrUrUFYEuAXGMVHgvh3sn/view?usp=sharing",
     "Category": "Mouldings",
@@ -9856,401 +10771,450 @@
     "category": "Mouldings"
   },
   {
-    "﻿Catalogues Name": "EURO_PRATIK_EXCLUSO_VENEER_ PVC",
+    "Catalogues Name": "EURO_PRATIK_EXCLUSO_VENEER_ PVC",
     "Catalouge links": "https://drive.google.com/file/d/15LHqGe8lO7CKPm2OmDI5xRYf5E99keR7/view?usp=sharing",
     "Category": "PVC Laminates",
     "Brand": "Euro Pathik",
+    "category": "PVC Laminates",
     "__source": "Catalogue links__PVC Laminates",
-    "category": "PVC Laminates"
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
   },
   {
-    "﻿Catalogues Name": "Royal touch",
+    "Catalogues Name": "Royal touch",
     "Catalouge links": "https://drive.google.com/file/d/1KB_DvrYlYyGKQ7rtXGL2S3sAPClRVwkm/view?usp=sharing",
     "Category": "PVC Laminates",
     "Brand": "Roya Touch",
+    "category": "PVC Laminates",
     "__source": "Catalogue links__PVC Laminates",
-    "category": "PVC Laminates"
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
   },
   {
-    "﻿Catalogues Name": "Stanley - PVC Folder",
+    "Catalogues Name": "Stanley - PVC Folder",
     "Catalouge links": "https://drive.google.com/file/d/18_1ytIoZtDYv7mXqDxcLTS5XmqB7s3-S/view?usp=sharing",
     "Category": "PVC Laminates",
     "Brand": "Stanley",
+    "category": "PVC Laminates",
     "__source": "Catalogue links__PVC Laminates",
-    "category": "PVC Laminates"
+    "__updatedAt": "2025-09-13T08:31:28.189Z"
   },
   {
-    "﻿Catalogues Name": "Rang Bern Thermo Lam",
+    "Catalogues Name": "Rang Bern Thermo Lam",
     "Catalouge links": "https://drive.google.com/file/d/10VVL2a0EW8DmYPVhe8CcBEo7lwN3JWGA/view?usp=sharing",
     "Category": "Thermo Laminates",
     "Brand": "Rang",
+    "category": "Thermo Laminates",
     "__source": "Catalogue links__Thermo Laminates",
-    "category": "Thermo Laminates"
+    "__updatedAt": "2025-09-13T08:31:28.190Z"
   },
   {
-    "﻿Catalogues Name": "Euro Pathik ELITE-PRO-Single",
     "Catalogues Name": "Euro Pathik",
+    "category": "Ti Patti",
     "__source": "Catalogue links__Ti Patti",
-    "category": "Catalogue links__Ti Patti"
+    "__updatedAt": "2025-09-13T08:31:28.190Z"
   },
   {
-    "﻿Catalogues Name": "Flamingo-Natural",
-    "Catalouge links": "https://drive.google.com/file/d/1xmh7EEKxrMNQRDe6H52C27SMp7S1MJwJ/view?usp=sharing",
-    "Category": "Veeners",
-    "Brand": "Flamingo",
-    "__source": "Catalogue links__Veeners",
-    "category": "Veeners"
-  },
-  {
-    "﻿Catalogues Name": "Flamingo-Recon",
-    "Catalouge links": "https://drive.google.com/file/d/16BKXbxEmpZ6RrTjNHrWeds2JYWEUUnGz/view?usp=sharing",
-    "Category": "Veeners",
-    "Brand": "Flamingo",
-    "__source": "Catalogue links__Veeners",
-    "category": "Veeners"
-  },
-  {
-    "﻿Catalogues Name": "Flamingo-Art",
-    "Catalouge links": "https://drive.google.com/file/d/1EN8WsJ8YzHXZDpqMkQi8Lzk-z0Z2QREo/view?usp=sharing",
-    "Category": "Veeners",
-    "Brand": "Flamingo",
-    "__source": "Catalogue links__Veeners",
-    "category": "Veeners"
-  },
-  {
-    "﻿Catalogues Name": "Flamingo-Silver Stone collection",
-    "Catalouge links": "https://drive.google.com/file/d/1UH2kbaOF1UdqbK3n-lBU3NCMzX6aRLbp/view?usp=sharing",
-    "Category": "Veeners",
-    "Brand": "Flamingo",
-    "__source": "Catalogue links__Veeners",
-    "category": "Veeners"
-  },
-  {
-    "﻿Catalogues Name": "Billion NATURAL Veener",
+    "Catalogues Name": "Billion NATURAL Veener",
     "Catalouge links": "https://drive.google.com/file/d/1czJYAEHYlRzGto5vHIjrvUYqKT4h7ieT/view?usp=sharing",
     "Category": "Veeners",
     "Brand": "Billion Ply",
+    "category": "Veeners",
     "__source": "Catalogue links__Veeners",
-    "category": "Veeners"
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
   },
   {
-    "﻿Catalogues Name": "Euro Pathik Weavers-Brochure",
-    "Catalouge links": "https://drive.google.com/file/d/1rJlMUh8YfFmKF_CTZUBuuSF8_ZGaCDZn/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Euro Pathik",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
+    "Catalogues Name": "Flamingo-Art",
+    "Catalouge links": "https://drive.google.com/file/d/1EN8WsJ8YzHXZDpqMkQi8Lzk-z0Z2QREo/view?usp=sharing",
+    "Category": "Veeners",
+    "Brand": "Flamingo",
+    "category": "Veeners",
+    "__source": "Catalogue links__Veeners",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
   },
   {
-    "﻿Catalogues Name": "Euro Pathik Stonedge_Brochure",
-    "Catalouge links": "https://drive.google.com/file/d/1SmsDW4JFFKq5_74JTEv13_7qgG6sUKz1/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Euro Pathik",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
+    "Catalogues Name": "Flamingo-Natural",
+    "Catalouge links": "https://drive.google.com/file/d/1xmh7EEKxrMNQRDe6H52C27SMp7S1MJwJ/view?usp=sharing",
+    "Category": "Veeners",
+    "Brand": "Flamingo",
+    "category": "Veeners",
+    "__source": "Catalogue links__Veeners",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
   },
   {
-    "﻿Catalogues Name": "Euro Pathik Stellar-Flute-Brochure",
-    "Catalouge links": "https://drive.google.com/file/d/1GuOpGKMfeN0Xnc-jJnBkJzOA_dBiLEA8/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Euro Pathik",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
+    "Catalogues Name": "Flamingo-Recon",
+    "Catalouge links": "https://drive.google.com/file/d/16BKXbxEmpZ6RrTjNHrWeds2JYWEUUnGz/view?usp=sharing",
+    "Category": "Veeners",
+    "Brand": "Flamingo",
+    "category": "Veeners",
+    "__source": "Catalogue links__Veeners",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
   },
   {
-    "﻿Catalogues Name": "Euro Pathik Rocklite_Brochure",
-    "Catalouge links": "https://drive.google.com/file/d/1n6ngb1jOvpRox-3cPqjj0j9CuQslUWO4/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Euro Pathik",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
+    "Catalogues Name": "Flamingo-Silver Stone collection",
+    "Catalouge links": "https://drive.google.com/file/d/1UH2kbaOF1UdqbK3n-lBU3NCMzX6aRLbp/view?usp=sharing",
+    "Category": "Veeners",
+    "Brand": "Flamingo",
+    "category": "Veeners",
+    "__source": "Catalogue links__Veeners",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
   },
   {
-    "﻿Catalogues Name": "Euro Pathik QUBE-catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1cvuLzAnNnUAkte-z9pjKWQbzXtWGa2AU/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Euro Pathik",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik MIGA-EDGE-Catalgoue",
-    "Catalouge links": "https://drive.google.com/file/d/13DX0s20760zRtZra3JyA81LB8ihW3Qfo/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Euro Pathik",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Maze-Brochure",
-    "Catalouge links": "https://drive.google.com/file/d/1hGsUNCxjp2a-H8ogxFj3pOrbIu4xt3kI/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Euro Pathik",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Marbelo-Brochure",
-    "Catalouge links": "https://drive.google.com/file/d/1thdCtEoK3LIduF2uCD9uTBJNljvJ3KMG/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Euro Pathik",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Lucento_Slim_Combine_Brochure",
-    "Catalouge links": "https://drive.google.com/file/d/1BvJCWOltYicwLKCV1nUbLI48INeSIces/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Euro Pathik",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik LUCENTO_CATALOG",
-    "Catalouge links": "https://drive.google.com/file/d/1qv93B-hxU2edmCDxxzrWmby9_C9uuRcf/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Euro Pathik",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Granorte-2021-cat_dVwutne",
-    "Catalouge links": "https://drive.google.com/file/d/11hRL_tqHzD8b5_jtz7YG5vjlMqgN48i5/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Euro Pathik",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik glitz_brochure",
-    "Catalouge links": "https://drive.google.com/file/d/1_FAB6Cpr4jYzU19h9a5X0vo5J4pl4ZpS/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Euro Pathik",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Euro Pathik Flexo",
-    "Catalouge links": "https://drive.google.com/file/d/1gSKv4vle3DgO1NwWPEgj89gqP3WpqoJh/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Euro Pathik",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor zen-panel",
-    "Catalouge links": "https://drive.google.com/file/d/1kGNv1Elxg9HtyMAFkgmUor4TxRzEOTso/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor WOOD-KRAFT",
-    "Catalouge links": "https://drive.google.com/file/d/1pIeHogAPtZCtpxqw-lJG070lZCt9Wpsc/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor SPC-FLOORING-1",
-    "Catalouge links": "https://drive.google.com/file/d/1iEbKWk2FGJe2BwMGEC58aUHtC-FYXjth/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor Smart-Edge-Panel-min",
-    "Catalouge links": "https://drive.google.com/file/d/1E5DYfvmw_7z1ibD04IF93W4QJe5ZfrDk/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor Smart-Edge-Panel-min (1)",
-    "Catalouge links": "https://drive.google.com/file/d/1Cv-jCGZhnrOdFHwGor_jtlG7wsayEI3w/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor RaftersVol4",
-    "Catalouge links": "https://drive.google.com/file/d/1IbRuZ2ni_5Rc__zDdx2yHHKMPaoX0q4K/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor RAFTERS-VOLUME-3",
-    "Catalouge links": "https://drive.google.com/file/d/1uY50O5rNla82Ik6gsLtWnl7Ml7322zHe/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor Pinette",
-    "Catalouge links": "https://drive.google.com/file/d/1dvRi0mU-VT5slrXYnBbFTQ4tPfFHO9MG/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor novapanels",
-    "Catalouge links": "https://drive.google.com/file/d/1aCh5tCTUEBiqbH3THHm5hPkHA6zFjckM/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor MATT-LAMINATE-FLOORING",
-    "Catalouge links": "https://drive.google.com/file/d/1UID5saW84DxyFOkJ4F2MtTNcm1aC9hFA/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor Master-Rafter-Catalogue_compressed-1",
-    "Catalouge links": "https://drive.google.com/file/d/16M6D1yyyfJyVaVmUkng8_Vyjk-WC587j/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor Master-Charcoal-Catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1EZzyZpFQ2HWQ8J8Ykyg6KX3xQKkD9f_N/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor LUSSO-Volume-4",
-    "Catalouge links": "https://drive.google.com/file/d/1WiHnBrsBPVQEsgFkhw6TPDEjOglyuQEq/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor LAMINATE-FLOORING-New",
-    "Catalouge links": "https://drive.google.com/file/d/1TpURX1szt5cYExQPeIwnZWb0p6CmRfmI/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor Inspire-Catalogue",
-    "Catalouge links": "https://drive.google.com/file/d/1MzNwlhdCJp4y4UHGJfejCzBkgT7sSry0/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor  INSIGNIA-V2-min",
-    "Catalouge links": "https://drive.google.com/file/d/1AYAl_oDrqCYvutrPz8RkaSiyQbTwQqIC/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor Imperia-Catalouge-Final-1",
-    "Catalouge links": "https://drive.google.com/file/d/1cnPOWqkKiJrbXJDTzXN3kL2T5RIdS2Fl/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor HYBRID-FLOORING-1",
-    "Catalouge links": "https://drive.google.com/file/d/1_JtcTkh8lZN3i2qbM4UE-vH_uLqRZyzP/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor  Elements-Charcoal-Vol-2",
-    "Catalouge links": "https://drive.google.com/file/d/1Ft3gZC4M79q10VWUAFS4g5m_E2hIsiQ9/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor Elements-Charcoal-Vol-1",
-    "Catalouge links": "https://drive.google.com/file/d/1nXeI0jmrVjuHT3f8s_BFtR2g_Ugb8tpw/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor DIVA-MOSAIC-VOL-2-min",
-    "Catalouge links": "https://drive.google.com/file/d/1P8QYBMa2HfCvHwdu0c48rGvhTYG-UOab/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor DIVA-MOSAIC-VOL-2_compressed",
-    "Catalouge links": "https://drive.google.com/file/d/1fIsKEMgE4eMzcF5xHuvVzON0Qm2NavPB/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "Element Decor DIVA-LUXURIOUS-MOSAIC_compressed",
-    "Catalouge links": "https://drive.google.com/file/d/1dld_I2oCm7SmjH8d-XUpLC_u_VLRaTwn/view?usp=sharing",
-    "Category": "Wall Panels",
-    "Brand": "Element Decor",
-    "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
-  },
-  {
-    "﻿Catalogues Name": "DELIZIA -DELIZIA INTERIOR 3D WALL PANEL[1]",
+    "Catalogues Name": "DELIZIA -DELIZIA INTERIOR 3D WALL PANEL[1]",
     "Catalouge links": "https://drive.google.com/file/d/1_0hJWT76-sT4VxrALpbeF5z13CPpUaU7/view?usp=sharing",
     "Category": "Wall Panels",
     "Brand": "Delizia",
+    "category": "Wall Panels",
     "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
   },
   {
-    "﻿Catalogues Name": "SHANNON BY DELIZIA INTERIOR[1]",
-    "Catalouge links": "https://drive.google.com/file/d/1EC_xRJSduNABoZqaWO301kAjWvL91oY2/view?usp=sharing",
+    "Catalogues Name": "Element Decor  Elements-Charcoal-Vol-2",
+    "Catalouge links": "https://drive.google.com/file/d/1Ft3gZC4M79q10VWUAFS4g5m_E2hIsiQ9/view?usp=sharing",
     "Category": "Wall Panels",
-    "Brand": "Sterlina",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
     "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
   },
   {
-    "﻿Catalogues Name": "Rang Groove Forest",
-    "Catalouge links": "https://drive.google.com/file/d/11tFth7DyB8yztP2EzuiVGGTbx9FzrcJS/view?usp=sharing",
+    "Catalogues Name": "Element Decor  INSIGNIA-V2-min",
+    "Catalouge links": "https://drive.google.com/file/d/1AYAl_oDrqCYvutrPz8RkaSiyQbTwQqIC/view?usp=sharing",
     "Category": "Wall Panels",
-    "Brand": "Rang",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
     "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
   },
   {
-    "﻿Catalogues Name": "Rang Canis MDF",
+    "Catalogues Name": "Element Decor DIVA-LUXURIOUS-MOSAIC_compressed",
+    "Catalouge links": "https://drive.google.com/file/d/1dld_I2oCm7SmjH8d-XUpLC_u_VLRaTwn/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor DIVA-MOSAIC-VOL-2_compressed",
+    "Catalouge links": "https://drive.google.com/file/d/1fIsKEMgE4eMzcF5xHuvVzON0Qm2NavPB/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor DIVA-MOSAIC-VOL-2-min",
+    "Catalouge links": "https://drive.google.com/file/d/1P8QYBMa2HfCvHwdu0c48rGvhTYG-UOab/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor Elements-Charcoal-Vol-1",
+    "Catalouge links": "https://drive.google.com/file/d/1nXeI0jmrVjuHT3f8s_BFtR2g_Ugb8tpw/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor HYBRID-FLOORING-1",
+    "Catalouge links": "https://drive.google.com/file/d/1_JtcTkh8lZN3i2qbM4UE-vH_uLqRZyzP/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor Imperia-Catalouge-Final-1",
+    "Catalouge links": "https://drive.google.com/file/d/1cnPOWqkKiJrbXJDTzXN3kL2T5RIdS2Fl/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor Inspire-Catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1MzNwlhdCJp4y4UHGJfejCzBkgT7sSry0/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor LAMINATE-FLOORING-New",
+    "Catalouge links": "https://drive.google.com/file/d/1TpURX1szt5cYExQPeIwnZWb0p6CmRfmI/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor LUSSO-Volume-4",
+    "Catalouge links": "https://drive.google.com/file/d/1WiHnBrsBPVQEsgFkhw6TPDEjOglyuQEq/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor Master-Charcoal-Catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1EZzyZpFQ2HWQ8J8Ykyg6KX3xQKkD9f_N/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor Master-Rafter-Catalogue_compressed-1",
+    "Catalouge links": "https://drive.google.com/file/d/16M6D1yyyfJyVaVmUkng8_Vyjk-WC587j/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor MATT-LAMINATE-FLOORING",
+    "Catalouge links": "https://drive.google.com/file/d/1UID5saW84DxyFOkJ4F2MtTNcm1aC9hFA/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor novapanels",
+    "Catalouge links": "https://drive.google.com/file/d/1aCh5tCTUEBiqbH3THHm5hPkHA6zFjckM/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor Pinette",
+    "Catalouge links": "https://drive.google.com/file/d/1dvRi0mU-VT5slrXYnBbFTQ4tPfFHO9MG/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor RAFTERS-VOLUME-3",
+    "Catalouge links": "https://drive.google.com/file/d/1uY50O5rNla82Ik6gsLtWnl7Ml7322zHe/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor RaftersVol4",
+    "Catalouge links": "https://drive.google.com/file/d/1IbRuZ2ni_5Rc__zDdx2yHHKMPaoX0q4K/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor Smart-Edge-Panel-min",
+    "Catalouge links": "https://drive.google.com/file/d/1E5DYfvmw_7z1ibD04IF93W4QJe5ZfrDk/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor Smart-Edge-Panel-min (1)",
+    "Catalouge links": "https://drive.google.com/file/d/1Cv-jCGZhnrOdFHwGor_jtlG7wsayEI3w/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor SPC-FLOORING-1",
+    "Catalouge links": "https://drive.google.com/file/d/1iEbKWk2FGJe2BwMGEC58aUHtC-FYXjth/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor WOOD-KRAFT",
+    "Catalouge links": "https://drive.google.com/file/d/1pIeHogAPtZCtpxqw-lJG070lZCt9Wpsc/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Element Decor zen-panel",
+    "Catalouge links": "https://drive.google.com/file/d/1kGNv1Elxg9HtyMAFkgmUor4TxRzEOTso/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Element Decor",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Flexo",
+    "Catalouge links": "https://drive.google.com/file/d/1gSKv4vle3DgO1NwWPEgj89gqP3WpqoJh/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Euro Pathik",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik glitz_brochure",
+    "Catalouge links": "https://drive.google.com/file/d/1_FAB6Cpr4jYzU19h9a5X0vo5J4pl4ZpS/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Euro Pathik",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Granorte-2021-cat_dVwutne",
+    "Catalouge links": "https://drive.google.com/file/d/11hRL_tqHzD8b5_jtz7YG5vjlMqgN48i5/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Euro Pathik",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik LUCENTO_CATALOG",
+    "Catalouge links": "https://drive.google.com/file/d/1qv93B-hxU2edmCDxxzrWmby9_C9uuRcf/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Euro Pathik",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Lucento_Slim_Combine_Brochure",
+    "Catalouge links": "https://drive.google.com/file/d/1BvJCWOltYicwLKCV1nUbLI48INeSIces/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Euro Pathik",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Marbelo-Brochure",
+    "Catalouge links": "https://drive.google.com/file/d/1thdCtEoK3LIduF2uCD9uTBJNljvJ3KMG/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Euro Pathik",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Maze-Brochure",
+    "Catalouge links": "https://drive.google.com/file/d/1hGsUNCxjp2a-H8ogxFj3pOrbIu4xt3kI/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Euro Pathik",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik MIGA-EDGE-Catalgoue",
+    "Catalouge links": "https://drive.google.com/file/d/13DX0s20760zRtZra3JyA81LB8ihW3Qfo/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Euro Pathik",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik QUBE-catalogue",
+    "Catalouge links": "https://drive.google.com/file/d/1cvuLzAnNnUAkte-z9pjKWQbzXtWGa2AU/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Euro Pathik",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Rocklite_Brochure",
+    "Catalouge links": "https://drive.google.com/file/d/1n6ngb1jOvpRox-3cPqjj0j9CuQslUWO4/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Euro Pathik",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Stellar-Flute-Brochure",
+    "Catalouge links": "https://drive.google.com/file/d/1GuOpGKMfeN0Xnc-jJnBkJzOA_dBiLEA8/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Euro Pathik",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Stonedge_Brochure",
+    "Catalouge links": "https://drive.google.com/file/d/1SmsDW4JFFKq5_74JTEv13_7qgG6sUKz1/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Euro Pathik",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Euro Pathik Weavers-Brochure",
+    "Catalouge links": "https://drive.google.com/file/d/1rJlMUh8YfFmKF_CTZUBuuSF8_ZGaCDZn/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Euro Pathik",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Rang Canis MDF",
     "Catalouge links": "https://drive.google.com/file/d/1nriy_JRbbtoSnkKLOJ70xNkthPgDRTew/view?usp=sharing",
     "Category": "Wall Panels",
     "Brand": "Rang",
+    "category": "Wall Panels",
     "__source": "Catalogue links__Wall Panels",
-    "category": "Wall Panels"
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "Rang Groove Forest",
+    "Catalouge links": "https://drive.google.com/file/d/11tFth7DyB8yztP2EzuiVGGTbx9FzrcJS/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Rang",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
+  },
+  {
+    "Catalogues Name": "SHANNON BY DELIZIA INTERIOR[1]",
+    "Catalouge links": "https://drive.google.com/file/d/1EC_xRJSduNABoZqaWO301kAjWvL91oY2/view?usp=sharing",
+    "Category": "Wall Panels",
+    "Brand": "Sterlina",
+    "category": "Wall Panels",
+    "__source": "Catalogue links__Wall Panels",
+    "__updatedAt": "2025-09-13T08:31:28.192Z"
   }
 ]
