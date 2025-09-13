@@ -67,18 +67,30 @@ export default function CatalogCardPreview({ item }: { item: Row }) {
 
   // Generate PDF thumbnail if no image is available and we have a PDF link
   useEffect(() => {
+    console.log('🔍 PDF Thumbnail Debug:', { 
+      title, 
+      hasImg: !!img, 
+      hasHref: !!href, 
+      isDriveLink: href?.includes('drive.google.com'),
+      href: href?.substring(0, 50) + '...'
+    });
+    
     if (!img && href && href.includes('drive.google.com')) {
+      console.log('🚀 Starting PDF thumbnail generation for:', title);
       setIsLoadingThumbnail(true);
       getPdfFirstPageDataUrl(href, 300)
         .then(thumbnail => {
+          console.log('✅ PDF thumbnail result for:', title, thumbnail ? 'SUCCESS' : 'NULL');
           setPdfThumbnail(thumbnail);
         })
         .catch(error => {
-          console.warn('Failed to generate PDF thumbnail for:', title, error);
+          console.error('❌ PDF thumbnail failed for:', title, error);
         })
         .finally(() => {
           setIsLoadingThumbnail(false);
         });
+    } else {
+      console.log('⏭️ Skipping PDF thumbnail for:', title, 'Reason:', !img ? 'has image' : !href ? 'no href' : 'not drive link');
     }
   }, [img, href, title]);
 

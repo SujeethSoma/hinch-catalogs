@@ -5,7 +5,7 @@ async function ensurePdfjs() {
   if (_pdfjs) return _pdfjs;
   const pdfjsLib = await import('pdfjs-dist');
   // @ts-ignore
-  pdfjsLib.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
+  pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
   _pdfjs = pdfjsLib;
   return _pdfjs;
 }
@@ -45,7 +45,9 @@ export async function getPdfFirstPageDataUrl(pdfUrl: string, maxW = 300): Promis
     if (typeof window !== 'undefined') localStorage.setItem(key, dataUrl);
     return dataUrl;
   } catch (e) {
-    console.warn('preview render failed', e);
+    console.error('PDF thumbnail generation failed:', e);
+    console.error('PDF URL:', pdfUrl);
+    console.error('Normalized URL:', normalized);
     return null;
   }
 }
