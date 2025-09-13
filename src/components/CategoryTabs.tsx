@@ -19,7 +19,7 @@ export default function CategoryTabs({ activeCategory, setActiveCategory, items 
     <div className="flex flex-wrap gap-3 mb-8">
       {visibleCategories.map((category) => {
         const isActive = activeCategory === category;
-        const count = counts.get(category) || 0;
+        const count = category === "All" ? totalCount : (counts.get(category) || 0);
         const disabled = count === 0;
         
         return (

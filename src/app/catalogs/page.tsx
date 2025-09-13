@@ -15,7 +15,7 @@ function ClientGridContent() {
   const items: CatalogItem[] = getAllCatalogs();
 
   // State management with URL sync
-  const [activeCategory, setActiveCategory] = useState<string>("");
+  const [activeCategory, setActiveCategory] = useState<string>("All");
   const [brand, setBrand] = useState<string>("All");
   const [search, setSearch] = useState<string>("");
   const [view, setView] = useState<string>("preview");
@@ -29,8 +29,8 @@ function ClientGridContent() {
       const category = decodeURIComponent(categoryParam);
       setActiveCategory(ensureKnownCategory(category));
     } else {
-      // Default to showing both Acrylic and Solid Colour Laminates
-      setActiveCategory("Acrylic Laminates");
+      // Default to "All" category
+      setActiveCategory("All");
     }
     
     if (viewParam) {
@@ -93,18 +93,9 @@ function ClientGridContent() {
 
   const filtered = useMemo(() => {
     // Filter by category first
-    let byCategory;
-    if (activeCategory === "All") {
-      byCategory = items;
-    } else if (activeCategory === "Acrylic Laminates") {
-      // Show both Acrylic and Solid Colour Laminates by default
-      byCategory = items.filter(i => 
-        safeCompare(i.category, "Acrylic Laminates") || 
-        safeCompare(i.category, "Solid Colour Laminates")
-      );
-    } else {
-      byCategory = items.filter(i => safeCompare(i.category, activeCategory));
-    }
+    const byCategory = activeCategory === "All"
+      ? items
+      : items.filter(i => safeCompare(i.category, activeCategory));
 
     // Filter by brand
     const byBrand = brand === "All"

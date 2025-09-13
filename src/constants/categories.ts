@@ -1,8 +1,11 @@
 export const CATEGORY_ORDER = [
+  "All",
   "Acrylic Laminates",
   "Solid Colour Laminates",
-  "Decorative Laminates",
   "360 Louvers",
+  "Decorative Laminates",
+  "Doors",
+  "Edge Banding",
   "Hardware",
   "Liners",
   "Louvers",
@@ -10,9 +13,7 @@ export const CATEGORY_ORDER = [
   "PVC Laminates",
   "Thermo Laminates",
   "Veneers",
-  "Wall Panels",
-  "Doors",
-  "Edge Banding"
+  "Wall Panels"
 ] as const;
 
 export const HIDDEN_TOP_CATEGORIES = new Set([

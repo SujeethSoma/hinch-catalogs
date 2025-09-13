@@ -9,6 +9,10 @@ export interface CatalogItem {
   thumbnailUrl: string;
   fileId: string;
   sourceCsv: string;
+  // New fields for enhanced preview
+  previewImage?: string;
+  thumbnail?: string;
+  pdfUrl?: string;
 }
 
 import { CATEGORY_ORDER, HIDDEN_TOP_CATEGORIES, DEFAULT_CATEGORIES } from '@/constants/categories';
@@ -26,7 +30,9 @@ export function countByExactCategory(items: CatalogItem[]): Map<string, number> 
   
   // Initialize all categories with 0
   CATEGORY_ORDER.forEach(category => {
-    counts.set(category, 0);
+    if (category !== "All") {
+      counts.set(category, 0);
+    }
   });
   
   // Count items by exact category
@@ -39,14 +45,14 @@ export function countByExactCategory(items: CatalogItem[]): Map<string, number> 
 }
 
 export function ensureKnownCategory(cat: string): string {
-  if (!cat) return "Acrylic Laminates";
+  if (!cat) return "All";
   
   // Check if the category exists in CATEGORY_ORDER (case-insensitive)
   const found = CATEGORY_ORDER.find(category => 
     safeCompare(category, cat)
   );
   
-  return found || "Acrylic Laminates";
+  return found || "All";
 }
 
 export function getTotalCount(items: CatalogItem[]): number {

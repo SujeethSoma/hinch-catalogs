@@ -1,40 +1,87 @@
 import Image from "next/image";
+import PDFPreview from "./PDFPreview";
+import { CatalogItem } from "@/lib/categories";
 
-type Item = { 
-  name: string; 
-  driveLink: string; 
-  brand?: string; 
-  category?: string; 
-  thumbnailUrl?: string; 
-  previewUrl: string;
-  downloadUrl: string;
-};
-
-export default function CatalogCard({ item }: { item: Item }) {
+export default function CatalogCard({ item }: { item: CatalogItem }) {
   const p = item.previewUrl;
   const d = item.downloadUrl;
   const t = item.thumbnailUrl;
+
+  // Determine which preview to show
+  const getPreviewContent = () => {
+    // Priority 1: previewImage
+    if (item.previewImage) {
+      return (
+        <Image 
+          src={item.previewImage} 
+          alt={item.name} 
+          fill
+          className="object-cover transition-transform duration-300 group-hover:scale-105"
+          onError={() => {}} 
+        />
+      );
+    }
+    
+    // Priority 2: thumbnail
+    if (item.thumbnail) {
+      return (
+        <Image 
+          src={item.thumbnail} 
+          alt={item.name} 
+          fill
+          className="object-cover transition-transform duration-300 group-hover:scale-105"
+          onError={() => {}} 
+        />
+      );
+    }
+    
+    // Priority 3: PDF preview
+    if (item.pdfUrl) {
+      return (
+        <PDFPreview 
+          pdfUrl={item.pdfUrl}
+          className="w-full h-full"
+          fallback={
+            <div className="w-full h-full flex items-center justify-center text-center p-4">
+              <div className="brand-gradient absolute inset-0 opacity-95" />
+              <div className="relative text-white font-semibold leading-snug text-sm line-clamp-3">
+                {item.name}
+              </div>
+            </div>
+          }
+        />
+      );
+    }
+    
+    // Priority 4: existing thumbnailUrl
+    if (t) {
+      return (
+        <Image 
+          src={t} 
+          alt={item.name} 
+          fill
+          className="object-cover transition-transform duration-300 group-hover:scale-105"
+          onError={() => {}} 
+        />
+      );
+    }
+    
+    // Fallback: gradient with text
+    return (
+      <div className="w-full h-full flex items-center justify-center text-center p-4">
+        <div className="brand-gradient absolute inset-0 opacity-95" />
+        <div className="relative text-white font-semibold leading-snug text-sm line-clamp-3">
+          {item.name}
+        </div>
+      </div>
+    );
+  };
 
   return (
     <div className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden max-w-[200px] mx-auto hover:scale-105">
       {/* Thumbnail */}
       <div className="relative w-full h-[220px] overflow-hidden bg-gray-50 rounded-t-xl">
-        {t ? (
-          <Image 
-            src={t} 
-            alt={item.name} 
-            fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
-            onError={() => {}} 
-          />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center text-center p-4">
-            <div className="brand-gradient absolute inset-0 opacity-95" />
-            <div className="relative text-white font-semibold leading-snug text-sm line-clamp-3">
-              {item.name}
-            </div>
-          </div>
-        )}
+        {getPreviewContent()}
       </div>
 
       {/* Content */}

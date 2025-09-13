@@ -13,11 +13,15 @@ export function getAllCatalogs(): CatalogItem[] {
     category: item.category || "",
     brand: item.Brand || item.Brands || "",
     categoryKey: "", // Not available in current data
-    previewUrl: "", // Not available in current data
-    downloadUrl: "", // Not available in current data
+    previewUrl: item["Catalouge links"] || item["Catalogues Links"] || "", // Use drive link as preview
+    downloadUrl: item["Catalouge links"] || item["Catalogues Links"] || "", // Use drive link as download
     thumbnailUrl: "", // Not available in current data
     fileId: "", // Not available in current data
-    sourceCsv: item.__source || ""
+    sourceCsv: item.__source || "",
+    // New fields for enhanced preview (optional, may not exist in current data)
+    previewImage: (item as any).previewImage || "",
+    thumbnail: (item as any).thumbnail || "",
+    pdfUrl: (item as any).pdfUrl || ""
   }));
 
   // Sort by category then name
