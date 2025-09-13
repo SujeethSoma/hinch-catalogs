@@ -4,7 +4,7 @@ import { useMemo, useState, useEffect, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import CategoryTabs from "@/components/CategoryTabs";
 import CatalogCard from "@/components/CatalogCard";
-import { CatalogItem, CATEGORY_ORDER, safeCompare, ensureKnownCategory } from "@/lib/categories";
+import { CatalogItem, CATEGORY_ORDER, HIDDEN_TOP_CATEGORIES, DEFAULT_CATEGORIES, safeCompare, ensureKnownCategory } from "@/lib/categories";
 import { getAllCatalogs, getUniqueBrands } from "@/lib/catalogData";
 
 function ClientGridContent() {
@@ -15,16 +15,29 @@ function ClientGridContent() {
   const items: CatalogItem[] = getAllCatalogs();
 
   // State management with URL sync
-  const [activeCategory, setActiveCategory] = useState<string>("All");
+  const [activeCategory, setActiveCategory] = useState<string>("");
   const [brand, setBrand] = useState<string>("All");
   const [search, setSearch] = useState<string>("");
+  const [view, setView] = useState<string>("preview");
 
   // Initialize from URL params
   useEffect(() => {
     const categoryParam = searchParams.get('category');
+    const viewParam = searchParams.get('view');
+    
     if (categoryParam) {
       const category = decodeURIComponent(categoryParam);
       setActiveCategory(ensureKnownCategory(category));
+    } else {
+      // Default to showing both Acrylic and Solid Colour Laminates
+      setActiveCategory("Acrylic Laminates");
+    }
+    
+    if (viewParam) {
+      setView(viewParam);
+    } else {
+      // Default to preview view
+      setView("preview");
     }
   }, [searchParams]);
 
@@ -36,6 +49,10 @@ function ClientGridContent() {
       params.delete('category');
     } else {
       params.set('category', category);
+    }
+    // Preserve view parameter
+    if (view) {
+      params.set('view', view);
     }
     router.push(`?${params.toString()}`, { scroll: false });
   };
@@ -49,6 +66,26 @@ function ClientGridContent() {
     } else {
       params.set('category', category);
     }
+    // Preserve view parameter
+    if (view) {
+      params.set('view', view);
+    }
+    router.push(`?${params.toString()}`, { scroll: false });
+  };
+
+  // Handle view change
+  const handleViewChange = (newView: string) => {
+    setView(newView);
+    const params = new URLSearchParams(searchParams);
+    if (newView === "preview") {
+      params.delete('view');
+    } else {
+      params.set('view', newView);
+    }
+    // Preserve category parameter
+    if (activeCategory && activeCategory !== "All") {
+      params.set('category', activeCategory);
+    }
     router.push(`?${params.toString()}`, { scroll: false });
   };
 
@@ -56,9 +93,18 @@ function ClientGridContent() {
 
   const filtered = useMemo(() => {
     // Filter by category first
-    const byCategory = activeCategory === "All"
-      ? items
-      : items.filter(i => safeCompare(i.category, activeCategory));
+    let byCategory;
+    if (activeCategory === "All") {
+      byCategory = items;
+    } else if (activeCategory === "Acrylic Laminates") {
+      // Show both Acrylic and Solid Colour Laminates by default
+      byCategory = items.filter(i => 
+        safeCompare(i.category, "Acrylic Laminates") || 
+        safeCompare(i.category, "Solid Colour Laminates")
+      );
+    } else {
+      byCategory = items.filter(i => safeCompare(i.category, activeCategory));
+    }
 
     // Filter by brand
     const byBrand = brand === "All"
@@ -113,19 +159,54 @@ function ClientGridContent() {
             onChange={e => handleDropdownCategoryChange(e.target.value)} 
             className="border rounded-xl px-3 py-2"
           >
-            {CATEGORY_ORDER.filter(c => c !== "All").map(c => 
+            {CATEGORY_ORDER.filter(c => !HIDDEN_TOP_CATEGORIES.has(c)).map(c => 
               <option key={c} value={c}>{c}</option>
             )}
             <option value="All">All</option>
+          </select>
+        </div>
+        <div>
+          <label className="block text-sm font-medium mb-1 text-gray-700">View</label>
+          <select 
+            value={view} 
+            onChange={e => handleViewChange(e.target.value)} 
+            className="border rounded-xl px-3 py-2"
+          >
+            <option value="preview">Preview</option>
+            <option value="list">List</option>
           </select>
         </div>
       </div>
 
       <div className="text-sm text-gray-600">{filtered.length} result(s)</div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {filtered.map((item, idx) => <CatalogCard key={idx + item.name} item={item} />)}
-      </div>
+      {view === "preview" ? (
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {filtered.map((item, idx) => <CatalogCard key={idx + item.name} item={item} />)}
+        </div>
+      ) : (
+        <div className="space-y-3">
+          {filtered.map((item, idx) => (
+            <div key={idx + item.name} className="border rounded-lg p-4 hover:bg-gray-50">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="font-medium text-gray-900">{item.name}</h3>
+                  <p className="text-sm text-gray-600">{item.category}</p>
+                  {item.brand && <p className="text-sm text-gray-500">Brand: {item.brand}</p>}
+                </div>
+                <a 
+                  href={item.driveLink} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bg-[#F46300] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#CC380A] transition-colors duration-200"
+                >
+                  View Catalog
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
 
       {filtered.length === 0 && <div className="text-center text-gray-500 py-10">No catalogs found</div>}
     </div>

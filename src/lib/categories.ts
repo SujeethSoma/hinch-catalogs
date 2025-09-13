@@ -11,18 +11,9 @@ export interface CatalogItem {
   sourceCsv: string;
 }
 
-export const CATEGORY_ORDER = [
-  "All",
-  "Decorative Laminates",
-  "360 Louvers",
-  "Decorative Fabric sheet",
-  "Hardware",
-  "Liners",
-  "Louvers",
-  "Mouldings",
-  "PVC Laminates",
-  "Wall Panels"
-] as const;
+import { CATEGORY_ORDER, HIDDEN_TOP_CATEGORIES, DEFAULT_CATEGORIES } from '@/constants/categories';
+
+export { CATEGORY_ORDER, HIDDEN_TOP_CATEGORIES, DEFAULT_CATEGORIES };
 
 export type CategoryType = typeof CATEGORY_ORDER[number];
 
@@ -35,9 +26,7 @@ export function countByExactCategory(items: CatalogItem[]): Map<string, number> 
   
   // Initialize all categories with 0
   CATEGORY_ORDER.forEach(category => {
-    if (category !== "All") {
-      counts.set(category, 0);
-    }
+    counts.set(category, 0);
   });
   
   // Count items by exact category
@@ -50,14 +39,14 @@ export function countByExactCategory(items: CatalogItem[]): Map<string, number> 
 }
 
 export function ensureKnownCategory(cat: string): string {
-  if (!cat) return "All";
+  if (!cat) return "Acrylic Laminates";
   
   // Check if the category exists in CATEGORY_ORDER (case-insensitive)
   const found = CATEGORY_ORDER.find(category => 
-    category !== "All" && safeCompare(category, cat)
+    safeCompare(category, cat)
   );
   
-  return found || "All";
+  return found || "Acrylic Laminates";
 }
 
 export function getTotalCount(items: CatalogItem[]): number {
