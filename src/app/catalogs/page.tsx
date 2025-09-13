@@ -22,8 +22,8 @@ function ClientGridContent() {
 
   // Initialize from URL params
   useEffect(() => {
-    const categoryParam = searchParams.get('category');
-    const viewParam = searchParams.get('view');
+    const categoryParam = searchParams?.get('category');
+    const viewParam = searchParams?.get('view');
     
     if (categoryParam) {
       const category = decodeURIComponent(categoryParam);
@@ -38,7 +38,7 @@ function ClientGridContent() {
     } else {
       // Default to preview view and update URL
       setView("preview");
-      const params = new URLSearchParams(searchParams);
+      const params = new URLSearchParams(searchParams || '');
       params.set('view', 'preview');
       router.replace(`?${params.toString()}`, { scroll: false });
     }
@@ -47,7 +47,7 @@ function ClientGridContent() {
   // Update URL when category changes
   const handleCategoryChange = (category: string) => {
     setActiveCategory(category);
-    const params = new URLSearchParams(searchParams);
+    const params = new URLSearchParams(searchParams || '');
     if (category === "All") {
       params.delete('category');
     } else {
@@ -63,7 +63,7 @@ function ClientGridContent() {
   // Handle dropdown category change
   const handleDropdownCategoryChange = (category: string) => {
     setActiveCategory(category);
-    const params = new URLSearchParams(searchParams);
+    const params = new URLSearchParams(searchParams || '');
     if (category === "All") {
       params.delete('category');
     } else {
@@ -79,7 +79,7 @@ function ClientGridContent() {
   // Handle view change
   const handleViewChange = (newView: string) => {
     setView(newView);
-    const params = new URLSearchParams(searchParams);
+    const params = new URLSearchParams(searchParams || '');
     if (newView === "preview") {
       params.delete('view');
     } else {

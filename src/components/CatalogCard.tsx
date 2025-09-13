@@ -1,69 +1,49 @@
-import Image from "next/image";
-import { useState, useEffect } from "react";
-import { CatalogItem } from "@/lib/categories";
-import { getPdfFirstPageDataUrl } from "@/lib/pdfThumb";
+import React, { useEffect, useState } from 'react';
+import { getPdfFirstPageDataUrl } from '@/lib/pdfThumb';
+import { CatalogItem } from '@/lib/categories';
 
-export default function CatalogCard({ item }: { item: CatalogItem }) {
-  const p = item.previewUrl;
-  const d = item.downloadUrl;
-  const t = item.thumbnailUrl;
+type Props = {
+  item: CatalogItem;
+  // ...other props
+};
 
-  // State for thumbnail image
-  const [thumb, setThumb] = useState<string | null>(
-    item.previewImage || item.thumbnail || null
-  );
+export default function CatalogCard({ item, ...rest }: Props) {
+  const initial = item.previewImage || item.thumbnail || null;
+  const [thumb, setThumb] = useState<string | null>(initial);
+  const [loading, setLoading] = useState<boolean>(!initial && !!item.pdfUrl);
 
-  // Load PDF thumbnail if needed
   useEffect(() => {
-    if (!thumb && item.pdfUrl) {
-      getPdfFirstPageDataUrl(item.pdfUrl)
-        .then((dataUrl) => {
-          if (dataUrl) {
-            setThumb(dataUrl);
-          }
-        })
-        .catch((error) => {
-          console.error('Failed to load PDF thumbnail:', error);
-        });
+    let mounted = true;
+    async function load() {
+      if (!thumb && item.pdfUrl) {
+        const dataUrl = await getPdfFirstPageDataUrl(item.pdfUrl);
+        if (mounted) {
+          if (dataUrl) setThumb(dataUrl);
+          setLoading(false);
+        }
+      }
     }
+    load();
+    return () => { mounted = false; };
   }, [item.pdfUrl, thumb]);
 
-  // Determine which preview to show
-  const getPreviewContent = () => {
-    // If we have a thumbnail (from any source), show it
-    if (thumb) {
-      return (
-        <img 
-          src={thumb} 
-          alt={item.name} 
-          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-          onError={() => {
-            // If image fails to load, clear thumb and fall back to gradient
-            setThumb(null);
-          }}
-        />
-      );
-    }
-    
-    // Fallback: gradient with text
-    return (
-      <div className="w-full h-full flex items-center justify-center text-center p-4">
-        <div className="brand-gradient absolute inset-0 opacity-95" />
-        <div className="relative text-white font-semibold leading-snug text-sm line-clamp-3">
-          {item.name}
-        </div>
-      </div>
-    );
-  };
-
   return (
-    <div className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden max-w-[200px] mx-auto hover:scale-105">
-      {/* Thumbnail */}
-      <div className="relative w-full h-[220px] overflow-hidden bg-gray-50 rounded-t-xl">
-        {getPreviewContent()}
+    <div className="rounded-2xl overflow-hidden shadow-sm border border-neutral-200 bg-white">
+      <div className="h-[220px] w-full">
+        {thumb ? (
+          <img
+            src={thumb}
+            alt={item.name}
+            className="h-[220px] w-full object-cover"
+            loading="lazy"
+            decoding="async"
+          />
+        ) : (
+          <div className="h-[220px] w-full bg-gradient-to-b from-orange-300 to-orange-700 animate-pulse" />
+        )}
       </div>
 
-      {/* Content */}
+      {/* keep your existing title/meta/actions below */}
       <div className="p-3">
         {/* Title */}
         <h3 className="text-sm font-medium text-gray-900 leading-tight truncate mb-1">
@@ -78,7 +58,7 @@ export default function CatalogCard({ item }: { item: CatalogItem }) {
         {/* Action Buttons */}
         <div className="space-y-2">
           <a 
-            href={p} 
+            href={item.previewUrl} 
             target="_blank" 
             rel="noreferrer"
             className="block w-full text-center px-3 py-2 text-xs font-medium text-gray-700 bg-white border border-gray-300 rounded-lg hover:border-gray-400 transition-colors duration-200"
@@ -86,7 +66,7 @@ export default function CatalogCard({ item }: { item: CatalogItem }) {
             Preview
           </a>
           <a 
-            href={d} 
+            href={item.downloadUrl} 
             target="_blank" 
             rel="noreferrer"
             className="block w-full text-center px-3 py-2 text-xs font-medium text-white bg-[#F46300] rounded-lg hover:bg-[#CC380A] transition-colors duration-200"
