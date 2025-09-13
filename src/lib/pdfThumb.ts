@@ -1,8 +1,8 @@
+import { toDriveDirectPdf } from '@/lib/drive';
 let _pdfjs: any;
 
 async function ensurePdfjs() {
   if (_pdfjs) return _pdfjs;
-  // Lazy import to keep bundle small
   const pdfjsLib = await import('pdfjs-dist');
   // @ts-ignore
   pdfjsLib.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
@@ -11,23 +11,28 @@ async function ensurePdfjs() {
 }
 
 export async function getPdfFirstPageDataUrl(pdfUrl: string, maxW = 300): Promise<string | null> {
-  const key = `pdf:thumb:${pdfUrl}`;
+  if (!pdfUrl) return null;
+
+  // Normalize Drive viewer URLs → direct bytes
+  const normalized = toDriveDirectPdf(pdfUrl);
+  const key = `pdf:thumb:${normalized}`;
   if (typeof window !== 'undefined') {
     const cached = localStorage.getItem(key);
     if (cached) return cached;
   }
+
   try {
-    const proxyUrl = `/api/pdf-proxy?url=${encodeURIComponent(pdfUrl)}`;
+    const proxyUrl = `/api/pdf-proxy?url=${encodeURIComponent(normalized)}`;
     const res = await fetch(proxyUrl);
     if (!res.ok) throw new Error(`proxy ${res.status}`);
-    const buf = await res.arrayBuffer();
 
+    const buf = await res.arrayBuffer();
     const pdfjs = await ensurePdfjs();
     const doc = await pdfjs.getDocument({ data: new Uint8Array(buf) }).promise;
     const page = await doc.getPage(1);
 
-    const baseVp = page.getViewport({ scale: 1 });
-    const scale = Math.min(maxW / baseVp.width, 2);
+    const base = page.getViewport({ scale: 1 });
+    const scale = Math.min(maxW / base.width, 2);
     const vp = page.getViewport({ scale });
 
     const canvas = document.createElement('canvas');
@@ -37,12 +42,10 @@ export async function getPdfFirstPageDataUrl(pdfUrl: string, maxW = 300): Promis
     await page.render({ canvasContext: ctx, viewport: vp }).promise;
 
     const dataUrl = canvas.toDataURL('image/jpeg', 0.82);
-    if (typeof window !== 'undefined') {
-      try { localStorage.setItem(key, dataUrl); } catch {}
-    }
+    if (typeof window !== 'undefined') localStorage.setItem(key, dataUrl);
     return dataUrl;
-  } catch (err) {
-    console.warn('preview render failed', err);
+  } catch (e) {
+    console.warn('preview render failed', e);
     return null;
   }
 }
