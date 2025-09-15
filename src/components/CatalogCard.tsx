@@ -61,9 +61,19 @@ function getImage(row: Row): string | null {
   const staticImage = getFirstByKeys(row, IMAGE_KEYS, true);
   if (staticImage) return staticImage;
   
-  // If no static image, try to generate Google Drive thumbnail
+  // Get the drive link
   const driveLink = getFirstByKeys(row, LINK_KEYS, false);
-  if (driveLink && /drive\.google\.com/i.test(driveLink)) {
+  if (!driveLink) return null;
+  
+  // Check if it's a PDF file
+  if (driveLink.toLowerCase().includes('.pdf') || 
+      driveLink.includes('drive.google.com') && driveLink.includes('preview')) {
+    // Use PDF thumbnail API for PDF files
+    return `/api/pdf-thumbnail?url=${encodeURIComponent(driveLink)}`;
+  }
+  
+  // For non-PDF files, try Google Drive thumbnail
+  if (/drive\.google\.com/i.test(driveLink)) {
     return getDriveThumbnail(driveLink);
   }
   
