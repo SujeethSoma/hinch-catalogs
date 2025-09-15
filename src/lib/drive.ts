@@ -22,6 +22,18 @@ export function extractDriveId(url: string): string {
     return id ? `https://drive.google.com/thumbnail?id=${id}&sz=w1000` : null;
   }
 
+export function toDriveDirectPdf(url: string): string {
+    const id = extractDriveId(url);
+    if (!id) return url;
+    
+    // Convert Google Drive viewer links to direct PDF download links
+    if (url.includes('drive.google.com')) {
+      return `https://drive.google.com/uc?export=download&id=${id}`;
+    }
+    
+    return url;
+  }
+
 export async function loadCatalogData(): Promise<CatalogItem[]> {
   try {
     const response = await fetch('/data/catalogs.json');
