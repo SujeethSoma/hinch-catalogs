@@ -70,7 +70,8 @@ function getImage(row: Row): string | null {
     return `/api/pdf-thumbnail?url=${encodeURIComponent(driveLink)}`;
   }
   
-  return null;
+  // Fallback for testing - use a placeholder image
+  return 'https://via.placeholder.com/400x300/FF6B35/FFFFFF?text=PDF+Thumbnail';
 }
 
 function getPrimaryLink(row: Row): string | null {
@@ -102,7 +103,8 @@ export function CatalogCard({ item }: { item: Row }) {
     title,
     displayImage,
     href,
-    hasImage: !!displayImage
+    hasImage: !!displayImage,
+    driveLink: getFirstByKeys(item, LINK_KEYS, false)
   });
 
   return (
