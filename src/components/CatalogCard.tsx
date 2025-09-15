@@ -7,10 +7,10 @@ const IMAGE_KEYS = [
   "image1","image_1","first image","images","cover"
 ];
 const LINK_KEYS = [
-  "pdf","pdf url","catalog url","url","link","catalogue link"
+  "catalouge links", "catalogue links", "catalog links", "pdf","pdf url","catalog url","url","link","catalogue link"
 ];
 const TITLE_KEYS = [
-  "name","title","catalog","catalogue","file name","filename","design","code"
+  "catalogues name", "catalogue name", "catalog name", "name","title","catalog","catalogue","file name","filename","design","code"
 ];
 const SUB_KEYS = ["brand","category"];
 
@@ -38,8 +38,36 @@ function getFirstByKeys(row: Row, keys: string[], acceptImages = false): string 
   return null;
 }
 
+function extractDriveFileId(url: string): string | null {
+  try {
+    const u = new URL(url);
+    if (u.hostname !== 'drive.google.com') return null;
+    const m1 = u.pathname.match(/\/file\/d\/([^/]+)\//);
+    if (m1?.[1]) return m1[1];
+    const id = u.searchParams.get('id');
+    if (id) return id;
+    return null;
+  } catch { return null; }
+}
+
+function getDriveThumbnail(driveUrl: string): string | null {
+  const fileId = extractDriveFileId(driveUrl);
+  if (!fileId) return null;
+  return `https://lh3.googleusercontent.com/d/${fileId}=w400-h300`;
+}
+
 function getImage(row: Row): string | null {
-  return getFirstByKeys(row, IMAGE_KEYS, true);
+  // First try to find static images
+  const staticImage = getFirstByKeys(row, IMAGE_KEYS, true);
+  if (staticImage) return staticImage;
+  
+  // If no static image, try to generate Google Drive thumbnail
+  const driveLink = getFirstByKeys(row, LINK_KEYS, false);
+  if (driveLink && /drive\.google\.com/i.test(driveLink)) {
+    return getDriveThumbnail(driveLink);
+  }
+  
+  return null;
 }
 
 function getPrimaryLink(row: Row): string | null {
@@ -63,20 +91,40 @@ function getSubtitle(row: Row): string {
 export function CatalogCard({ item }: { item: Row }) {
   const title = getTitle(item);
   const subtitle = getSubtitle(item);
-  const img = getImage(item);
+  const displayImage = getImage(item);
   const href = getPrimaryLink(item);
+  
+  // Debug logging
+  console.log('🔍 CatalogCard Debug:', {
+    title,
+    displayImage,
+    href,
+    hasImage: !!displayImage
+  });
 
   return (
     <div className="group rounded-2xl border border-neutral-200 shadow-sm hover:shadow-md transition-shadow bg-white overflow-hidden">
       {/* Thumbnail: 3:4 box */}
       <div className="relative w-full pt-[133%] bg-gradient-to-b from-orange-200 to-orange-100">
-        {img && (
+        {displayImage ? (
           <img
-            src={img}
+            src={displayImage}
             alt={title}
             className="absolute inset-0 h-full w-full object-cover"
             loading="lazy"
+            onLoad={() => console.log('✅ Image loaded:', displayImage)}
+            onError={(e) => {
+              console.error('❌ Image failed to load:', displayImage);
+              (e.target as HTMLImageElement).style.display = 'none';
+            }}
           />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center text-center p-4">
+            <div className="bg-gradient-to-b from-orange-300 to-orange-700 absolute inset-0 opacity-95" />
+            <div className="relative text-white font-semibold leading-snug text-sm line-clamp-3">
+              {title}
+            </div>
+          </div>
         )}
       </div>
 

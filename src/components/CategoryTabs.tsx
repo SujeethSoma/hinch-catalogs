@@ -1,4 +1,4 @@
-import { CATEGORY_ORDER, HIDDEN_TOP_CATEGORIES, countByExactCategory, getTotalCount, CatalogItem } from '@/lib/categories';
+import { CATEGORY_ORDER, countByExactCategory, getTotalCount, CatalogItem } from '@/lib/categories';
 
 type Props = {
   activeCategory: string;
@@ -10,14 +10,9 @@ export default function CategoryTabs({ activeCategory, setActiveCategory, items 
   const counts = countByExactCategory(items);
   const totalCount = getTotalCount(items);
 
-  // Filter out hidden categories
-  const visibleCategories = CATEGORY_ORDER.filter(category => 
-    !HIDDEN_TOP_CATEGORIES.has(category)
-  );
-
   return (
     <div className="flex flex-wrap gap-3 mb-8">
-      {visibleCategories.map((category) => {
+      {CATEGORY_ORDER.map((category) => {
         const isActive = activeCategory === category;
         const count = category === "All" ? totalCount : (counts.get(category) || 0);
         const disabled = count === 0;
@@ -32,7 +27,7 @@ export default function CategoryTabs({ activeCategory, setActiveCategory, items 
               ${disabled
                 ? "bg-gray-100 text-gray-400 cursor-not-allowed"
                 : isActive
-                  ? "bg-[#F46300] text-white shadow-md shadow-[#F46300]/25"
+                  ? "bg-hinch-primary text-white shadow-md shadow-hinch-primary/25"
                   : "bg-white border border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-gray-400"
               }
             `}

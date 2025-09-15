@@ -1,5 +1,5 @@
 import React from 'react';
-import { CatalogCard } from './CatalogCard';
+import CatalogCardPreview from './CatalogCardPreview';
 
 interface CatalogGridProps {
   items: any[];
@@ -19,7 +19,7 @@ export function CatalogGrid({ items, onClick, emptyText = "No items found" }: Ca
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
       {items.map((item, index) => (
-        <CatalogCard 
+        <CatalogCardPreview 
           key={index} 
           item={item} 
         />
