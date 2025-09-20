@@ -109,7 +109,10 @@ export default function CatalogCardPreview({
     canDownload,
     shouldShowButtons: showActions && (canPreview || canDownload),
     previewUrl,
-    downloadUrl
+    downloadUrl,
+    rawLink,
+    isDrive,
+    urls
   });
 
   return (
@@ -136,6 +139,13 @@ export default function CatalogCardPreview({
       <div className="p-3">
         <h3 className="line-clamp-1 text-sm font-semibold text-neutral-900">{title}</h3>
         <p className="mt-1 text-xs text-neutral-500">{brand}</p>
+        
+        {/* Debug URLs */}
+        <div className="mt-2 text-xs text-red-500">
+          <div>Preview: {previewUrl || 'null'}</div>
+          <div>Download: {downloadUrl || 'null'}</div>
+          <div>Raw: {rawLink || 'null'}</div>
+        </div>
       </div>
 
       {/* Action bar - absolutely positioned at bottom */}
