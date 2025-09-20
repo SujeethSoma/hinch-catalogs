@@ -97,9 +97,13 @@ export function CatalogCard({ item }: { item: Row }) {
   // Debug logging
   console.log('🔍 CatalogCard Debug:', {
     title,
+    subtitle,
     displayImage,
     href,
-    hasImage: !!displayImage
+    hasImage: !!displayImage,
+    hasHref: !!href,
+    itemKeys: Object.keys(item),
+    itemValues: Object.values(item)
   });
 
   return (
@@ -137,27 +141,25 @@ export function CatalogCard({ item }: { item: Row }) {
       </div>
 
       {/* Actions - Fixed at bottom */}
-      {href && (
-        <div className="absolute bottom-3 left-3 right-3 flex items-center gap-2 z-10">
-          <a
-            className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full bg-[#F46300] text-white hover:opacity-90 transition"
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Preview
-          </a>
-          <a
-            className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full border border-neutral-300 text-neutral-700 hover:bg-neutral-50 transition"
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            download
-          >
-            Download
-          </a>
-        </div>
-      )}
+      <div className="absolute bottom-3 left-3 right-3 flex items-center gap-2 z-10">
+        <a
+          className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full bg-[#F46300] text-white hover:opacity-90 transition"
+          href={href || "#"}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Preview
+        </a>
+        <a
+          className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full border border-neutral-300 text-neutral-700 hover:bg-neutral-50 transition"
+          href={href || "#"}
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
+          Download
+        </a>
+      </div>
     </div>
   );
 }
