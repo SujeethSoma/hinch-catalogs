@@ -88,3 +88,4 @@ Object.entries(categoryCounts)
   .forEach(([category, count]) => {
     console.log(`  ${category}: ${count} catalogs`);
   });
+

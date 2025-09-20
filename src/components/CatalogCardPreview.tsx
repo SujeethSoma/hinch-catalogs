@@ -42,86 +42,113 @@ function getSubtitle(row: Row){
   return brand || cat ? (brand || cat) : "";
 }
 
-export default function CatalogCardPreview({ item }: { item: Row }) {
+type CatalogCardProps = {
+  title: string;
+  brand: string;
+  cover?: string;
+  previewUrl?: string;
+  downloadUrl?: string;
+  showActions?: boolean;
+};
+
+export default function CatalogCardPreview({ 
+  item, 
+  showActions = false 
+}: { 
+  item: Row;
+  showActions?: boolean;
+}) {
   console.log('🚀 CatalogCardPreview called with item:', item);
   
   const title = getTitle(item);
-  const subtitle = getSubtitle(item);
+  const brand = getSubtitle(item);
 
   const rawLink = getPrimaryLink(item);
   const { isDrive, fileId, urls } = processDriveLink(rawLink || '');
 
-  let imgSrc: string | null = null;
-  let previewHref: string | null = null;
-  let downloadHref: string | null = null;
+  let cover: string | null = null;
+  let previewUrl: string | null = null;
+  let downloadUrl: string | null = null;
 
   if (isDrive && urls) {
     // Google Drive file
-    imgSrc = urls.thumb;
-    previewHref = urls.preview;
-    downloadHref = urls.download;
+    cover = urls.thumb;
+    previewUrl = urls.preview;
+    downloadUrl = urls.download;
   } else {
     // Non-Drive: try image fields for thumbnail, and use rawLink for preview/download
-    imgSrc = pick(item, IMG_KEYS, true);
-    previewHref = rawLink || imgSrc;
-    downloadHref = rawLink || imgSrc || null;
+    cover = pick(item, IMG_KEYS, true);
+    previewUrl = rawLink || cover;
+    downloadUrl = rawLink || cover || null;
   }
+
+  const canPreview = Boolean(previewUrl);
+  const canDownload = Boolean(downloadUrl);
 
   // Debug logging
   console.log('🔍 CatalogCardPreview Debug:', {
     title,
+    brand,
     rawLink,
     isDrive,
     fileId,
-    imgSrc,
-    previewHref,
-    downloadHref,
-    hasImage: !!imgSrc,
+    cover,
+    previewUrl,
+    downloadUrl,
+    showActions,
+    canPreview,
+    canDownload,
     itemKeys: Object.keys(item),
     itemData: item
   });
 
   return (
-    <div className="rounded-2xl border border-neutral-200 bg-white shadow-sm hover:shadow-md transition overflow-hidden">
-      {/* media 3:4 */}
-      <div className="relative w-full pt-[133%] bg-gradient-to-b from-orange-200 to-orange-100">
-        {imgSrc && (
+    <div className="relative min-h-[360px] pb-16 overflow-visible rounded-2xl border border-neutral-200 bg-white shadow-sm hover:shadow-md transition">
+      {/* Cover area - 12rem height */}
+      <div className="h-48 w-full rounded-t-2xl bg-gradient-to-b from-orange-200 to-amber-100">
+        {cover && (
           <img
-            src={imgSrc}
+            src={cover}
             alt={title}
-            className="absolute inset-0 h-full w-full object-cover"
+            className="h-48 w-full rounded-t-2xl object-cover"
             loading="lazy"
             referrerPolicy="no-referrer"
-            onLoad={() => console.log('✅ Thumbnail loaded:', imgSrc)}
+            onLoad={() => console.log('✅ Thumbnail loaded:', cover)}
             onError={(e) => {
-              console.error('❌ Thumb failed:', imgSrc);
+              console.error('❌ Thumb failed:', cover);
               (e.currentTarget as HTMLImageElement).style.display = 'none';
             }}
           />
         )}
       </div>
 
+      {/* Meta (title/brand) */}
       <div className="p-3">
-        <div className="text-sm font-semibold text-neutral-900 line-clamp-1">{title}</div>
-        {subtitle && <div className="text-xs text-neutral-500 mt-0.5 line-clamp-1">{subtitle}</div>}
-
-        {(previewHref || downloadHref) && (
-          <div className="mt-3 flex gap-2">
-            {previewHref && (
-              <a href={previewHref} target="_blank" rel="noopener noreferrer"
-                 className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full bg-[#F46300] text-white hover:opacity-90">
-                Preview
-              </a>
-            )}
-            {downloadHref && (
-              <a href={downloadHref} target="_blank" rel="noopener noreferrer" download
-                 className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full border border-neutral-300 text-neutral-700 hover:bg-neutral-50">
-                Download
-              </a>
-            )}
-          </div>
-        )}
+        <h3 className="line-clamp-1 text-sm font-semibold text-neutral-900">{title}</h3>
+        <p className="mt-1 text-xs text-neutral-500">{brand}</p>
       </div>
+
+      {/* Action bar - absolutely positioned at bottom */}
+      {showActions && (canPreview || canDownload) && (
+        <div className="absolute inset-x-3 bottom-3 z-10 flex gap-2">
+          {canPreview && (
+            <button
+              className="flex-1 inline-flex items-center justify-center px-3 py-1.5 text-sm font-medium rounded-lg bg-[#F46300] text-white hover:opacity-90 transition shadow-sm"
+              onClick={() => window.open(previewUrl!, "_blank")}
+            >
+              Preview
+            </button>
+          )}
+          {canDownload && (
+            <button
+              className="flex-1 inline-flex items-center justify-center px-3 py-1.5 text-sm font-medium rounded-lg border border-neutral-300 text-neutral-700 hover:bg-neutral-50 transition shadow-sm"
+              onClick={() => window.open(downloadUrl!, "_blank")}
+            >
+              Download
+            </button>
+          )}
+        </div>
+      )}
     </div>
   );
 }

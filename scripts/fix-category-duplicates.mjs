@@ -103,3 +103,4 @@ Object.entries(categoryCounts)
 console.log('\n💡 The issue was that some brands legitimately appear in multiple categories.');
 console.log('   For example, "Alimo" produces both Solid Colour Laminates and Decorative Laminates.');
 console.log('   These should be treated as separate products, not duplicates.');
+

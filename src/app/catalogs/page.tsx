@@ -176,7 +176,7 @@ function ClientGridContent() {
       <div className="text-sm text-gray-600">{filtered.length} result(s)</div>
 
       {view === "preview" ? (
-        <CatalogPreviewGrid items={filtered} />
+        <CatalogPreviewGrid items={filtered} showActions={view?.toLowerCase() === "preview"} />
       ) : (
         <div className="space-y-3">
           {filtered.map((item, idx) => (
