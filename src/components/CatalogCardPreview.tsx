@@ -102,6 +102,16 @@ export default function CatalogCardPreview({
     itemData: item
   });
 
+  // Additional debug for button visibility
+  console.log('🔘 Button Debug:', {
+    showActions,
+    canPreview,
+    canDownload,
+    shouldShowButtons: showActions && (canPreview || canDownload),
+    previewUrl,
+    downloadUrl
+  });
+
   return (
     <div className="relative min-h-[360px] pb-16 overflow-visible rounded-2xl border border-neutral-200 bg-white shadow-sm hover:shadow-md transition">
       {/* Cover area - 12rem height */}

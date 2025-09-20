@@ -174,6 +174,11 @@ function ClientGridContent() {
       </div>
 
       <div className="text-sm text-gray-600">{filtered.length} result(s)</div>
+      
+      {/* Debug info */}
+      <div className="text-xs text-red-500 mb-2">
+        Debug: view="{view}", showActions={String(view?.toLowerCase() === "preview")}
+      </div>
 
       {view === "preview" ? (
         <CatalogPreviewGrid items={filtered} showActions={view?.toLowerCase() === "preview"} />
