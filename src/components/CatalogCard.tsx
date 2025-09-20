@@ -133,7 +133,7 @@ export function CatalogCard({ item }: { item: Row }) {
       </div>
 
       {/* Body */}
-      <div className="p-3 pb-16">
+      <div className="p-3 pb-20">
         <div className="text-sm font-semibold text-neutral-900 line-clamp-1">{title}</div>
         {subtitle && (
           <div className="text-xs text-neutral-500 mt-0.5 line-clamp-1">{subtitle}</div>
@@ -141,9 +141,9 @@ export function CatalogCard({ item }: { item: Row }) {
       </div>
 
       {/* Actions - Fixed at bottom */}
-      <div className="absolute bottom-3 left-3 right-3 flex items-center gap-2 z-10">
+      <div className="absolute bottom-0 left-0 right-0 p-3 bg-white border-t border-gray-200 flex items-center gap-2 z-50">
         <a
-          className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full bg-[#F46300] text-white hover:opacity-90 transition"
+          className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-lg bg-[#F46300] text-white hover:opacity-90 transition shadow-sm"
           href={href || "#"}
           target="_blank"
           rel="noopener noreferrer"
@@ -151,7 +151,7 @@ export function CatalogCard({ item }: { item: Row }) {
           Preview
         </a>
         <a
-          className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full border border-neutral-300 text-neutral-700 hover:bg-neutral-50 transition"
+          className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-lg border-2 border-gray-300 text-gray-700 hover:bg-gray-50 transition shadow-sm"
           href={href || "#"}
           target="_blank"
           rel="noopener noreferrer"
