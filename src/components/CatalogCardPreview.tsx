@@ -139,24 +139,20 @@ export default function CatalogCardPreview({
       </div>
 
       {/* Action bar - absolutely positioned at bottom */}
-      {showActions && (canPreview || canDownload) && (
+      {showActions && (
         <div className="absolute inset-x-3 bottom-3 z-10 flex gap-2">
-          {canPreview && (
-            <button
-              className="flex-1 inline-flex items-center justify-center px-3 py-1.5 text-sm font-medium rounded-lg bg-[#F46300] text-white hover:opacity-90 transition shadow-sm"
-              onClick={() => window.open(previewUrl!, "_blank")}
-            >
-              Preview
-            </button>
-          )}
-          {canDownload && (
-            <button
-              className="flex-1 inline-flex items-center justify-center px-3 py-1.5 text-sm font-medium rounded-lg border border-neutral-300 text-neutral-700 hover:bg-neutral-50 transition shadow-sm"
-              onClick={() => window.open(downloadUrl!, "_blank")}
-            >
-              Download
-            </button>
-          )}
+          <button
+            className="flex-1 inline-flex items-center justify-center px-3 py-1.5 text-sm font-medium rounded-lg bg-[#F46300] text-white hover:opacity-90 transition shadow-sm"
+            onClick={() => window.open(previewUrl || "#", "_blank")}
+          >
+            Preview
+          </button>
+          <button
+            className="flex-1 inline-flex items-center justify-center px-3 py-1.5 text-sm font-medium rounded-lg border border-neutral-300 text-neutral-700 hover:bg-neutral-50 transition shadow-sm"
+            onClick={() => window.open(downloadUrl || "#", "_blank")}
+          >
+            Download
+          </button>
         </div>
       )}
     </div>
