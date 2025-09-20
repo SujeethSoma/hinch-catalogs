@@ -61,17 +61,13 @@ function getImage(row: Row): string | null {
   const staticImage = getFirstByKeys(row, IMAGE_KEYS, true);
   if (staticImage) return staticImage;
   
-  // Get the drive link
+  // If no static image, try to generate Google Drive thumbnail
   const driveLink = getFirstByKeys(row, LINK_KEYS, false);
-  if (!driveLink) return null;
-  
-  // Check if it's a Google Drive link - use PDF thumbnail API
-  if (driveLink.includes('drive.google.com')) {
-    return `/api/pdf-thumbnail?url=${encodeURIComponent(driveLink)}`;
+  if (driveLink && /drive\.google\.com/i.test(driveLink)) {
+    return getDriveThumbnail(driveLink);
   }
   
-  // Fallback for testing - use a placeholder image
-  return 'https://via.placeholder.com/400x300/FF6B35/FFFFFF?text=PDF+Thumbnail';
+  return null;
 }
 
 function getPrimaryLink(row: Row): string | null {
@@ -103,12 +99,11 @@ export function CatalogCard({ item }: { item: Row }) {
     title,
     displayImage,
     href,
-    hasImage: !!displayImage,
-    driveLink: getFirstByKeys(item, LINK_KEYS, false)
+    hasImage: !!displayImage
   });
 
   return (
-    <div className="group rounded-2xl border border-neutral-200 shadow-sm hover:shadow-md transition-shadow bg-white overflow-hidden">
+    <div className="group relative rounded-2xl border border-neutral-200 shadow-sm hover:shadow-md transition-shadow bg-white overflow-visible">
       {/* Thumbnail: 3:4 box */}
       <div className="relative w-full pt-[133%] bg-gradient-to-b from-orange-200 to-orange-100">
         {displayImage ? (
@@ -134,35 +129,35 @@ export function CatalogCard({ item }: { item: Row }) {
       </div>
 
       {/* Body */}
-      <div className="p-3">
+      <div className="p-3 pb-16">
         <div className="text-sm font-semibold text-neutral-900 line-clamp-1">{title}</div>
         {subtitle && (
           <div className="text-xs text-neutral-500 mt-0.5 line-clamp-1">{subtitle}</div>
         )}
-
-        {/* Actions */}
-        {href && (
-          <div className="mt-3 flex items-center gap-2">
-            <a
-              className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full bg-[#F46300] text-white hover:opacity-90 transition"
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Preview
-            </a>
-            <a
-              className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full border border-neutral-300 text-neutral-700 hover:bg-neutral-50 transition"
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              download
-            >
-              Download
-            </a>
-          </div>
-        )}
       </div>
+
+      {/* Actions - Fixed at bottom */}
+      {href && (
+        <div className="absolute bottom-3 left-3 right-3 flex items-center gap-2 z-10">
+          <a
+            className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full bg-[#F46300] text-white hover:opacity-90 transition"
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Preview
+          </a>
+          <a
+            className="inline-flex items-center justify-center px-3 py-1.5 text-sm rounded-full border border-neutral-300 text-neutral-700 hover:bg-neutral-50 transition"
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            Download
+          </a>
+        </div>
+      )}
     </div>
   );
 }
