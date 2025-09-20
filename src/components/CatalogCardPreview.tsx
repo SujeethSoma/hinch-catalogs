@@ -67,23 +67,20 @@ export default function CatalogCardPreview({
   const { isDrive, fileId, urls } = processDriveLink(rawLink || '');
 
   let cover: string | null = null;
-  let previewUrl: string | null = null;
-  let downloadUrl: string | null = null;
+  let href: string | null = null;
 
   if (isDrive && urls) {
     // Google Drive file
     cover = urls.thumb;
-    previewUrl = urls.preview;
-    downloadUrl = urls.download;
+    href = urls.preview || urls.download || rawLink; // Use preview first, then download, then raw
   } else {
     // Non-Drive: try image fields for thumbnail, and use rawLink for preview/download
     cover = pick(item, IMG_KEYS, true);
-    previewUrl = rawLink || cover;
-    downloadUrl = rawLink || cover || null;
+    href = rawLink || cover;
   }
 
-  const canPreview = Boolean(previewUrl);
-  const canDownload = Boolean(downloadUrl);
+  const canPreview = Boolean(href);
+  const canDownload = Boolean(href);
 
   // Debug logging
   console.log('🔍 CatalogCardPreview Debug:', {
@@ -93,8 +90,7 @@ export default function CatalogCardPreview({
     isDrive,
     fileId,
     cover,
-    previewUrl,
-    downloadUrl,
+    href,
     showActions,
     canPreview,
     canDownload,
@@ -108,8 +104,7 @@ export default function CatalogCardPreview({
     canPreview,
     canDownload,
     shouldShowButtons: showActions && (canPreview || canDownload),
-    previewUrl,
-    downloadUrl,
+    href,
     rawLink,
     isDrive,
     urls
@@ -142,9 +137,9 @@ export default function CatalogCardPreview({
         
         {/* Debug URLs */}
         <div className="mt-2 text-xs text-red-500">
-          <div>Preview: {previewUrl || 'null'}</div>
-          <div>Download: {downloadUrl || 'null'}</div>
+          <div>Href: {href || 'null'}</div>
           <div>Raw: {rawLink || 'null'}</div>
+          <div>IsDrive: {String(isDrive)}</div>
         </div>
       </div>
 
@@ -153,13 +148,13 @@ export default function CatalogCardPreview({
         <div className="absolute inset-x-3 bottom-3 z-10 flex gap-2">
           <button
             className="flex-1 inline-flex items-center justify-center px-3 py-1.5 text-sm font-medium rounded-lg bg-[#F46300] text-white hover:opacity-90 transition shadow-sm"
-            onClick={() => window.open(previewUrl || "#", "_blank")}
+            onClick={() => window.open(href || "#", "_blank")}
           >
             Preview
           </button>
           <button
             className="flex-1 inline-flex items-center justify-center px-3 py-1.5 text-sm font-medium rounded-lg border border-neutral-300 text-neutral-700 hover:bg-neutral-50 transition shadow-sm"
-            onClick={() => window.open(downloadUrl || "#", "_blank")}
+            onClick={() => window.open(href || "#", "_blank")}
           >
             Download
           </button>
